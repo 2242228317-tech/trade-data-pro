@@ -1,0 +1,730 @@
+"use client";
+
+import { useEffect, useState, useMemo } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import dynamic from "next/dynamic";
+import {
+  TrendingUp,
+  Package,
+  Globe,
+  DollarSign,
+  ArrowUpRight,
+  ArrowDownRight,
+  Activity,
+  Sparkles,
+  BarChart3,
+  PieChart,
+  MapPin,
+  Zap,
+  Clock,
+  ChevronRight,
+  ExternalLink,
+} from "lucide-react";
+import Link from "next/link";
+
+// 动态导入 ECharts（避免 SSR 问题）
+const ReactECharts = dynamic(() => import("echarts-for-react"), { ssr: false });
+
+// ===== 动画配置 =====
+const containerVariants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: { staggerChildren: 0.08, delayChildren: 0.1 },
+  },
+};
+
+const itemVariants = {
+  hidden: { y: 30, opacity: 0, scale: 0.95 },
+  visible: {
+    y: 0,
+    opacity: 1,
+    scale: 1,
+    transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1] },
+  },
+};
+
+const pulseAnimation = {
+  scale: [1, 1.02, 1],
+  transition: { duration: 2, repeat: Infinity, ease: "easeInOut" },
+};
+
+// ===== 模拟真实数据 =====
+const trendData = {
+  months: ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"],
+  export2023: [280, 265, 298, 312, 305, 320, 335, 342, 338, 355, 368, 380],
+  export2024: [295, 278, 315, 328, 318, 335, 352, 361, 348, 365, 382, 395],
+};
+
+const categoryData = [
+  { value: 35, name: "电子产品", color: "#3b82f6" },
+  { value: 25, name: "机械设备", color: "#10b981" },
+  { value: 15, name: "纺织服装", color: "#f59e0b" },
+  { value: 12, name: "化工产品", color: "#8b5cf6" },
+  { value: 8, name: "农产品", color: "#ef4444" },
+  { value: 5, name: "其他", color: "#6b7280" },
+];
+
+const realtimeUpdates = [
+  { time: "刚刚", action: "新增", detail: "深圳某供应商上传了500+款电子产品", icon: "📱", color: "blue" },
+  { time: "2分钟前", action: "更新", detail: "义乌小商品价格指数上涨 2.3%", icon: "📈", color: "green" },
+  { time: "5分钟前", action: "导入", detail: "海关总署2月最新统计数据已同步", icon: "🚢", color: "purple" },
+  { time: "8分钟前", action: "热门", detail: "太阳能电池板出口量激增 45%", icon: "☀️", color: "orange" },
+  { time: "12分钟前", action: "降价", detail: "锂电池原材料成本下降 8%", icon: "🔋", color: "red" },
+];
+
+// ===== 统计卡片组件（带动态效果）=====
+function StatCard({
+  title,
+  value,
+  change,
+  changeType,
+  icon: Icon,
+  subtitle,
+  gradient,
+}: {
+  title: string;
+  value: string;
+  change: string;
+  changeType: "up" | "down";
+  icon: React.ElementType;
+  subtitle?: string;
+  gradient: string;
+}) {
+  const [count, setCount] = useState(0);
+  const numericValue = parseInt(value.replace(/[^0-9]/g, ""));
+
+  useEffect(() => {
+    const duration = 2000;
+    const steps = 60;
+    const increment = numericValue / steps;
+    let current = 0;
+    const timer = setInterval(() => {
+      current += increment;
+      if (current >= numericValue) {
+        setCount(numericValue);
+        clearInterval(timer);
+      } else {
+        setCount(Math.floor(current));
+      }
+    }, duration / steps);
+    return () => clearInterval(timer);
+  }, [numericValue]);
+
+  return (
+    <motion.div
+      variants={itemVariants}
+      whileHover={{ y: -5, boxShadow: "0 20px 40px rgba(0,0,0,0.1)" }}
+      className={`relative overflow-hidden rounded-2xl p-6 ${gradient} text-white`}
+    >
+      {/* 背景装饰 */}
+      <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -mr-16 -mt-16 blur-2xl" />
+      <div className="absolute bottom-0 left-0 w-24 h-24 bg-white/5 rounded-full -ml-12 -mb-12 blur-xl" />
+
+      <div className="relative z-10">
+        <div className="flex items-start justify-between">
+          <motion.div
+            animate={{ rotate: [0, 5, -5, 0] }}
+            transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+            className="p-3 bg-white/20 backdrop-blur-sm rounded-xl"
+          >
+            <Icon className="w-6 h-6 text-white" />
+          </motion.div>
+          <motion.div
+            initial={{ scale: 0 }}
+            animate={{ scale: 1 }}
+            className={`flex items-center gap-1 px-2 py-1 rounded-full text-xs font-bold ${
+              changeType === "up" ? "bg-green-400/30 text-green-100" : "bg-red-400/30 text-red-100"
+            }`}
+          >
+            {changeType === "up" ? (
+              <ArrowUpRight className="w-3 h-3" />
+            ) : (
+              <ArrowDownRight className="w-3 h-3" />
+            )}
+            {change}
+          </motion.div>
+        </div>
+
+        <div className="mt-4">
+          <p className="text-white/80 text-sm font-medium">{title}</p>
+          <motion.p
+            className="text-3xl font-bold text-white mt-1"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.3 }}
+          >
+            {value.includes("$") ? "$" : ""}
+            {count.toLocaleString()}
+            {value.includes("+") ? "+" : ""}
+            {value.includes("B") ? "B" : ""}
+          </motion.p>
+          {subtitle && <p className="text-white/60 text-xs mt-1">{subtitle}</p>}
+        </div>
+      </div>
+    </motion.div>
+  );
+}
+
+// ===== ECharts 趋势图组件 =====
+function TrendChart() {
+  const option = useMemo(
+    () => ({
+      backgroundColor: "transparent",
+      tooltip: {
+        trigger: "axis",
+        axisPointer: { type: "cross", label: { backgroundColor: "#6a7985" } },
+        backgroundColor: "rgba(255,255,255,0.95)",
+        borderColor: "#e5e7eb",
+        borderWidth: 1,
+        textStyle: { color: "#374151" },
+      },
+      legend: {
+        data: ["2023年", "2024年"],
+        top: 0,
+        right: 0,
+        textStyle: { color: "#6b7280" },
+      },
+      grid: { left: "3%", right: "4%", bottom: "3%", top: "15%", containLabel: true },
+      xAxis: {
+        type: "category",
+        boundaryGap: false,
+        data: trendData.months,
+        axisLine: { lineStyle: { color: "#e5e7eb" } },
+        axisLabel: { color: "#6b7280" },
+      },
+      yAxis: {
+        type: "value",
+        name: "亿美元",
+        nameTextStyle: { color: "#9ca3af" },
+        axisLine: { show: false },
+        axisTick: { show: false },
+        axisLabel: { color: "#6b7280" },
+        splitLine: { lineStyle: { color: "#f3f4f6" } },
+      },
+      series: [
+        {
+          name: "2023年",
+          type: "line",
+          smooth: true,
+          symbol: "circle",
+          symbolSize: 8,
+          lineStyle: { width: 3, color: "#9ca3af" },
+          itemStyle: { color: "#9ca3af", borderWidth: 2, borderColor: "#fff" },
+          areaStyle: {
+            color: {
+              type: "linear",
+              x: 0, y: 0, x2: 0, y2: 1,
+              colorStops: [
+                { offset: 0, color: "rgba(156, 163, 175, 0.3)" },
+                { offset: 1, color: "rgba(156, 163, 175, 0.05)" },
+              ],
+            },
+          },
+          data: trendData.export2023,
+        },
+        {
+          name: "2024年",
+          type: "line",
+          smooth: true,
+          symbol: "circle",
+          symbolSize: 8,
+          lineStyle: { width: 3, color: "#3b82f6" },
+          itemStyle: { color: "#3b82f6", borderWidth: 2, borderColor: "#fff" },
+          areaStyle: {
+            color: {
+              type: "linear",
+              x: 0, y: 0, x2: 0, y2: 1,
+              colorStops: [
+                { offset: 0, color: "rgba(59, 130, 246, 0.4)" },
+                { offset: 1, color: "rgba(59, 130, 246, 0.05)" },
+              ],
+            },
+          },
+          data: trendData.export2024,
+        },
+      ],
+    }),
+    []
+  );
+
+  return (
+    <motion.div variants={itemVariants} className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
+      <div className="flex items-center justify-between mb-6">
+        <div className="flex items-center gap-3">
+          <div className="p-2 bg-blue-50 rounded-lg">
+            <BarChart3 className="w-5 h-5 text-blue-600" />
+          </div>
+          <div>
+            <h3 className="text-lg font-bold text-gray-900">出口趋势分析</h3>
+            <p className="text-sm text-gray-500">2023年 vs 2024年 月度对比</p>
+          </div>
+        </div>
+        <select className="text-sm border border-gray-200 rounded-lg px-3 py-2 bg-white focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+          <option>近12个月</option>
+          <option>近6个月</option>
+          <option>近3个月</option>
+        </select>
+      </div>
+      <div className="h-80">
+        <ReactECharts option={option} style={{ height: "100%", width: "100%" }} />
+      </div>
+    </motion.div>
+  );
+}
+
+// ===== 品类分布饼图 =====
+function CategoryChart() {
+  const option = useMemo(
+    () => ({
+      backgroundColor: "transparent",
+      tooltip: {
+        trigger: "item",
+        formatter: "{b}: {c}% ({d}%)",
+        backgroundColor: "rgba(255,255,255,0.95)",
+        borderColor: "#e5e7eb",
+        textStyle: { color: "#374151" },
+      },
+      legend: {
+        orient: "vertical",
+        right: 10,
+        top: "center",
+        textStyle: { color: "#6b7280" },
+      },
+      series: [
+        {
+          type: "pie",
+          radius: ["40%", "70%"],
+          center: ["35%", "50%"],
+          avoidLabelOverlap: false,
+          itemStyle: {
+            borderRadius: 10,
+            borderColor: "#fff",
+            borderWidth: 2,
+          },
+          label: { show: false },
+          emphasis: {
+            label: {
+              show: true,
+              fontSize: 14,
+              fontWeight: "bold",
+            },
+          },
+          data: categoryData.map((item) => ({
+            value: item.value,
+            name: item.name,
+            itemStyle: { color: item.color },
+          })),
+        },
+      ],
+    }),
+    []
+  );
+
+  return (
+    <motion.div variants={itemVariants} className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
+      <div className="flex items-center gap-3 mb-4">
+        <div className="p-2 bg-purple-50 rounded-lg">
+          <PieChart className="w-5 h-5 text-purple-600" />
+        </div>
+        <h3 className="text-lg font-bold text-gray-900">品类分布</h3>
+      </div>
+      <div className="h-64">
+        <ReactECharts option={option} style={{ height: "100%", width: "100%" }} />
+      </div>
+    </motion.div>
+  );
+}
+
+// ===== 实时更新流 =====
+function RealtimeUpdates() {
+  return (
+    <motion.div variants={itemVariants} className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
+      <div className="flex items-center justify-between mb-4">
+        <div className="flex items-center gap-3">
+          <div className="p-2 bg-green-50 rounded-lg">
+            <Zap className="w-5 h-5 text-green-600" />
+          </div>
+          <h3 className="text-lg font-bold text-gray-900">实时动态</h3>
+        </div>
+        <motion.div
+          animate={{ opacity: [1, 0.3, 1] }}
+          transition={{ duration: 2, repeat: Infinity }}
+          className="flex items-center gap-2 px-3 py-1 bg-green-100 rounded-full"
+        >
+          <div className="w-2 h-2 bg-green-500 rounded-full" />
+          <span className="text-xs font-medium text-green-700">实时更新中</span>
+        </motion.div>
+      </div>
+
+      <div className="space-y-3">
+        <AnimatePresence mode="popLayout">
+          {realtimeUpdates.map((update, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, x: -20 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: 20 }}
+              transition={{ delay: index * 0.1 }}
+              className="flex items-start gap-3 p-3 rounded-xl hover:bg-gray-50 transition-colors group cursor-pointer"
+            >
+              <motion.div
+                whileHover={{ scale: 1.1, rotate: 10 }}
+                className="text-2xl"
+              >
+                {update.icon}
+              </motion.div>
+              <div className="flex-1 min-w-0">
+                <div className="flex items-center gap-2">
+                  <span
+                    className={`px-2 py-0.5 rounded text-xs font-medium ${
+                      update.color === "blue"
+                        ? "bg-blue-100 text-blue-700"
+                        : update.color === "green"
+                        ? "bg-green-100 text-green-700"
+                        : update.color === "purple"
+                        ? "bg-purple-100 text-purple-700"
+                        : update.color === "orange"
+                        ? "bg-orange-100 text-orange-700"
+                        : "bg-red-100 text-red-700"
+                    }`}
+                  >
+                    {update.action}
+                  </span>
+                  <span className="text-xs text-gray-400">{update.time}</span>
+                </div>
+                <p className="text-sm text-gray-700 mt-1 truncate group-hover:text-blue-600 transition-colors">
+                  {update.detail}
+                </p>
+              </div>
+              <ChevronRight className="w-4 h-4 text-gray-300 group-hover:text-blue-500 opacity-0 group-hover:opacity-100 transition-all" />
+            </motion.div>
+          ))}
+        </AnimatePresence>
+      </div>
+    </motion.div>
+  );
+}
+
+// ===== 地区排行组件（增强版）=====
+function RegionRanking() {
+  const regions = [
+    { name: "美国", value: 35, amount: "$120.5B", growth: "+8.2%", flag: "🇺🇸" },
+    { name: "欧盟", value: 28, amount: "$98.3B", growth: "+5.1%", flag: "🇪🇺" },
+    { name: "东盟", value: 18, amount: "$62.1B", growth: "+12.3%", flag: "🇦🇸" },
+    { name: "日本", value: 10, amount: "$34.7B", growth: "+3.8%", flag: "🇯🇵" },
+    { name: "韩国", value: 9, amount: "$28.9B", growth: "+6.5%", flag: "🇰🇷" },
+  ];
+
+  return (
+    <motion.div variants={itemVariants} className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
+      <div className="flex items-center gap-3 mb-6">
+        <div className="p-2 bg-orange-50 rounded-lg">
+          <MapPin className="w-5 h-5 text-orange-600" />
+        </div>
+        <div>
+          <h3 className="text-lg font-bold text-gray-900">出口目的地排行</h3>
+          <p className="text-sm text-gray-500">TOP 5 贸易伙伴</p>
+        </div>
+      </div>
+
+      <div className="space-y-4">
+        {regions.map((region, index) => (
+          <motion.div
+            key={region.name}
+            initial={{ opacity: 0, x: -20 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ delay: index * 0.1 }}
+            whileHover={{ x: 5, backgroundColor: "rgba(59, 130, 246, 0.05)" }}
+            className="flex items-center gap-4 p-3 rounded-xl transition-colors cursor-pointer"
+          >
+            <div
+              className={`w-8 h-8 rounded-lg flex items-center justify-center text-sm font-bold ${
+                index === 0
+                  ? "bg-yellow-100 text-yellow-700"
+                  : index === 1
+                  ? "bg-gray-100 text-gray-700"
+                  : index === 2
+                  ? "bg-orange-100 text-orange-700"
+                  : "bg-gray-50 text-gray-500"
+              }`}
+            >
+              {index + 1}
+            </div>
+
+            <span className="text-2xl">{region.flag}</span>
+
+            <div className="flex-1 min-w-0">
+              <div className="flex items-center justify-between mb-1">
+                <span className="font-semibold text-gray-900">{region.name}</span>
+                <div className="text-right">
+                  <span className="text-sm font-bold text-gray-900">{region.amount}</span>
+                  <span className="text-xs text-green-600 ml-2">{region.growth}</span>
+                </div>
+              </div>
+              <div className="h-2 bg-gray-100 rounded-full overflow-hidden">
+                <motion.div
+                  initial={{ width: 0 }}
+                  animate={{ width: `${region.value}%` }}
+                  transition={{ duration: 1, delay: index * 0.1 + 0.3, ease: "easeOut" }}
+                  className={`h-full rounded-full ${
+                    index === 0
+                      ? "bg-gradient-to-r from-yellow-400 to-yellow-500"
+                      : index === 1
+                      ? "bg-gradient-to-r from-gray-400 to-gray-500"
+                      : index === 2
+                      ? "bg-gradient-to-r from-orange-400 to-orange-500"
+                      : "bg-gradient-to-r from-blue-400 to-blue-500"
+                  }`}
+                />
+              </div>
+            </div>
+          </motion.div>
+        ))}
+      </div>
+    </motion.div>
+  );
+}
+
+// ===== 主页面 =====
+export default function Home() {
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-blue-50/30">
+      {/* 导航栏 */}
+      <nav className="bg-white/80 backdrop-blur-md border-b border-gray-200/50 sticky top-0 z-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between h-16">
+            <Link href="/" className="flex items-center gap-3 group">
+              <motion.div
+                whileHover={{ scale: 1.05, rotate: 5 }}
+                className="w-10 h-10 bg-gradient-to-br from-blue-500 via-blue-600 to-indigo-600 rounded-xl flex items-center justify-center shadow-lg shadow-blue-500/25"
+              >
+                <TrendingUp className="w-6 h-6 text-white" />
+              </motion.div>
+              <div>
+                <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+                  TradeData Pro
+                </span>
+                <span className="hidden sm:inline text-xs text-gray-400 ml-2">专业出口数据分析</span>
+              </div>
+            </Link>
+
+            <div className="flex items-center gap-1">
+              {[
+                { name: "首页", href: "/", active: true },
+                { name: "商品数据", href: "/products", active: false },
+                { name: "海关统计", href: "/customs", active: false },
+                { name: "数据分析", href: "/analytics", active: false },
+              ].map((item) => (
+                <Link
+                  key={item.name}
+                  href={item.href}
+                  className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
+                    item.active
+                      ? "bg-blue-50 text-blue-600"
+                      : "text-gray-600 hover:bg-gray-50 hover:text-gray-900"
+                  }`}
+                >
+                  {item.name}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      {/* 主内容 */}
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        {/* 页面标题 */}
+        <motion.div
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="mb-8"
+        >
+          <div className="flex items-center gap-3">
+            <Sparkles className="w-6 h-6 text-yellow-500" />
+            <h1 className="text-3xl font-bold text-gray-900">中国出口商品数据概览</h1>
+          </div>
+          <p className="mt-2 text-gray-500">
+            实时追踪阿里巴巴1688和海关总署出口数据，洞察全球市场趋势
+          </p>
+        </motion.div>
+
+        {/* 统计卡片 */}
+        <motion.div
+          variants={containerVariants}
+          initial="hidden"
+          animate="visible"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8"
+        >
+          <StatCard
+            title="商品总数"
+            value="2,847,392"
+            change="+12.5%"
+            changeType="up"
+            icon={Package}
+            subtitle="来自 1688 和海关数据"
+            gradient="bg-gradient-to-br from-blue-500 to-blue-700"
+          />
+          <StatCard
+            title="今日新增"
+            value="3,847"
+            change="+8.2%"
+            changeType="up"
+            icon={Activity}
+            subtitle="较昨日增长"
+            gradient="bg-gradient-to-br from-emerald-500 to-emerald-700"
+          />
+          <StatCard
+            title="出口总额"
+            value="3,380"
+            change="+4.6%"
+            changeType="up"
+            icon={DollarSign}
+            subtitle="单位：亿美元"
+            gradient="bg-gradient-to-br from-violet-500 to-violet-700"
+          />
+          <StatCard
+            title="覆盖国家"
+            value="200"
+            change="+2.1%"
+            changeType="up"
+            icon={Globe}
+            subtitle="全球贸易伙伴"
+            gradient="bg-gradient-to-br from-orange-500 to-orange-700"
+          />
+        </motion.div>
+
+        {/* 图表区域 */}
+        <motion.div
+          variants={containerVariants}
+          initial="hidden"
+          animate="visible"
+          className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8"
+        >
+          <div className="lg:col-span-2">
+            <TrendChart />
+          </div>
+          <div className="space-y-6">
+            <CategoryChart />
+          </div>
+        </motion.div>
+
+        {/* 实时动态 + 地区排行 */}
+        <motion.div
+          variants={containerVariants}
+          initial="hidden"
+          animate="visible"
+          className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8"
+        >
+          <RealtimeUpdates />
+          <RegionRanking />
+        </motion.div>
+
+        {/* 快速链接 */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.8 }}
+          className="grid grid-cols-1 md:grid-cols-3 gap-6"
+        >
+          {[
+            {
+              title: "商品数据库",
+              desc: "浏览 1688 和海关商品数据，支持多维度筛选",
+              link: "/products",
+              icon: Package,
+              color: "blue",
+              stats: "280万+ 商品",
+            },
+            {
+              title: "海关统计",
+              desc: "官方进出口数据，按 HS 编码分类查询",
+              link: "/customs",
+              icon: BarChart3,
+              color: "purple",
+              stats: "月度更新",
+            },
+            {
+              title: "数据洞察",
+              desc: "深度数据分析，价格趋势、竞品分析",
+              link: "/analytics",
+              icon: TrendingUp,
+              color: "orange",
+              stats: "AI 分析",
+            },
+          ].map((item) => (
+            <Link
+              key={item.title}
+              href={item.link}
+              className="group relative overflow-hidden rounded-2xl bg-white p-6 shadow-sm border border-gray-100 hover:shadow-xl hover:border-transparent transition-all duration-300"
+            >
+              {/* 背景渐变 */}
+              <div
+                className={`absolute inset-0 bg-gradient-to-br opacity-0 group-hover:opacity-5 transition-opacity ${
+                  item.color === "blue"
+                    ? "from-blue-500 to-blue-600"
+                    : item.color === "purple"
+                    ? "from-purple-500 to-purple-600"
+                    : "from-orange-500 to-orange-600"
+                }`}
+              />
+
+              <div className="relative z-10">
+                <div className="flex items-start justify-between">
+                  <div
+                    className={`p-3 rounded-xl ${
+                      item.color === "blue"
+                        ? "bg-blue-50 text-blue-600"
+                        : item.color === "purple"
+                        ? "bg-purple-50 text-purple-600"
+                        : "bg-orange-50 text-orange-600"
+                    }`}
+                  >
+                    <item.icon className="w-6 h-6" />
+                  </div>
+                  <span className="text-xs font-medium text-gray-400 bg-gray-50 px-2 py-1 rounded-full">
+                    {item.stats}
+                  </span>
+                </div>
+
+                <h4 className="mt-4 text-lg font-bold text-gray-900 group-hover:text-blue-600 transition-colors">
+                  {item.title}
+                </h4>                <p className="mt-2 text-sm text-gray-500">{item.desc}</p>
+
+                <div className="mt-4 flex items-center text-sm font-medium text-gray-400 group-hover:text-blue-600 transition-colors"
+003e
+                  查看详情
+                  <ExternalLink className="w-4 h-4 ml-1 opacity-0 group-hover:opacity-100 transform group-hover:translate-x-1 transition-all" />
+                </div>
+              </div>
+            </Link>
+          ))}
+        </motion.div>
+      </main>
+
+      {/* 页脚 */}
+      <footer className="bg-white border-t border-gray-200 mt-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+            <div className="flex items-center gap-2">
+              <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center">
+                <TrendingUp className="w-5 h-5 text-white" />
+              </div>
+              <span className="font-bold text-gray-900">TradeData Pro</span>
+            </div>
+            <p className="text-sm text-gray-500">
+              © 2024 TradeData Pro. 专业出口数据分析平台
+            </p>
+            <div className="flex items-center gap-4">
+              <span className="text-xs text-gray-400">数据来源:</span>
+              <span className="text-sm text-gray-600 hover:text-blue-600 cursor-pointer transition-colors">阿里巴巴1688</span>
+              <span className="text-gray-300">|</span>
+              <span className="text-sm text-gray-600 hover:text-blue-600 cursor-pointer transition-colors">海关总署</span>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  );
+}

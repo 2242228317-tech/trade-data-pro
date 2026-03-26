@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>诉讼费计算器 - 中国</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 800px;
+            width: 100%;
+            padding: 40px;
+            margin-top: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        select, input[type="number"] {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+
+        select:focus, input[type="number"]:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .amount-input {
+            position: relative;
+        }
+
+        .amount-input input {
+            padding-left: 50px;
+        }
+
+        .amount-input::before {
+            content: "¥";
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #666;
+            font-weight: bold;
+        }
+
+        button {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+
+        .result {
+            margin-top: 30px;
+            padding: 25px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            border-radius: 15px;
+            display: none;
+        }
+
+        .result.show {
+            display: block;
+            animation: slideIn 0.3s ease;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .result-title {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .result-amount {
+            font-size: 36px;
+            color: #667eea;
+            font-weight: bold;
+            text-align: center;
+            margin: 15px 0;
+        }
+
+        .result-detail {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+        }
+
+        .result-detail h3 {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .detail-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            font-size: 14px;
+            color: #333;
+        }
+
+        .detail-item span:first-child {
+            color: #666;
+        }
+
+        .note {
+            margin-top: 20px;
+            padding: 15px;
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            border-radius: 5px;
+            font-size: 13px;
+            color: #856404;
+        }
+
+        .rate-table {
+            margin-top: 30px;
+            font-size: 13px;
+        }
+
+        .rate-table h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .rate-table table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .rate-table th, .rate-table td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .rate-table th {
+            background: #f5f7fa;
+            color: #333;
+            font-weight: 600;
+        }
+
+        .rate-table tr:hover {
+            background: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>⚖️ 诉讼费计算器</h1>
+        <p class="subtitle">根据《诉讼费用交纳办法》计算财产案件受理费</p>
+
+        <div class="form-group">
+            <label for="caseType">案件类型</label>
+            <select id="caseType">
+                <option value="property">财产案件</option>
+                <option value="divorce">离婚案件</option>
+                <option value="personality">侵害人格权案件</option>
+                <option value="other">其他非财产案件</option>
+            </select>
+        </div>
+
+        <div class="form-group" id="amountGroup">
+            <label for="amount">诉讼标的金额</label>
+            <div class="amount-input">
+                <input type="number" id="amount" placeholder="请输入金额" min="0" step="1">
+            </div>
+        </div>
+
+        <div class="form-group" id="divorceNote" style="display: none;">
+            <label>离婚案件说明</label>
+            <p style="font-size: 13px; color: #666; padding: 10px; background: #f5f7fa; border-radius: 8px;">
+                离婚案件每件交纳 50 元至 300 元。涉及财产分割，财产总额不超过 20 万元的，不另行交纳；超过 20 万元的部分，按照 0.5% 交纳。
+            </p>
+        </div>
+
+        <button onclick="calculate()">计算诉讼费</button>
+
+        <div class="result" id="result">
+            <div class="result-title">应交纳诉讼费</div>
+            <div class="result-amount" id="resultAmount">¥0</div>
+            <div class="result-detail" id="resultDetail"></div>
+        </div>
+
+        <div class="note">
+            ⚠️ 本计算器仅供参考，实际诉讼费以法院核定为准。简易程序、调解结案等可能减半收取。
+        </div>
+
+        <div class="rate-table">
+            <h3>📊 财产案件诉讼费费率表</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>金额区间</th>
+                        <th>费率</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>不超过 1 万元</td><td>50 元</td></tr>
+                    <tr><td>1 万 -10 万元</td><td>2.5%</td></tr>
+                    <tr><td>10 万 -20 万元</td><td>2.0%</td></tr>
+                    <tr><td>20 万 -50 万元</td><td>1.5%</td></tr>
+                    <tr><td>50 万 -100 万元</td><td>1.0%</td></tr>
+                    <tr><td>100 万 -200 万元</td><td>0.9%</td></tr>
+                    <tr><td>200 万 -500 万元</td><td>0.8%</td></tr>
+                    <tr><td>500 万 -1000 万元</td><td>0.7%</td></tr>
+                    <tr><td>1000 万 -2000 万元</td><td>0.6%</td></tr>
+                    <tr><td>超过 2000 万元</td><td>0.5%</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        // 案件类型切换
+        document.getElementById('caseType').addEventListener('change', function() {
+            const amountGroup = document.getElementById('amountGroup');
+            const divorceNote = document.getElementById('divorceNote');
+            
+            if (this.value === 'divorce') {
+                amountGroup.style.display = 'block';
+                divorceNote.style.display = 'block';
+            } else if (this.value === 'property') {
+                amountGroup.style.display = 'block';
+                divorceNote.style.display = 'none';
+            } else {
+                amountGroup.style.display = 'none';
+                divorceNote.style.display = 'none';
+            }
+        });
+
+        function calculate() {
+            const caseType = document.getElementById('caseType').value;
+            const amount = parseFloat(document.getElementById('amount').value) || 0;
+            const resultDiv = document.getElementById('result');
+            const resultAmount = document.getElementById('resultAmount');
+            const resultDetail = document.getElementById('resultDetail');
+
+            let fee = 0;
+            let detailHTML = '';
+
+            if (caseType === 'property') {
+                if (amount <= 0) {
+                    alert('请输入有效的诉讼标的金额');
+                    return;
+                }
+                
+                const result = calculatePropertyFee(amount);
+                fee = result.total;
+                detailHTML = result.detail;
+            } else if (caseType === 'divorce') {
+                fee = 200; // 基础费用
+                let detailItems = [{item: '离婚案件基础费用', amount: 200}];
+                
+                if (amount > 200000) {
+                    const excessFee = (amount - 200000) * 0.005;
+                    fee += excessFee;
+                    detailItems.push({
+                        item: `超过 20 万元部分 (${formatMoney(amount - 200000)}) × 0.5%`,
+                        amount: excessFee
+                    });
+                }
+                
+                detailHTML = detailItems.map(d => 
+                    `<div class="detail-item"><span>${d.item}</span><span>¥${formatNumber(d.amount)}</span></div>`
+                ).join('');
+            } else if (caseType === 'personality') {
+                fee = 300;
+                detailHTML = '<div class="detail-item"><span>侵害人格权案件固定费用</span><span>¥300</span></div>';
+            } else {
+                fee = 80;
+                detailHTML = '<div class="detail-item"><span>其他非财产案件固定费用</span><span>¥80</span></div>';
+            }
+
+            resultAmount.textContent = '¥' + formatNumber(fee);
+            resultDetail.innerHTML = `
+                <h3>💰 费用明细</h3>
+                ${detailHTML}
+            `;
+            resultDiv.classList.add('show');
+        }
+
+        function calculatePropertyFee(amount) {
+            const brackets = [
+                { limit: 10000, rate: 0, fixed: 50 },
+                { limit: 100000, rate: 0.025 },
+                { limit: 200000, rate: 0.02 },
+                { limit: 500000, rate: 0.015 },
+                { limit: 1000000, rate: 0.01 },
+                { limit: 2000000, rate: 0.009 },
+                { limit: 5000000, rate: 0.008 },
+                { limit: 10000000, rate: 0.007 },
+                { limit: 20000000, rate: 0.006 },
+                { limit: Infinity, rate: 0.005 }
+            ];
+
+            let total = 0;
+            let previousLimit = 0;
+            let details = [];
+
+            for (const bracket of brackets) {
+                if (amount <= previousLimit) break;
+
+                const currentAmount = Math.min(amount, bracket.limit) - previousLimit;
+                
+                if (bracket.rate === 0) {
+                    total = bracket.fixed;
+                    details.push({
+                        item: `不超过 1 万元部分`,
+                        amount: bracket.fixed
+                    });
+                } else {
+                    const fee = currentAmount * bracket.rate;
+                    total += fee;
+                    details.push({
+                        item: `${formatMoney(previousLimit)}-${formatMoney(Math.min(amount, bracket.limit))} 部分 × ${(bracket.rate * 100).toFixed(1)}%`,
+                        amount: fee
+                    });
+                }
+
+                previousLimit = bracket.limit;
+            }
+
+            const detailHTML = details.map(d => 
+                `<div class="detail-item"><span>${d.item}</span><span>¥${formatNumber(d.amount)}</span></div>`
+            ).join('');
+
+            return { total, detail: detailHTML };
+        }
+
+        function formatNumber(num) {
+            return num.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,');
+        }
+
+        function formatMoney(num) {
+            if (num >= 100000000) {
+                return (num / 100000000).toFixed(2) + '亿元';
+            } else if (num >= 10000) {
+                return (num / 10000).toFixed(2) + '万元';
+            } else {
+                return num.toFixed(0) + '元';
+            }
+        }
+    </script>
+</body>
+</html>

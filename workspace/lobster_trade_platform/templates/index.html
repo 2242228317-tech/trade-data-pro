@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>龙虾贸易数据分析平台</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            color: white;
+            padding: 40px 0;
+        }
+        
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            transition: transform 0.3s;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .card h2 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+        
+        .card p {
+            color: #666;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 500;
+            transition: all 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+        }
+        
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 40px;
+            flex-wrap: wrap;
+        }
+        
+        .feature {
+            text-align: center;
+            color: white;
+        }
+        
+        .feature i {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        
+        .feature h3 {
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🦞 龙虾贸易数据分析平台</h1>
+            <p>阿里巴巴国际站 & 海关数据实时监控</p>
+        </header>
+        
+        <div class="cards">
+            <div class="card">
+                <h2>📊 阿里巴巴国际站</h2>
+                <p>实时抓取阿里巴巴国际站龙虾产品数据，包括：产品名称、价格、供应商、销售额预估等。支持按销售额排序，帮助您了解国际市场行情。</p>
+                <a href="/alibaba" class="btn">查看数据</a>
+            </div>
+            
+            <div class="card">
+                <h2>📈 海关出口数据</h2>
+                <p>获取中国海关龙虾出口数据，包括：出口额、出口量、目的地国家、产品分类等。支持按品类和出口额排序，掌握出口趋势。</p>
+                <a href="/customs" class="btn">查看数据</a>
+            </div>
+        </div>
+        
+        <div class="features">
+            <div class="feature">
+                <div>🌐</div>
+                <h3>全球数据</h3>
+                <p>覆盖全球主要贸易市场</p>
+            </div>
+            <div class="feature">
+                <div>⚡</div>
+                <h3>实时更新</h3>
+                <p>数据定时自动抓取</p>
+            </div>
+            <div class="feature">
+                <div>📊</div>
+                <h3>智能排序</h3>
+                <p>多维度数据分析</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

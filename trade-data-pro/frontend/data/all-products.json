@@ -1,0 +1,7320 @@
+[
+  {
+    "id": "real-1",
+    "name": "太阳能电池板 100W-500W 厂家直销",
+    "description": "热销太阳能产品，江苏产地，品质保证",
+    "category": "新能源",
+    "subcategory": "太阳能",
+    "price": {
+      "min": 238,
+      "max": 322,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 50,
+    "supplier": {
+      "name": "深圳市科技创新有限公司",
+      "location": "江苏",
+      "rating": 4.8,
+      "yearsInBusiness": 7,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {
+      "产地": "江苏",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4.8,
+    "reviewCount": 1264,
+    "salesVolume": 81365,
+    "trend": "up",
+    "trendValue": 45.2,
+    "region": "江苏"
+  },
+  {
+    "id": "real-2",
+    "name": "锂电池组 48V 100Ah 厂家直销",
+    "description": "热销储能电池产品，广东产地，品质保证",
+    "category": "新能源",
+    "subcategory": "储能电池",
+    "price": {
+      "min": 1020,
+      "max": 1380,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 20,
+    "supplier": {
+      "name": "义乌市小商品批发中心",
+      "location": "广东",
+      "rating": 4.5,
+      "yearsInBusiness": 6,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {
+      "产地": "广东",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4.4,
+    "reviewCount": 2763,
+    "salesVolume": 13910,
+    "trend": "up",
+    "trendValue": 38.7,
+    "region": "广东"
+  },
+  {
+    "id": "real-3",
+    "name": "便携式储能电源 1000W 厂家直销",
+    "description": "热销储能设备产品，浙江产地，品质保证",
+    "category": "新能源",
+    "subcategory": "储能设备",
+    "price": {
+      "min": 552,
+      "max": 747,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 30,
+    "supplier": {
+      "name": "广州市服装制造厂",
+      "location": "浙江",
+      "rating": 4.5,
+      "yearsInBusiness": 13,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {
+      "产地": "浙江",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4.3,
+    "reviewCount": 1076,
+    "salesVolume": 63098,
+    "trend": "up",
+    "trendValue": 52.3,
+    "region": "浙江"
+  },
+  {
+    "id": "real-4",
+    "name": "新能源汽车充电桩 厂家直销",
+    "description": "热销充电设备产品，广东产地，品质保证",
+    "category": "新能源",
+    "subcategory": "充电设备",
+    "price": {
+      "min": 756,
+      "max": 1023,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 10,
+    "supplier": {
+      "name": "宁波市五金工具厂",
+      "location": "广东",
+      "rating": 4.7,
+      "yearsInBusiness": 7,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {
+      "产地": "广东",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4.3,
+    "reviewCount": 1290,
+    "salesVolume": 56821,
+    "trend": "up",
+    "trendValue": 41.5,
+    "region": "广东"
+  },
+  {
+    "id": "real-5",
+    "name": "无线蓝牙耳机 TWS降噪 厂家直销",
+    "description": "热销耳机音响产品，广东产地，品质保证",
+    "category": "电子产品",
+    "subcategory": "耳机音响",
+    "price": {
+      "min": 38,
+      "max": 51,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 100,
+    "supplier": {
+      "name": "苏州市电子科技有限公司",
+      "location": "广东",
+      "rating": 5,
+      "yearsInBusiness": 15,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {
+      "产地": "广东",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4.6,
+    "reviewCount": 1432,
+    "salesVolume": 81859,
+    "trend": "up",
+    "trendValue": 15.8,
+    "region": "广东"
+  },
+  {
+    "id": "real-6",
+    "name": "智能手表 运动健康监测 厂家直销",
+    "description": "热销智能穿戴产品，深圳产地，品质保证",
+    "category": "电子产品",
+    "subcategory": "智能穿戴",
+    "price": {
+      "min": 108,
+      "max": 147,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 50,
+    "supplier": {
+      "name": "佛山市家居用品厂",
+      "location": "深圳",
+      "rating": 4.9,
+      "yearsInBusiness": 9,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {
+      "产地": "深圳",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4.9,
+    "reviewCount": 269,
+    "salesVolume": 43061,
+    "trend": "up",
+    "trendValue": 22.4,
+    "region": "深圳"
+  },
+  {
+    "id": "real-7",
+    "name": "快充充电器 65W氮化镓 厂家直销",
+    "description": "热销充电设备产品，东莞产地，品质保证",
+    "category": "电子产品",
+    "subcategory": "充电设备",
+    "price": {
+      "min": 29,
+      "max": 40,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 200,
+    "supplier": {
+      "name": "温州市眼镜制造厂",
+      "location": "东莞",
+      "rating": 4,
+      "yearsInBusiness": 4,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {
+      "产地": "东莞",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4.7,
+    "reviewCount": 2459,
+    "salesVolume": 74375,
+    "trend": "up",
+    "trendValue": 28.6,
+    "region": "东莞"
+  },
+  {
+    "id": "real-8",
+    "name": "手机支架 磁吸无线充 厂家直销",
+    "description": "热销手机配件产品，深圳产地，品质保证",
+    "category": "电子产品",
+    "subcategory": "手机配件",
+    "price": {
+      "min": 23,
+      "max": 32,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 150,
+    "supplier": {
+      "name": "东莞市玩具礼品厂",
+      "location": "深圳",
+      "rating": 4.4,
+      "yearsInBusiness": 6,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {
+      "产地": "深圳",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4.1,
+    "reviewCount": 1683,
+    "salesVolume": 23701,
+    "trend": "up",
+    "trendValue": 18.9,
+    "region": "深圳"
+  },
+  {
+    "id": "real-9",
+    "name": "平板电脑 10.1英寸 厂家直销",
+    "description": "热销平板电脑产品，深圳产地，品质保证",
+    "category": "电子产品",
+    "subcategory": "平板电脑",
+    "price": {
+      "min": 408,
+      "max": 552,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 30,
+    "supplier": {
+      "name": "上海市医疗器械公司",
+      "location": "深圳",
+      "rating": 4.8,
+      "yearsInBusiness": 11,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {
+      "产地": "深圳",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4.4,
+    "reviewCount": 965,
+    "salesVolume": 67137,
+    "trend": "stable",
+    "trendValue": 12.3,
+    "region": "深圳"
+  },
+  {
+    "id": "real-10",
+    "name": "智能家居中控面板 厂家直销",
+    "description": "热销智能家居产品，杭州产地，品质保证",
+    "category": "电子产品",
+    "subcategory": "智能家居",
+    "price": {
+      "min": 153,
+      "max": 206,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 40,
+    "supplier": {
+      "name": "青岛市化工有限公司",
+      "location": "杭州",
+      "rating": 4.6,
+      "yearsInBusiness": 13,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {
+      "产地": "杭州",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4.2,
+    "reviewCount": 656,
+    "salesVolume": 29086,
+    "trend": "up",
+    "trendValue": 35.7,
+    "region": "杭州"
+  },
+  {
+    "id": "real-11",
+    "name": "真空压缩收纳袋套装 厂家直销",
+    "description": "热销收纳用品产品，义乌产地，品质保证",
+    "category": "家居用品",
+    "subcategory": "收纳用品",
+    "price": {
+      "min": 12,
+      "max": 17,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 300,
+    "supplier": {
+      "name": "杭州市智能家居厂",
+      "location": "义乌",
+      "rating": 4.6,
+      "yearsInBusiness": 10,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {
+      "产地": "义乌",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4.6,
+    "reviewCount": 1233,
+    "salesVolume": 53188,
+    "trend": "stable",
+    "trendValue": 8.5,
+    "region": "义乌"
+  },
+  {
+    "id": "real-12",
+    "name": "LED护眼台灯 智能调光 厂家直销",
+    "description": "热销灯具照明产品，中山产地，品质保证",
+    "category": "家居用品",
+    "subcategory": "灯具照明",
+    "price": {
+      "min": 57,
+      "max": 78,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 80,
+    "supplier": {
+      "name": "厦门市户外用品公司",
+      "location": "中山",
+      "rating": 3.9,
+      "yearsInBusiness": 12,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {
+      "产地": "中山",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4.4,
+    "reviewCount": 1682,
+    "salesVolume": 27597,
+    "trend": "up",
+    "trendValue": 16.2,
+    "region": "中山"
+  },
+  {
+    "id": "real-13",
+    "name": "厨房置物架 多层不锈钢 厂家直销",
+    "description": "热销厨房用品产品，揭阳产地，品质保证",
+    "category": "家居用品",
+    "subcategory": "厨房用品",
+    "price": {
+      "min": 38,
+      "max": 51,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 100,
+    "supplier": {
+      "name": "泉州市运动器材厂",
+      "location": "揭阳",
+      "rating": 5,
+      "yearsInBusiness": 16,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {
+      "产地": "揭阳",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4.3,
+    "reviewCount": 107,
+    "salesVolume": 46644,
+    "trend": "stable",
+    "trendValue": 11.4,
+    "region": "揭阳"
+  },
+  {
+    "id": "real-14",
+    "name": "智能门锁 指纹密码 厂家直销",
+    "description": "热销安防设备产品，深圳产地，品质保证",
+    "category": "家居用品",
+    "subcategory": "安防设备",
+    "price": {
+      "min": 272,
+      "max": 368,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 20,
+    "supplier": {
+      "name": "天津市自行车厂",
+      "location": "深圳",
+      "rating": 4.7,
+      "yearsInBusiness": 15,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {
+      "产地": "深圳",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4.4,
+    "reviewCount": 1833,
+    "salesVolume": 62386,
+    "trend": "up",
+    "trendValue": 42.8,
+    "region": "深圳"
+  },
+  {
+    "id": "real-15",
+    "name": "扫地机器人 自动回充 厂家直销",
+    "description": "热销清洁电器产品，苏州产地，品质保证",
+    "category": "家居用品",
+    "subcategory": "清洁电器",
+    "price": {
+      "min": 578,
+      "max": 781,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 15,
+    "supplier": {
+      "name": "中山市灯具厂",
+      "location": "苏州",
+      "rating": 5,
+      "yearsInBusiness": 6,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {
+      "产地": "苏州",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4,
+    "reviewCount": 56,
+    "salesVolume": 49670,
+    "trend": "up",
+    "trendValue": 31.5,
+    "region": "苏州"
+  },
+  {
+    "id": "real-16",
+    "name": "床上四件套 纯棉 厂家直销",
+    "description": "热销床上用品产品，南通产地，品质保证",
+    "category": "家居用品",
+    "subcategory": "床上用品",
+    "price": {
+      "min": 72,
+      "max": 97,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 60,
+    "supplier": {
+      "name": "深圳市科技创新有限公司",
+      "location": "南通",
+      "rating": 4.4,
+      "yearsInBusiness": 11,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {
+      "产地": "南通",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4.2,
+    "reviewCount": 1532,
+    "salesVolume": 77967,
+    "trend": "stable",
+    "trendValue": 6.8,
+    "region": "南通"
+  },
+  {
+    "id": "real-17",
+    "name": "瑜伽服套装 速干面料 厂家直销",
+    "description": "热销运动服装产品，泉州产地，品质保证",
+    "category": "纺织服装",
+    "subcategory": "运动服装",
+    "price": {
+      "min": 32,
+      "max": 43,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 100,
+    "supplier": {
+      "name": "义乌市小商品批发中心",
+      "location": "泉州",
+      "rating": 4.9,
+      "yearsInBusiness": 16,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {
+      "产地": "泉州",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4.3,
+    "reviewCount": 1289,
+    "salesVolume": 55789,
+    "trend": "up",
+    "trendValue": 24.6,
+    "region": "泉州"
+  },
+  {
+    "id": "real-18",
+    "name": "防晒衣 UPF50+ 厂家直销",
+    "description": "热销户外服装产品，石狮产地，品质保证",
+    "category": "纺织服装",
+    "subcategory": "户外服装",
+    "price": {
+      "min": 29,
+      "max": 40,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 120,
+    "supplier": {
+      "name": "广州市服装制造厂",
+      "location": "石狮",
+      "rating": 4.6,
+      "yearsInBusiness": 13,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {
+      "产地": "石狮",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4.4,
+    "reviewCount": 373,
+    "salesVolume": 84661,
+    "trend": "up",
+    "trendValue": 32.1,
+    "region": "石狮"
+  },
+  {
+    "id": "real-19",
+    "name": "纯棉T恤 定制印花 厂家直销",
+    "description": "热销T恤产品，广州产地，品质保证",
+    "category": "纺织服装",
+    "subcategory": "T恤",
+    "price": {
+      "min": 15,
+      "max": 20,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 200,
+    "supplier": {
+      "name": "宁波市五金工具厂",
+      "location": "广州",
+      "rating": 4.5,
+      "yearsInBusiness": 10,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {
+      "产地": "广州",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4.4,
+    "reviewCount": 2628,
+    "salesVolume": 52963,
+    "trend": "stable",
+    "trendValue": 9.3,
+    "region": "广州"
+  },
+  {
+    "id": "real-20",
+    "name": "保暖内衣套装 德绒 厂家直销",
+    "description": "热销内衣产品，义乌产地，品质保证",
+    "category": "纺织服装",
+    "subcategory": "内衣",
+    "price": {
+      "min": 35,
+      "max": 48,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 80,
+    "supplier": {
+      "name": "苏州市电子科技有限公司",
+      "location": "义乌",
+      "rating": 4.5,
+      "yearsInBusiness": 10,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {
+      "产地": "义乌",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4.9,
+    "reviewCount": 2700,
+    "salesVolume": 18420,
+    "trend": "up",
+    "trendValue": 15.7,
+    "region": "义乌"
+  },
+  {
+    "id": "real-21",
+    "name": "冲锋衣 三合一可拆卸 厂家直销",
+    "description": "热销外套产品，泉州产地，品质保证",
+    "category": "纺织服装",
+    "subcategory": "外套",
+    "price": {
+      "min": 108,
+      "max": 147,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 50,
+    "supplier": {
+      "name": "佛山市家居用品厂",
+      "location": "泉州",
+      "rating": 4.7,
+      "yearsInBusiness": 3,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {
+      "产地": "泉州",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4.7,
+    "reviewCount": 1951,
+    "salesVolume": 62296,
+    "trend": "up",
+    "trendValue": 21.4,
+    "region": "泉州"
+  },
+  {
+    "id": "real-22",
+    "name": "露营帐篷 3-4人全自动 厂家直销",
+    "description": "热销露营装备产品，厦门产地，品质保证",
+    "category": "运动户外",
+    "subcategory": "露营装备",
+    "price": {
+      "min": 142,
+      "max": 193,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 30,
+    "supplier": {
+      "name": "温州市眼镜制造厂",
+      "location": "厦门",
+      "rating": 4.7,
+      "yearsInBusiness": 14,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {
+      "产地": "厦门",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4.7,
+    "reviewCount": 2702,
+    "salesVolume": 23546,
+    "trend": "up",
+    "trendValue": 48.9,
+    "region": "厦门"
+  },
+  {
+    "id": "real-23",
+    "name": "折叠自行车 20寸 厂家直销",
+    "description": "热销自行车产品，天津产地，品质保证",
+    "category": "运动户外",
+    "subcategory": "自行车",
+    "price": {
+      "min": 323,
+      "max": 436,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 15,
+    "supplier": {
+      "name": "东莞市玩具礼品厂",
+      "location": "天津",
+      "rating": 4.4,
+      "yearsInBusiness": 11,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {
+      "产地": "天津",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4.3,
+    "reviewCount": 604,
+    "salesVolume": 55977,
+    "trend": "up",
+    "trendValue": 19.2,
+    "region": "天津"
+  },
+  {
+    "id": "real-24",
+    "name": "登山包 40L防水 厂家直销",
+    "description": "热销户外背包产品，泉州产地，品质保证",
+    "category": "运动户外",
+    "subcategory": "户外背包",
+    "price": {
+      "min": 80,
+      "max": 109,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 50,
+    "supplier": {
+      "name": "上海市医疗器械公司",
+      "location": "泉州",
+      "rating": 4.6,
+      "yearsInBusiness": 6,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {
+      "产地": "泉州",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4.7,
+    "reviewCount": 1185,
+    "salesVolume": 58621,
+    "trend": "stable",
+    "trendValue": 14.6,
+    "region": "泉州"
+  },
+  {
+    "id": "real-25",
+    "name": "瑜伽垫 TPE防滑 厂家直销",
+    "description": "热销瑜伽用品产品，东莞产地，品质保证",
+    "category": "运动户外",
+    "subcategory": "瑜伽用品",
+    "price": {
+      "min": 21,
+      "max": 28,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 150,
+    "supplier": {
+      "name": "青岛市化工有限公司",
+      "location": "东莞",
+      "rating": 4.2,
+      "yearsInBusiness": 9,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {
+      "产地": "东莞",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4.5,
+    "reviewCount": 1121,
+    "salesVolume": 22274,
+    "trend": "stable",
+    "trendValue": 12.8,
+    "region": "东莞"
+  },
+  {
+    "id": "real-26",
+    "name": "筋膜枪 深层按摩 厂家直销",
+    "description": "热销健身器材产品，永康产地，品质保证",
+    "category": "运动户外",
+    "subcategory": "健身器材",
+    "price": {
+      "min": 74,
+      "max": 101,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 60,
+    "supplier": {
+      "name": "杭州市智能家居厂",
+      "location": "永康",
+      "rating": 4.8,
+      "yearsInBusiness": 11,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {
+      "产地": "永康",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 5,
+    "reviewCount": 2870,
+    "salesVolume": 42649,
+    "trend": "stable",
+    "trendValue": 8.4,
+    "region": "永康"
+  },
+  {
+    "id": "real-27",
+    "name": "电动牙刷 声波震动 厂家直销",
+    "description": "热销口腔护理产品，宁波产地，品质保证",
+    "category": "美妆个护",
+    "subcategory": "口腔护理",
+    "price": {
+      "min": 46,
+      "max": 63,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 80,
+    "supplier": {
+      "name": "厦门市户外用品公司",
+      "location": "宁波",
+      "rating": 4.9,
+      "yearsInBusiness": 15,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {
+      "产地": "宁波",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 5,
+    "reviewCount": 2218,
+    "salesVolume": 58518,
+    "trend": "up",
+    "trendValue": 18.7,
+    "region": "宁波"
+  },
+  {
+    "id": "real-28",
+    "name": "洁面仪 硅胶刷头 厂家直销",
+    "description": "热销面部护理产品，深圳产地，品质保证",
+    "category": "美妆个护",
+    "subcategory": "面部护理",
+    "price": {
+      "min": 35,
+      "max": 48,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 100,
+    "supplier": {
+      "name": "泉州市运动器材厂",
+      "location": "深圳",
+      "rating": 4.7,
+      "yearsInBusiness": 8,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {
+      "产地": "深圳",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4.9,
+    "reviewCount": 2468,
+    "salesVolume": 8734,
+    "trend": "stable",
+    "trendValue": 11.3,
+    "region": "深圳"
+  },
+  {
+    "id": "real-29",
+    "name": "吹风机 负离子护发 厂家直销",
+    "description": "热销美发工具产品，东莞产地，品质保证",
+    "category": "美妆个护",
+    "subcategory": "美发工具",
+    "price": {
+      "min": 66,
+      "max": 89,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 50,
+    "supplier": {
+      "name": "天津市自行车厂",
+      "location": "东莞",
+      "rating": 4.7,
+      "yearsInBusiness": 3,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {
+      "产地": "东莞",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4.6,
+    "reviewCount": 55,
+    "salesVolume": 31394,
+    "trend": "up",
+    "trendValue": 16.5,
+    "region": "东莞"
+  },
+  {
+    "id": "real-30",
+    "name": "美甲灯 LED速干 厂家直销",
+    "description": "热销美甲工具产品，义乌产地，品质保证",
+    "category": "美妆个护",
+    "subcategory": "美甲工具",
+    "price": {
+      "min": 18,
+      "max": 25,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 200,
+    "supplier": {
+      "name": "中山市灯具厂",
+      "location": "义乌",
+      "rating": 4.4,
+      "yearsInBusiness": 13,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {
+      "产地": "义乌",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4,
+    "reviewCount": 2101,
+    "salesVolume": 70989,
+    "trend": "stable",
+    "trendValue": 7.9,
+    "region": "义乌"
+  },
+  {
+    "id": "real-31",
+    "name": "车载充电器 快充 厂家直销",
+    "description": "热销车载电子产品，深圳产地，品质保证",
+    "category": "汽车配件",
+    "subcategory": "车载电子",
+    "price": {
+      "min": 15,
+      "max": 20,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 150,
+    "supplier": {
+      "name": "深圳市科技创新有限公司",
+      "location": "深圳",
+      "rating": 4.3,
+      "yearsInBusiness": 3,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {
+      "产地": "深圳",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4.8,
+    "reviewCount": 1958,
+    "salesVolume": 23612,
+    "trend": "stable",
+    "trendValue": 13.4,
+    "region": "深圳"
+  },
+  {
+    "id": "real-32",
+    "name": "行车记录仪 4K高清 厂家直销",
+    "description": "热销安防设备产品，东莞产地，品质保证",
+    "category": "汽车配件",
+    "subcategory": "安防设备",
+    "price": {
+      "min": 142,
+      "max": 193,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 30,
+    "supplier": {
+      "name": "义乌市小商品批发中心",
+      "location": "东莞",
+      "rating": 4.3,
+      "yearsInBusiness": 11,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {
+      "产地": "东莞",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4.9,
+    "reviewCount": 747,
+    "salesVolume": 82731,
+    "trend": "stable",
+    "trendValue": 9.8,
+    "region": "东莞"
+  },
+  {
+    "id": "real-33",
+    "name": "汽车脚垫 全包围 厂家直销",
+    "description": "热销内饰用品产品，台州产地，品质保证",
+    "category": "汽车配件",
+    "subcategory": "内饰用品",
+    "price": {
+      "min": 72,
+      "max": 97,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 40,
+    "supplier": {
+      "name": "广州市服装制造厂",
+      "location": "台州",
+      "rating": 4.9,
+      "yearsInBusiness": 16,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {
+      "产地": "台州",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4.6,
+    "reviewCount": 2208,
+    "salesVolume": 16007,
+    "trend": "stable",
+    "trendValue": 6.2,
+    "region": "台州"
+  },
+  {
+    "id": "real-34",
+    "name": "车载吸尘器 无线充电 厂家直销",
+    "description": "热销清洁用品产品，宁波产地，品质保证",
+    "category": "汽车配件",
+    "subcategory": "清洁用品",
+    "price": {
+      "min": 40,
+      "max": 55,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 80,
+    "supplier": {
+      "name": "宁波市五金工具厂",
+      "location": "宁波",
+      "rating": 4,
+      "yearsInBusiness": 16,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {
+      "产地": "宁波",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4.3,
+    "reviewCount": 390,
+    "salesVolume": 78627,
+    "trend": "up",
+    "trendValue": 15.1,
+    "region": "宁波"
+  },
+  {
+    "id": "real-35",
+    "name": "激光切割机 小型 厂家直销",
+    "description": "热销工业设备产品，济南产地，品质保证",
+    "category": "机械设备",
+    "subcategory": "工业设备",
+    "price": {
+      "min": 2380,
+      "max": 3219,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 5,
+    "supplier": {
+      "name": "苏州市电子科技有限公司",
+      "location": "济南",
+      "rating": 4.4,
+      "yearsInBusiness": 10,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {
+      "产地": "济南",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4.9,
+    "reviewCount": 1142,
+    "salesVolume": 50945,
+    "trend": "up",
+    "trendValue": 22.7,
+    "region": "济南"
+  },
+  {
+    "id": "real-36",
+    "name": "3D打印机 FDM 厂家直销",
+    "description": "热销打印设备产品，深圳产地，品质保证",
+    "category": "机械设备",
+    "subcategory": "打印设备",
+    "price": {
+      "min": 578,
+      "max": 781,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 10,
+    "supplier": {
+      "name": "佛山市家居用品厂",
+      "location": "深圳",
+      "rating": 4.7,
+      "yearsInBusiness": 9,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {
+      "产地": "深圳",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 5,
+    "reviewCount": 2760,
+    "salesVolume": 48882,
+    "trend": "up",
+    "trendValue": 17.3,
+    "region": "深圳"
+  },
+  {
+    "id": "real-37",
+    "name": "电动螺丝刀套装 厂家直销",
+    "description": "热销工具产品，永康产地，品质保证",
+    "category": "机械设备",
+    "subcategory": "工具",
+    "price": {
+      "min": 29,
+      "max": 40,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 100,
+    "supplier": {
+      "name": "温州市眼镜制造厂",
+      "location": "永康",
+      "rating": 4,
+      "yearsInBusiness": 16,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {
+      "产地": "永康",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4,
+    "reviewCount": 1490,
+    "salesVolume": 68966,
+    "trend": "stable",
+    "trendValue": 8.6,
+    "region": "永康"
+  },
+  {
+    "id": "real-38",
+    "name": "小型挖掘机 1吨 厂家直销",
+    "description": "热销工程机械产品，济宁产地，品质保证",
+    "category": "机械设备",
+    "subcategory": "工程机械",
+    "price": {
+      "min": 7225,
+      "max": 9775,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 3,
+    "supplier": {
+      "name": "东莞市玩具礼品厂",
+      "location": "济宁",
+      "rating": 3.9,
+      "yearsInBusiness": 7,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {
+      "产地": "济宁",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4.5,
+    "reviewCount": 2031,
+    "salesVolume": 29220,
+    "trend": "up",
+    "trendValue": 31.2,
+    "region": "济宁"
+  },
+  {
+    "id": "real-39",
+    "name": "电子血压计 上臂式 厂家直销",
+    "description": "热销检测仪器产品，深圳产地，品质保证",
+    "category": "医疗器械",
+    "subcategory": "检测仪器",
+    "price": {
+      "min": 57,
+      "max": 78,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 50,
+    "supplier": {
+      "name": "上海市医疗器械公司",
+      "location": "深圳",
+      "rating": 4.3,
+      "yearsInBusiness": 10,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {
+      "产地": "深圳",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4.2,
+    "reviewCount": 2873,
+    "salesVolume": 69413,
+    "trend": "stable",
+    "trendValue": 14.8,
+    "region": "深圳"
+  },
+  {
+    "id": "real-40",
+    "name": "血氧仪 指夹式 厂家直销",
+    "description": "热销检测仪器产品，深圳产地，品质保证",
+    "category": "医疗器械",
+    "subcategory": "检测仪器",
+    "price": {
+      "min": 21,
+      "max": 28,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 100,
+    "supplier": {
+      "name": "青岛市化工有限公司",
+      "location": "深圳",
+      "rating": 4.5,
+      "yearsInBusiness": 16,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {
+      "产地": "深圳",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4.5,
+    "reviewCount": 694,
+    "salesVolume": 39226,
+    "trend": "stable",
+    "trendValue": 6.5,
+    "region": "深圳"
+  },
+  {
+    "id": "real-41",
+    "name": "体温计 红外额温 厂家直销",
+    "description": "热销检测仪器产品，东莞产地，品质保证",
+    "category": "医疗器械",
+    "subcategory": "检测仪器",
+    "price": {
+      "min": 15,
+      "max": 20,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 200,
+    "supplier": {
+      "name": "杭州市智能家居厂",
+      "location": "东莞",
+      "rating": 4.5,
+      "yearsInBusiness": 14,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {
+      "产地": "东莞",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4.2,
+    "reviewCount": 2443,
+    "salesVolume": 20678,
+    "trend": "down",
+    "trendValue": 4.2,
+    "region": "东莞"
+  },
+  {
+    "id": "real-42",
+    "name": "按摩椅 全身自动 厂家直销",
+    "description": "热销康复设备产品，宁德产地，品质保证",
+    "category": "医疗器械",
+    "subcategory": "康复设备",
+    "price": {
+      "min": 2380,
+      "max": 3219,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 5,
+    "supplier": {
+      "name": "厦门市户外用品公司",
+      "location": "宁德",
+      "rating": 4.8,
+      "yearsInBusiness": 8,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {
+      "产地": "宁德",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4.7,
+    "reviewCount": 2103,
+    "salesVolume": 52261,
+    "trend": "up",
+    "trendValue": 19.6,
+    "region": "宁德"
+  },
+  {
+    "id": "real-43",
+    "name": "益智积木 1000片 厂家直销",
+    "description": "热销益智玩具产品，汕头产地，品质保证",
+    "category": "玩具礼品",
+    "subcategory": "益智玩具",
+    "price": {
+      "min": 27,
+      "max": 36,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 80,
+    "supplier": {
+      "name": "泉州市运动器材厂",
+      "location": "汕头",
+      "rating": 3.8,
+      "yearsInBusiness": 2,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {
+      "产地": "汕头",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4.7,
+    "reviewCount": 527,
+    "salesVolume": 39492,
+    "trend": "stable",
+    "trendValue": 10.3,
+    "region": "汕头"
+  },
+  {
+    "id": "real-44",
+    "name": "遥控无人机 4K航拍 厂家直销",
+    "description": "热销遥控玩具产品，深圳产地，品质保证",
+    "category": "玩具礼品",
+    "subcategory": "遥控玩具",
+    "price": {
+      "min": 227,
+      "max": 308,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 20,
+    "supplier": {
+      "name": "天津市自行车厂",
+      "location": "深圳",
+      "rating": 5,
+      "yearsInBusiness": 13,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {
+      "产地": "深圳",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 5,
+    "reviewCount": 942,
+    "salesVolume": 12554,
+    "trend": "up",
+    "trendValue": 25.7,
+    "region": "深圳"
+  },
+  {
+    "id": "real-45",
+    "name": "毛绒玩具 大号公仔 厂家直销",
+    "description": "热销毛绒玩具产品，扬州产地，品质保证",
+    "category": "玩具礼品",
+    "subcategory": "毛绒玩具",
+    "price": {
+      "min": 23,
+      "max": 32,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 100,
+    "supplier": {
+      "name": "中山市灯具厂",
+      "location": "扬州",
+      "rating": 4.9,
+      "yearsInBusiness": 5,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {
+      "产地": "扬州",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4.1,
+    "reviewCount": 485,
+    "salesVolume": 26041,
+    "trend": "stable",
+    "trendValue": 7.4,
+    "region": "扬州"
+  },
+  {
+    "id": "real-46",
+    "name": "创意礼品 定制logo 厂家直销",
+    "description": "热销礼品产品，义乌产地，品质保证",
+    "category": "玩具礼品",
+    "subcategory": "礼品",
+    "price": {
+      "min": 12,
+      "max": 17,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 200,
+    "supplier": {
+      "name": "深圳市科技创新有限公司",
+      "location": "义乌",
+      "rating": 4,
+      "yearsInBusiness": 5,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {
+      "产地": "义乌",
+      "材质": "优质材料",
+      "认证": "CE, FCC, ROHS"
+    },
+    "rating": 4.3,
+    "reviewCount": 188,
+    "salesVolume": 39747,
+    "trend": "stable",
+    "trendValue": 12.1,
+    "region": "义乌"
+  },
+  {
+    "id": "real-47",
+    "name": "热销太阳能 贴牌",
+    "description": "江苏产地，现货供应",
+    "category": "新能源",
+    "subcategory": "太阳能",
+    "price": {
+      "min": 237,
+      "max": 289,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 74,
+    "supplier": {
+      "name": "青岛市化工有限公司",
+      "location": "江苏",
+      "rating": 4.9,
+      "yearsInBusiness": 12,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.3,
+    "reviewCount": 1895,
+    "salesVolume": 19552,
+    "trend": "stable",
+    "trendValue": 29.9,
+    "region": "江苏"
+  },
+  {
+    "id": "real-48",
+    "name": "热销储能电池 定制",
+    "description": "广东产地，量大从优",
+    "category": "新能源",
+    "subcategory": "储能电池",
+    "price": {
+      "min": 1019,
+      "max": 1246,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 16,
+    "supplier": {
+      "name": "中山市灯具厂",
+      "location": "广东",
+      "rating": 4.2,
+      "yearsInBusiness": 4,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 5,
+    "reviewCount": 796,
+    "salesVolume": 44867,
+    "trend": "up",
+    "trendValue": 15.7,
+    "region": "广东"
+  },
+  {
+    "id": "real-49",
+    "name": "热销储能设备 贴牌",
+    "description": "浙江产地，品质保证",
+    "category": "新能源",
+    "subcategory": "储能设备",
+    "price": {
+      "min": 591,
+      "max": 723,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 36,
+    "supplier": {
+      "name": "杭州市智能家居厂",
+      "location": "浙江",
+      "rating": 3.8,
+      "yearsInBusiness": 11,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.8,
+    "reviewCount": 1674,
+    "salesVolume": 4925,
+    "trend": "up",
+    "trendValue": 24.6,
+    "region": "浙江"
+  },
+  {
+    "id": "real-50",
+    "name": "热销充电设备 批发",
+    "description": "广东产地，量大从优",
+    "category": "新能源",
+    "subcategory": "充电设备",
+    "price": {
+      "min": 667,
+      "max": 816,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 6,
+    "supplier": {
+      "name": "义乌市小商品批发中心",
+      "location": "广东",
+      "rating": 3.6,
+      "yearsInBusiness": 15,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.8,
+    "reviewCount": 125,
+    "salesVolume": 19778,
+    "trend": "down",
+    "trendValue": 1.4,
+    "region": "广东"
+  },
+  {
+    "id": "real-51",
+    "name": "热销耳机音响 批发",
+    "description": "广东产地，量大从优",
+    "category": "电子产品",
+    "subcategory": "耳机音响",
+    "price": {
+      "min": 43,
+      "max": 52,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 85,
+    "supplier": {
+      "name": "苏州市电子科技有限公司",
+      "location": "广东",
+      "rating": 3.8,
+      "yearsInBusiness": 2,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.4,
+    "reviewCount": 1496,
+    "salesVolume": 10453,
+    "trend": "stable",
+    "trendValue": 7.3,
+    "region": "广东"
+  },
+  {
+    "id": "real-52",
+    "name": "热销智能穿戴 批发",
+    "description": "深圳产地，现货供应",
+    "category": "电子产品",
+    "subcategory": "智能穿戴",
+    "price": {
+      "min": 137,
+      "max": 168,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 74,
+    "supplier": {
+      "name": "义乌市小商品批发中心",
+      "location": "深圳",
+      "rating": 3.8,
+      "yearsInBusiness": 3,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 5,
+    "reviewCount": 1873,
+    "salesVolume": 3756,
+    "trend": "up",
+    "trendValue": 15.8,
+    "region": "深圳"
+  },
+  {
+    "id": "real-53",
+    "name": "热销充电设备 定制",
+    "description": "东莞产地，现货供应",
+    "category": "电子产品",
+    "subcategory": "充电设备",
+    "price": {
+      "min": 25,
+      "max": 31,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 282,
+    "supplier": {
+      "name": "杭州市智能家居厂",
+      "location": "东莞",
+      "rating": 4.8,
+      "yearsInBusiness": 5,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.7,
+    "reviewCount": 433,
+    "salesVolume": 34034,
+    "trend": "up",
+    "trendValue": 23.5,
+    "region": "东莞"
+  },
+  {
+    "id": "real-54",
+    "name": "热销手机配件 批发",
+    "description": "深圳产地，一件代发",
+    "category": "电子产品",
+    "subcategory": "手机配件",
+    "price": {
+      "min": 29,
+      "max": 35,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 85,
+    "supplier": {
+      "name": "天津市自行车厂",
+      "location": "深圳",
+      "rating": 4.1,
+      "yearsInBusiness": 7,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.9,
+    "reviewCount": 1888,
+    "salesVolume": 45541,
+    "trend": "up",
+    "trendValue": 3.6,
+    "region": "深圳"
+  },
+  {
+    "id": "real-55",
+    "name": "热销平板电脑 贴牌",
+    "description": "深圳产地，一件代发",
+    "category": "电子产品",
+    "subcategory": "平板电脑",
+    "price": {
+      "min": 510,
+      "max": 623,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 32,
+    "supplier": {
+      "name": "佛山市家居用品厂",
+      "location": "深圳",
+      "rating": 3.9,
+      "yearsInBusiness": 8,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.9,
+    "reviewCount": 1108,
+    "salesVolume": 2593,
+    "trend": "up",
+    "trendValue": 22.9,
+    "region": "深圳"
+  },
+  {
+    "id": "real-56",
+    "name": "热销智能家居 批发",
+    "description": "杭州产地，一件代发",
+    "category": "电子产品",
+    "subcategory": "智能家居",
+    "price": {
+      "min": 189,
+      "max": 231,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 53,
+    "supplier": {
+      "name": "宁波市五金工具厂",
+      "location": "杭州",
+      "rating": 4.2,
+      "yearsInBusiness": 14,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.8,
+    "reviewCount": 499,
+    "salesVolume": 31368,
+    "trend": "stable",
+    "trendValue": 6.4,
+    "region": "杭州"
+  },
+  {
+    "id": "real-57",
+    "name": "热销收纳用品 贴牌",
+    "description": "义乌产地，量大从优",
+    "category": "家居用品",
+    "subcategory": "收纳用品",
+    "price": {
+      "min": 11,
+      "max": 13,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 410,
+    "supplier": {
+      "name": "宁波市五金工具厂",
+      "location": "义乌",
+      "rating": 4.7,
+      "yearsInBusiness": 10,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.8,
+    "reviewCount": 823,
+    "salesVolume": 32518,
+    "trend": "stable",
+    "trendValue": 3.2,
+    "region": "义乌"
+  },
+  {
+    "id": "real-58",
+    "name": "热销灯具照明 代工",
+    "description": "中山产地，现货供应",
+    "category": "家居用品",
+    "subcategory": "灯具照明",
+    "price": {
+      "min": 49,
+      "max": 60,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 84,
+    "supplier": {
+      "name": "中山市灯具厂",
+      "location": "中山",
+      "rating": 4.2,
+      "yearsInBusiness": 12,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.9,
+    "reviewCount": 440,
+    "salesVolume": 45834,
+    "trend": "stable",
+    "trendValue": 9.3,
+    "region": "中山"
+  },
+  {
+    "id": "real-59",
+    "name": "热销厨房用品 代工",
+    "description": "揭阳产地，品质保证",
+    "category": "家居用品",
+    "subcategory": "厨房用品",
+    "price": {
+      "min": 44,
+      "max": 54,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 70,
+    "supplier": {
+      "name": "佛山市家居用品厂",
+      "location": "揭阳",
+      "rating": 3.5,
+      "yearsInBusiness": 9,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 5,
+    "reviewCount": 452,
+    "salesVolume": 24583,
+    "trend": "up",
+    "trendValue": -4,
+    "region": "揭阳"
+  },
+  {
+    "id": "real-60",
+    "name": "热销安防设备 代工",
+    "description": "深圳产地，量大从优",
+    "category": "家居用品",
+    "subcategory": "安防设备",
+    "price": {
+      "min": 332,
+      "max": 406,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 25,
+    "supplier": {
+      "name": "温州市眼镜制造厂",
+      "location": "深圳",
+      "rating": 3.6,
+      "yearsInBusiness": 4,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.2,
+    "reviewCount": 407,
+    "salesVolume": 33982,
+    "trend": "down",
+    "trendValue": 10.7,
+    "region": "深圳"
+  },
+  {
+    "id": "real-61",
+    "name": "热销清洁电器 代工",
+    "description": "苏州产地，品质保证",
+    "category": "家居用品",
+    "subcategory": "清洁电器",
+    "price": {
+      "min": 661,
+      "max": 808,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 14,
+    "supplier": {
+      "name": "义乌市小商品批发中心",
+      "location": "苏州",
+      "rating": 4.5,
+      "yearsInBusiness": 8,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.7,
+    "reviewCount": 1231,
+    "salesVolume": 21498,
+    "trend": "stable",
+    "trendValue": 7.1,
+    "region": "苏州"
+  },
+  {
+    "id": "real-62",
+    "name": "热销床上用品 定制",
+    "description": "南通产地，品质保证",
+    "category": "家居用品",
+    "subcategory": "床上用品",
+    "price": {
+      "min": 89,
+      "max": 109,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 33,
+    "supplier": {
+      "name": "深圳市科技创新有限公司",
+      "location": "南通",
+      "rating": 4.1,
+      "yearsInBusiness": 14,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.1,
+    "reviewCount": 561,
+    "salesVolume": 49193,
+    "trend": "up",
+    "trendValue": 14.5,
+    "region": "南通"
+  },
+  {
+    "id": "real-63",
+    "name": "热销运动服装 代工",
+    "description": "泉州产地，一件代发",
+    "category": "纺织服装",
+    "subcategory": "运动服装",
+    "price": {
+      "min": 39,
+      "max": 47,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 132,
+    "supplier": {
+      "name": "宁波市五金工具厂",
+      "location": "泉州",
+      "rating": 3.9,
+      "yearsInBusiness": 5,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.6,
+    "reviewCount": 1550,
+    "salesVolume": 4748,
+    "trend": "stable",
+    "trendValue": 20.1,
+    "region": "泉州"
+  },
+  {
+    "id": "real-64",
+    "name": "热销户外服装 批发",
+    "description": "石狮产地，一件代发",
+    "category": "纺织服装",
+    "subcategory": "户外服装",
+    "price": {
+      "min": 36,
+      "max": 44,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 69,
+    "supplier": {
+      "name": "深圳市科技创新有限公司",
+      "location": "石狮",
+      "rating": 4,
+      "yearsInBusiness": 6,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.8,
+    "reviewCount": 580,
+    "salesVolume": 41581,
+    "trend": "stable",
+    "trendValue": 22.3,
+    "region": "石狮"
+  },
+  {
+    "id": "real-65",
+    "name": "热销T恤 代工",
+    "description": "广州产地，量大从优",
+    "category": "纺织服装",
+    "subcategory": "T恤",
+    "price": {
+      "min": 16,
+      "max": 20,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 219,
+    "supplier": {
+      "name": "佛山市家居用品厂",
+      "location": "广州",
+      "rating": 3.8,
+      "yearsInBusiness": 4,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.6,
+    "reviewCount": 1484,
+    "salesVolume": 32047,
+    "trend": "stable",
+    "trendValue": 7,
+    "region": "广州"
+  },
+  {
+    "id": "real-66",
+    "name": "热销内衣 贴牌",
+    "description": "义乌产地，一件代发",
+    "category": "纺织服装",
+    "subcategory": "内衣",
+    "price": {
+      "min": 33,
+      "max": 40,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 63,
+    "supplier": {
+      "name": "温州市眼镜制造厂",
+      "location": "义乌",
+      "rating": 4.3,
+      "yearsInBusiness": 12,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.7,
+    "reviewCount": 1713,
+    "salesVolume": 32214,
+    "trend": "stable",
+    "trendValue": 24.7,
+    "region": "义乌"
+  },
+  {
+    "id": "real-67",
+    "name": "热销外套 批发",
+    "description": "泉州产地，品质保证",
+    "category": "纺织服装",
+    "subcategory": "外套",
+    "price": {
+      "min": 131,
+      "max": 160,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 64,
+    "supplier": {
+      "name": "厦门市户外用品公司",
+      "location": "泉州",
+      "rating": 3.8,
+      "yearsInBusiness": 3,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.7,
+    "reviewCount": 1702,
+    "salesVolume": 36640,
+    "trend": "up",
+    "trendValue": 12.4,
+    "region": "泉州"
+  },
+  {
+    "id": "real-68",
+    "name": "热销露营装备 定制",
+    "description": "厦门产地，一件代发",
+    "category": "运动户外",
+    "subcategory": "露营装备",
+    "price": {
+      "min": 149,
+      "max": 183,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 38,
+    "supplier": {
+      "name": "宁波市五金工具厂",
+      "location": "厦门",
+      "rating": 4,
+      "yearsInBusiness": 10,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4,
+    "reviewCount": 1324,
+    "salesVolume": 28814,
+    "trend": "down",
+    "trendValue": 0.9,
+    "region": "厦门"
+  },
+  {
+    "id": "real-69",
+    "name": "热销自行车 贴牌",
+    "description": "天津产地，品质保证",
+    "category": "运动户外",
+    "subcategory": "自行车",
+    "price": {
+      "min": 358,
+      "max": 438,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 15,
+    "supplier": {
+      "name": "深圳市科技创新有限公司",
+      "location": "天津",
+      "rating": 4.4,
+      "yearsInBusiness": 6,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 5,
+    "reviewCount": 1274,
+    "salesVolume": 37446,
+    "trend": "stable",
+    "trendValue": 18.6,
+    "region": "天津"
+  },
+  {
+    "id": "real-70",
+    "name": "热销户外背包 贴牌",
+    "description": "泉州产地，品质保证",
+    "category": "运动户外",
+    "subcategory": "户外背包",
+    "price": {
+      "min": 79,
+      "max": 97,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 37,
+    "supplier": {
+      "name": "广州市服装制造厂",
+      "location": "泉州",
+      "rating": 4.2,
+      "yearsInBusiness": 10,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.6,
+    "reviewCount": 922,
+    "salesVolume": 36359,
+    "trend": "up",
+    "trendValue": -7.5,
+    "region": "泉州"
+  },
+  {
+    "id": "real-71",
+    "name": "热销瑜伽用品 批发",
+    "description": "东莞产地，量大从优",
+    "category": "运动户外",
+    "subcategory": "瑜伽用品",
+    "price": {
+      "min": 24,
+      "max": 30,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 217,
+    "supplier": {
+      "name": "深圳市科技创新有限公司",
+      "location": "东莞",
+      "rating": 4.3,
+      "yearsInBusiness": 9,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.4,
+    "reviewCount": 697,
+    "salesVolume": 15851,
+    "trend": "up",
+    "trendValue": 18.8,
+    "region": "东莞"
+  },
+  {
+    "id": "real-72",
+    "name": "热销健身器材 贴牌",
+    "description": "永康产地，一件代发",
+    "category": "运动户外",
+    "subcategory": "健身器材",
+    "price": {
+      "min": 78,
+      "max": 95,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 67,
+    "supplier": {
+      "name": "义乌市小商品批发中心",
+      "location": "永康",
+      "rating": 4.6,
+      "yearsInBusiness": 11,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.8,
+    "reviewCount": 1527,
+    "salesVolume": 25851,
+    "trend": "stable",
+    "trendValue": 6.4,
+    "region": "永康"
+  },
+  {
+    "id": "real-73",
+    "name": "热销口腔护理 代工",
+    "description": "宁波产地，现货供应",
+    "category": "美妆个护",
+    "subcategory": "口腔护理",
+    "price": {
+      "min": 51,
+      "max": 62,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 70,
+    "supplier": {
+      "name": "泉州市运动器材厂",
+      "location": "宁波",
+      "rating": 3.5,
+      "yearsInBusiness": 13,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.5,
+    "reviewCount": 1363,
+    "salesVolume": 32541,
+    "trend": "up",
+    "trendValue": -2.2,
+    "region": "宁波"
+  },
+  {
+    "id": "real-74",
+    "name": "热销面部护理 贴牌",
+    "description": "深圳产地，量大从优",
+    "category": "美妆个护",
+    "subcategory": "面部护理",
+    "price": {
+      "min": 33,
+      "max": 40,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 144,
+    "supplier": {
+      "name": "中山市灯具厂",
+      "location": "深圳",
+      "rating": 3.9,
+      "yearsInBusiness": 1,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 5,
+    "reviewCount": 356,
+    "salesVolume": 1555,
+    "trend": "stable",
+    "trendValue": 2.6,
+    "region": "深圳"
+  },
+  {
+    "id": "real-75",
+    "name": "热销美发工具 批发",
+    "description": "东莞产地，品质保证",
+    "category": "美妆个护",
+    "subcategory": "美发工具",
+    "price": {
+      "min": 83,
+      "max": 102,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 69,
+    "supplier": {
+      "name": "杭州市智能家居厂",
+      "location": "东莞",
+      "rating": 4.3,
+      "yearsInBusiness": 6,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.1,
+    "reviewCount": 621,
+    "salesVolume": 4780,
+    "trend": "up",
+    "trendValue": -5.3,
+    "region": "东莞"
+  },
+  {
+    "id": "real-76",
+    "name": "热销美甲工具 贴牌",
+    "description": "义乌产地，现货供应",
+    "category": "美妆个护",
+    "subcategory": "美甲工具",
+    "price": {
+      "min": 18,
+      "max": 22,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 236,
+    "supplier": {
+      "name": "中山市灯具厂",
+      "location": "义乌",
+      "rating": 4.3,
+      "yearsInBusiness": 4,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.6,
+    "reviewCount": 718,
+    "salesVolume": 16263,
+    "trend": "up",
+    "trendValue": 9.8,
+    "region": "义乌"
+  },
+  {
+    "id": "real-77",
+    "name": "热销车载电子 批发",
+    "description": "深圳产地，一件代发",
+    "category": "汽车配件",
+    "subcategory": "车载电子",
+    "price": {
+      "min": 13,
+      "max": 16,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 117,
+    "supplier": {
+      "name": "杭州市智能家居厂",
+      "location": "深圳",
+      "rating": 4.4,
+      "yearsInBusiness": 9,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.4,
+    "reviewCount": 260,
+    "salesVolume": 26281,
+    "trend": "stable",
+    "trendValue": 15.7,
+    "region": "深圳"
+  },
+  {
+    "id": "real-78",
+    "name": "热销安防设备 定制",
+    "description": "东莞产地，量大从优",
+    "category": "汽车配件",
+    "subcategory": "安防设备",
+    "price": {
+      "min": 174,
+      "max": 213,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 34,
+    "supplier": {
+      "name": "杭州市智能家居厂",
+      "location": "东莞",
+      "rating": 4.2,
+      "yearsInBusiness": 15,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.4,
+    "reviewCount": 1736,
+    "salesVolume": 17063,
+    "trend": "up",
+    "trendValue": 26.9,
+    "region": "东莞"
+  },
+  {
+    "id": "real-79",
+    "name": "热销内饰用品 定制",
+    "description": "台州产地，量大从优",
+    "category": "汽车配件",
+    "subcategory": "内饰用品",
+    "price": {
+      "min": 69,
+      "max": 84,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 27,
+    "supplier": {
+      "name": "泉州市运动器材厂",
+      "location": "台州",
+      "rating": 4.5,
+      "yearsInBusiness": 8,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 5,
+    "reviewCount": 1228,
+    "salesVolume": 47195,
+    "trend": "down",
+    "trendValue": 24.7,
+    "region": "台州"
+  },
+  {
+    "id": "real-80",
+    "name": "热销清洁用品 批发",
+    "description": "宁波产地，一件代发",
+    "category": "汽车配件",
+    "subcategory": "清洁用品",
+    "price": {
+      "min": 36,
+      "max": 44,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 84,
+    "supplier": {
+      "name": "杭州市智能家居厂",
+      "location": "宁波",
+      "rating": 3.8,
+      "yearsInBusiness": 3,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.7,
+    "reviewCount": 1509,
+    "salesVolume": 31883,
+    "trend": "down",
+    "trendValue": -7.4,
+    "region": "宁波"
+  },
+  {
+    "id": "real-81",
+    "name": "热销工业设备 批发",
+    "description": "济南产地，量大从优",
+    "category": "机械设备",
+    "subcategory": "工业设备",
+    "price": {
+      "min": 2344,
+      "max": 2866,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 6,
+    "supplier": {
+      "name": "杭州市智能家居厂",
+      "location": "济南",
+      "rating": 4.8,
+      "yearsInBusiness": 7,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4,
+    "reviewCount": 672,
+    "salesVolume": 18597,
+    "trend": "down",
+    "trendValue": 3.9,
+    "region": "济南"
+  },
+  {
+    "id": "real-82",
+    "name": "热销打印设备 定制",
+    "description": "深圳产地，品质保证",
+    "category": "机械设备",
+    "subcategory": "打印设备",
+    "price": {
+      "min": 644,
+      "max": 788,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 5,
+    "supplier": {
+      "name": "天津市自行车厂",
+      "location": "深圳",
+      "rating": 3.7,
+      "yearsInBusiness": 14,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.4,
+    "reviewCount": 634,
+    "salesVolume": 2982,
+    "trend": "down",
+    "trendValue": 12.6,
+    "region": "深圳"
+  },
+  {
+    "id": "real-83",
+    "name": "热销工具 代工",
+    "description": "永康产地，一件代发",
+    "category": "机械设备",
+    "subcategory": "工具",
+    "price": {
+      "min": 31,
+      "max": 38,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 85,
+    "supplier": {
+      "name": "佛山市家居用品厂",
+      "location": "永康",
+      "rating": 4.8,
+      "yearsInBusiness": 3,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.4,
+    "reviewCount": 581,
+    "salesVolume": 39907,
+    "trend": "up",
+    "trendValue": -2.2,
+    "region": "永康"
+  },
+  {
+    "id": "real-84",
+    "name": "热销工程机械 批发",
+    "description": "济宁产地，量大从优",
+    "category": "机械设备",
+    "subcategory": "工程机械",
+    "price": {
+      "min": 8047,
+      "max": 9836,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 3,
+    "supplier": {
+      "name": "厦门市户外用品公司",
+      "location": "济宁",
+      "rating": 3.6,
+      "yearsInBusiness": 7,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.7,
+    "reviewCount": 1257,
+    "salesVolume": 12005,
+    "trend": "down",
+    "trendValue": 11.5,
+    "region": "济宁"
+  },
+  {
+    "id": "real-85",
+    "name": "热销检测仪器 定制",
+    "description": "深圳产地，量大从优",
+    "category": "医疗器械",
+    "subcategory": "检测仪器",
+    "price": {
+      "min": 53,
+      "max": 65,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 74,
+    "supplier": {
+      "name": "温州市眼镜制造厂",
+      "location": "深圳",
+      "rating": 4.2,
+      "yearsInBusiness": 15,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 5,
+    "reviewCount": 381,
+    "salesVolume": 4737,
+    "trend": "up",
+    "trendValue": -0.7,
+    "region": "深圳"
+  },
+  {
+    "id": "real-86",
+    "name": "热销检测仪器 代工",
+    "description": "深圳产地，一件代发",
+    "category": "医疗器械",
+    "subcategory": "检测仪器",
+    "price": {
+      "min": 19,
+      "max": 23,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 102,
+    "supplier": {
+      "name": "天津市自行车厂",
+      "location": "深圳",
+      "rating": 4.5,
+      "yearsInBusiness": 6,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.9,
+    "reviewCount": 1903,
+    "salesVolume": 25184,
+    "trend": "up",
+    "trendValue": -3.1,
+    "region": "深圳"
+  },
+  {
+    "id": "real-87",
+    "name": "热销检测仪器 代工",
+    "description": "东莞产地，一件代发",
+    "category": "医疗器械",
+    "subcategory": "检测仪器",
+    "price": {
+      "min": 14,
+      "max": 17,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 251,
+    "supplier": {
+      "name": "苏州市电子科技有限公司",
+      "location": "东莞",
+      "rating": 4.8,
+      "yearsInBusiness": 1,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 5,
+    "reviewCount": 603,
+    "salesVolume": 17070,
+    "trend": "stable",
+    "trendValue": 18.6,
+    "region": "东莞"
+  },
+  {
+    "id": "real-88",
+    "name": "热销康复设备 批发",
+    "description": "宁德产地，品质保证",
+    "category": "医疗器械",
+    "subcategory": "康复设备",
+    "price": {
+      "min": 2415,
+      "max": 2952,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 3,
+    "supplier": {
+      "name": "天津市自行车厂",
+      "location": "宁德",
+      "rating": 3.8,
+      "yearsInBusiness": 11,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.4,
+    "reviewCount": 1087,
+    "salesVolume": 9448,
+    "trend": "stable",
+    "trendValue": 24,
+    "region": "宁德"
+  },
+  {
+    "id": "real-89",
+    "name": "热销益智玩具 代工",
+    "description": "汕头产地，品质保证",
+    "category": "玩具礼品",
+    "subcategory": "益智玩具",
+    "price": {
+      "min": 33,
+      "max": 41,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 57,
+    "supplier": {
+      "name": "杭州市智能家居厂",
+      "location": "汕头",
+      "rating": 4.7,
+      "yearsInBusiness": 9,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.3,
+    "reviewCount": 1733,
+    "salesVolume": 41857,
+    "trend": "up",
+    "trendValue": -6.4,
+    "region": "汕头"
+  },
+  {
+    "id": "real-90",
+    "name": "热销遥控玩具 代工",
+    "description": "深圳产地，一件代发",
+    "category": "玩具礼品",
+    "subcategory": "遥控玩具",
+    "price": {
+      "min": 273,
+      "max": 334,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 26,
+    "supplier": {
+      "name": "泉州市运动器材厂",
+      "location": "深圳",
+      "rating": 4.4,
+      "yearsInBusiness": 13,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.3,
+    "reviewCount": 353,
+    "salesVolume": 9105,
+    "trend": "stable",
+    "trendValue": -6.4,
+    "region": "深圳"
+  },
+  {
+    "id": "real-91",
+    "name": "热销毛绒玩具 代工",
+    "description": "扬州产地，量大从优",
+    "category": "玩具礼品",
+    "subcategory": "毛绒玩具",
+    "price": {
+      "min": 27,
+      "max": 33,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 144,
+    "supplier": {
+      "name": "中山市灯具厂",
+      "location": "扬州",
+      "rating": 4.9,
+      "yearsInBusiness": 9,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.7,
+    "reviewCount": 1175,
+    "salesVolume": 35714,
+    "trend": "stable",
+    "trendValue": 16.5,
+    "region": "扬州"
+  },
+  {
+    "id": "real-92",
+    "name": "热销礼品 定制",
+    "description": "义乌产地，量大从优",
+    "category": "玩具礼品",
+    "subcategory": "礼品",
+    "price": {
+      "min": 13,
+      "max": 16,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 272,
+    "supplier": {
+      "name": "上海市医疗器械公司",
+      "location": "义乌",
+      "rating": 4.7,
+      "yearsInBusiness": 3,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.1,
+    "reviewCount": 239,
+    "salesVolume": 26204,
+    "trend": "up",
+    "trendValue": 10.9,
+    "region": "义乌"
+  },
+  {
+    "id": "real-93",
+    "name": "热销太阳能 代工",
+    "description": "江苏产地，一件代发",
+    "category": "新能源",
+    "subcategory": "太阳能",
+    "price": {
+      "min": 246,
+      "max": 301,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 62,
+    "supplier": {
+      "name": "苏州市电子科技有限公司",
+      "location": "江苏",
+      "rating": 3.8,
+      "yearsInBusiness": 3,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.8,
+    "reviewCount": 450,
+    "salesVolume": 29469,
+    "trend": "up",
+    "trendValue": 25.4,
+    "region": "江苏"
+  },
+  {
+    "id": "real-94",
+    "name": "热销储能电池 批发",
+    "description": "广东产地，品质保证",
+    "category": "新能源",
+    "subcategory": "储能电池",
+    "price": {
+      "min": 1152,
+      "max": 1408,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 26,
+    "supplier": {
+      "name": "义乌市小商品批发中心",
+      "location": "广东",
+      "rating": 4.4,
+      "yearsInBusiness": 5,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.7,
+    "reviewCount": 633,
+    "salesVolume": 19961,
+    "trend": "stable",
+    "trendValue": -7.3,
+    "region": "广东"
+  },
+  {
+    "id": "real-95",
+    "name": "热销储能设备 批发",
+    "description": "浙江产地，现货供应",
+    "category": "新能源",
+    "subcategory": "储能设备",
+    "price": {
+      "min": 652,
+      "max": 797,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 21,
+    "supplier": {
+      "name": "上海市医疗器械公司",
+      "location": "浙江",
+      "rating": 4,
+      "yearsInBusiness": 14,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.2,
+    "reviewCount": 1418,
+    "salesVolume": 686,
+    "trend": "up",
+    "trendValue": 26,
+    "region": "浙江"
+  },
+  {
+    "id": "real-96",
+    "name": "热销充电设备 代工",
+    "description": "广东产地，品质保证",
+    "category": "新能源",
+    "subcategory": "充电设备",
+    "price": {
+      "min": 751,
+      "max": 917,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 6,
+    "supplier": {
+      "name": "泉州市运动器材厂",
+      "location": "广东",
+      "rating": 3.9,
+      "yearsInBusiness": 3,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.3,
+    "reviewCount": 1861,
+    "salesVolume": 22899,
+    "trend": "up",
+    "trendValue": 18.1,
+    "region": "广东"
+  },
+  {
+    "id": "real-97",
+    "name": "热销耳机音响 代工",
+    "description": "广东产地，量大从优",
+    "category": "电子产品",
+    "subcategory": "耳机音响",
+    "price": {
+      "min": 34,
+      "max": 42,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 76,
+    "supplier": {
+      "name": "深圳市科技创新有限公司",
+      "location": "广东",
+      "rating": 4.2,
+      "yearsInBusiness": 13,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.9,
+    "reviewCount": 1268,
+    "salesVolume": 30340,
+    "trend": "up",
+    "trendValue": 9.6,
+    "region": "广东"
+  },
+  {
+    "id": "real-98",
+    "name": "热销智能穿戴 定制",
+    "description": "深圳产地，品质保证",
+    "category": "电子产品",
+    "subcategory": "智能穿戴",
+    "price": {
+      "min": 130,
+      "max": 159,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 67,
+    "supplier": {
+      "name": "中山市灯具厂",
+      "location": "深圳",
+      "rating": 4.9,
+      "yearsInBusiness": 6,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.5,
+    "reviewCount": 568,
+    "salesVolume": 38647,
+    "trend": "stable",
+    "trendValue": -6.5,
+    "region": "深圳"
+  },
+  {
+    "id": "real-99",
+    "name": "热销充电设备 贴牌",
+    "description": "东莞产地，一件代发",
+    "category": "电子产品",
+    "subcategory": "充电设备",
+    "price": {
+      "min": 36,
+      "max": 44,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 214,
+    "supplier": {
+      "name": "佛山市家居用品厂",
+      "location": "东莞",
+      "rating": 4.5,
+      "yearsInBusiness": 4,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.5,
+    "reviewCount": 273,
+    "salesVolume": 28256,
+    "trend": "up",
+    "trendValue": 2.1,
+    "region": "东莞"
+  },
+  {
+    "id": "real-100",
+    "name": "热销手机配件 代工",
+    "description": "深圳产地，量大从优",
+    "category": "电子产品",
+    "subcategory": "手机配件",
+    "price": {
+      "min": 26,
+      "max": 32,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 159,
+    "supplier": {
+      "name": "温州市眼镜制造厂",
+      "location": "深圳",
+      "rating": 3.6,
+      "yearsInBusiness": 10,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.9,
+    "reviewCount": 326,
+    "salesVolume": 29831,
+    "trend": "up",
+    "trendValue": 0.3,
+    "region": "深圳"
+  },
+  {
+    "id": "real-101",
+    "name": "热销平板电脑 贴牌",
+    "description": "深圳产地，一件代发",
+    "category": "电子产品",
+    "subcategory": "平板电脑",
+    "price": {
+      "min": 418,
+      "max": 511,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 29,
+    "supplier": {
+      "name": "东莞市玩具礼品厂",
+      "location": "深圳",
+      "rating": 4.4,
+      "yearsInBusiness": 5,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.4,
+    "reviewCount": 1682,
+    "salesVolume": 14415,
+    "trend": "up",
+    "trendValue": 2.3,
+    "region": "深圳"
+  },
+  {
+    "id": "real-102",
+    "name": "热销智能家居 代工",
+    "description": "杭州产地，量大从优",
+    "category": "电子产品",
+    "subcategory": "智能家居",
+    "price": {
+      "min": 149,
+      "max": 182,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 40,
+    "supplier": {
+      "name": "上海市医疗器械公司",
+      "location": "杭州",
+      "rating": 3.6,
+      "yearsInBusiness": 9,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.9,
+    "reviewCount": 1682,
+    "salesVolume": 3610,
+    "trend": "up",
+    "trendValue": 12.3,
+    "region": "杭州"
+  },
+  {
+    "id": "real-103",
+    "name": "热销收纳用品 批发",
+    "description": "义乌产地，现货供应",
+    "category": "家居用品",
+    "subcategory": "收纳用品",
+    "price": {
+      "min": 13,
+      "max": 16,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 153,
+    "supplier": {
+      "name": "青岛市化工有限公司",
+      "location": "义乌",
+      "rating": 4.6,
+      "yearsInBusiness": 14,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.6,
+    "reviewCount": 1318,
+    "salesVolume": 36781,
+    "trend": "stable",
+    "trendValue": -2.4,
+    "region": "义乌"
+  },
+  {
+    "id": "real-104",
+    "name": "热销灯具照明 定制",
+    "description": "中山产地，现货供应",
+    "category": "家居用品",
+    "subcategory": "灯具照明",
+    "price": {
+      "min": 70,
+      "max": 86,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 57,
+    "supplier": {
+      "name": "广州市服装制造厂",
+      "location": "中山",
+      "rating": 3.9,
+      "yearsInBusiness": 5,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.1,
+    "reviewCount": 674,
+    "salesVolume": 33300,
+    "trend": "up",
+    "trendValue": 10.9,
+    "region": "中山"
+  },
+  {
+    "id": "real-105",
+    "name": "热销厨房用品 批发",
+    "description": "揭阳产地，量大从优",
+    "category": "家居用品",
+    "subcategory": "厨房用品",
+    "price": {
+      "min": 42,
+      "max": 51,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 143,
+    "supplier": {
+      "name": "天津市自行车厂",
+      "location": "揭阳",
+      "rating": 5,
+      "yearsInBusiness": 4,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4,
+    "reviewCount": 1790,
+    "salesVolume": 28414,
+    "trend": "stable",
+    "trendValue": 4.3,
+    "region": "揭阳"
+  },
+  {
+    "id": "real-106",
+    "name": "热销安防设备 代工",
+    "description": "深圳产地，品质保证",
+    "category": "家居用品",
+    "subcategory": "安防设备",
+    "price": {
+      "min": 328,
+      "max": 401,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 27,
+    "supplier": {
+      "name": "广州市服装制造厂",
+      "location": "深圳",
+      "rating": 3.9,
+      "yearsInBusiness": 12,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.3,
+    "reviewCount": 591,
+    "salesVolume": 31984,
+    "trend": "stable",
+    "trendValue": 3.5,
+    "region": "深圳"
+  },
+  {
+    "id": "real-107",
+    "name": "热销清洁电器 代工",
+    "description": "苏州产地，一件代发",
+    "category": "家居用品",
+    "subcategory": "清洁电器",
+    "price": {
+      "min": 607,
+      "max": 742,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 12,
+    "supplier": {
+      "name": "广州市服装制造厂",
+      "location": "苏州",
+      "rating": 4,
+      "yearsInBusiness": 4,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.6,
+    "reviewCount": 1948,
+    "salesVolume": 3819,
+    "trend": "stable",
+    "trendValue": -3.8,
+    "region": "苏州"
+  },
+  {
+    "id": "real-108",
+    "name": "热销床上用品 定制",
+    "description": "南通产地，品质保证",
+    "category": "家居用品",
+    "subcategory": "床上用品",
+    "price": {
+      "min": 83,
+      "max": 102,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 44,
+    "supplier": {
+      "name": "苏州市电子科技有限公司",
+      "location": "南通",
+      "rating": 4.8,
+      "yearsInBusiness": 12,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.5,
+    "reviewCount": 1300,
+    "salesVolume": 36413,
+    "trend": "stable",
+    "trendValue": -0.7,
+    "region": "南通"
+  },
+  {
+    "id": "real-109",
+    "name": "热销运动服装 贴牌",
+    "description": "泉州产地，一件代发",
+    "category": "纺织服装",
+    "subcategory": "运动服装",
+    "price": {
+      "min": 37,
+      "max": 45,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 81,
+    "supplier": {
+      "name": "温州市眼镜制造厂",
+      "location": "泉州",
+      "rating": 4.8,
+      "yearsInBusiness": 1,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.8,
+    "reviewCount": 1218,
+    "salesVolume": 2124,
+    "trend": "up",
+    "trendValue": 14.1,
+    "region": "泉州"
+  },
+  {
+    "id": "real-110",
+    "name": "热销户外服装 代工",
+    "description": "石狮产地，现货供应",
+    "category": "纺织服装",
+    "subcategory": "户外服装",
+    "price": {
+      "min": 31,
+      "max": 39,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 103,
+    "supplier": {
+      "name": "佛山市家居用品厂",
+      "location": "石狮",
+      "rating": 5,
+      "yearsInBusiness": 4,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.7,
+    "reviewCount": 278,
+    "salesVolume": 43796,
+    "trend": "up",
+    "trendValue": -3.3,
+    "region": "石狮"
+  },
+  {
+    "id": "real-111",
+    "name": "热销T恤 批发",
+    "description": "广州产地，一件代发",
+    "category": "纺织服装",
+    "subcategory": "T恤",
+    "price": {
+      "min": 13,
+      "max": 16,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 174,
+    "supplier": {
+      "name": "深圳市科技创新有限公司",
+      "location": "广州",
+      "rating": 4.3,
+      "yearsInBusiness": 9,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.7,
+    "reviewCount": 117,
+    "salesVolume": 34428,
+    "trend": "stable",
+    "trendValue": 24.1,
+    "region": "广州"
+  },
+  {
+    "id": "real-112",
+    "name": "热销内衣 批发",
+    "description": "义乌产地，一件代发",
+    "category": "纺织服装",
+    "subcategory": "内衣",
+    "price": {
+      "min": 42,
+      "max": 52,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 59,
+    "supplier": {
+      "name": "佛山市家居用品厂",
+      "location": "义乌",
+      "rating": 4.3,
+      "yearsInBusiness": 9,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.9,
+    "reviewCount": 249,
+    "salesVolume": 600,
+    "trend": "down",
+    "trendValue": 8,
+    "region": "义乌"
+  },
+  {
+    "id": "real-113",
+    "name": "热销外套 定制",
+    "description": "泉州产地，现货供应",
+    "category": "纺织服装",
+    "subcategory": "外套",
+    "price": {
+      "min": 128,
+      "max": 156,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 38,
+    "supplier": {
+      "name": "佛山市家居用品厂",
+      "location": "泉州",
+      "rating": 4.3,
+      "yearsInBusiness": 11,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.9,
+    "reviewCount": 204,
+    "salesVolume": 33701,
+    "trend": "down",
+    "trendValue": 17.8,
+    "region": "泉州"
+  },
+  {
+    "id": "real-114",
+    "name": "热销露营装备 定制",
+    "description": "厦门产地，一件代发",
+    "category": "运动户外",
+    "subcategory": "露营装备",
+    "price": {
+      "min": 177,
+      "max": 217,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 40,
+    "supplier": {
+      "name": "义乌市小商品批发中心",
+      "location": "厦门",
+      "rating": 4.4,
+      "yearsInBusiness": 14,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.8,
+    "reviewCount": 650,
+    "salesVolume": 38944,
+    "trend": "up",
+    "trendValue": 1.6,
+    "region": "厦门"
+  },
+  {
+    "id": "real-115",
+    "name": "热销自行车 贴牌",
+    "description": "天津产地，品质保证",
+    "category": "运动户外",
+    "subcategory": "自行车",
+    "price": {
+      "min": 399,
+      "max": 488,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 13,
+    "supplier": {
+      "name": "东莞市玩具礼品厂",
+      "location": "天津",
+      "rating": 3.9,
+      "yearsInBusiness": 7,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.7,
+    "reviewCount": 195,
+    "salesVolume": 11793,
+    "trend": "up",
+    "trendValue": 26.5,
+    "region": "天津"
+  },
+  {
+    "id": "real-116",
+    "name": "热销户外背包 贴牌",
+    "description": "泉州产地，一件代发",
+    "category": "运动户外",
+    "subcategory": "户外背包",
+    "price": {
+      "min": 101,
+      "max": 124,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 71,
+    "supplier": {
+      "name": "宁波市五金工具厂",
+      "location": "泉州",
+      "rating": 4.8,
+      "yearsInBusiness": 6,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.7,
+    "reviewCount": 872,
+    "salesVolume": 24872,
+    "trend": "up",
+    "trendValue": 13,
+    "region": "泉州"
+  },
+  {
+    "id": "real-117",
+    "name": "热销瑜伽用品 贴牌",
+    "description": "东莞产地，品质保证",
+    "category": "运动户外",
+    "subcategory": "瑜伽用品",
+    "price": {
+      "min": 25,
+      "max": 31,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 182,
+    "supplier": {
+      "name": "义乌市小商品批发中心",
+      "location": "东莞",
+      "rating": 4.1,
+      "yearsInBusiness": 1,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.5,
+    "reviewCount": 615,
+    "salesVolume": 36482,
+    "trend": "up",
+    "trendValue": 11.9,
+    "region": "东莞"
+  },
+  {
+    "id": "real-118",
+    "name": "热销健身器材 定制",
+    "description": "永康产地，量大从优",
+    "category": "运动户外",
+    "subcategory": "健身器材",
+    "price": {
+      "min": 73,
+      "max": 90,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 74,
+    "supplier": {
+      "name": "宁波市五金工具厂",
+      "location": "永康",
+      "rating": 4.8,
+      "yearsInBusiness": 12,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.8,
+    "reviewCount": 1536,
+    "salesVolume": 48913,
+    "trend": "stable",
+    "trendValue": 26.8,
+    "region": "永康"
+  },
+  {
+    "id": "real-119",
+    "name": "热销口腔护理 贴牌",
+    "description": "宁波产地，一件代发",
+    "category": "美妆个护",
+    "subcategory": "口腔护理",
+    "price": {
+      "min": 52,
+      "max": 63,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 79,
+    "supplier": {
+      "name": "厦门市户外用品公司",
+      "location": "宁波",
+      "rating": 4.8,
+      "yearsInBusiness": 10,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.5,
+    "reviewCount": 801,
+    "salesVolume": 37100,
+    "trend": "up",
+    "trendValue": -1.1,
+    "region": "宁波"
+  },
+  {
+    "id": "real-120",
+    "name": "热销面部护理 代工",
+    "description": "深圳产地，现货供应",
+    "category": "美妆个护",
+    "subcategory": "面部护理",
+    "price": {
+      "min": 32,
+      "max": 40,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 142,
+    "supplier": {
+      "name": "苏州市电子科技有限公司",
+      "location": "深圳",
+      "rating": 4.2,
+      "yearsInBusiness": 9,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.8,
+    "reviewCount": 391,
+    "salesVolume": 18060,
+    "trend": "down",
+    "trendValue": 15.7,
+    "region": "深圳"
+  },
+  {
+    "id": "real-121",
+    "name": "热销美发工具 定制",
+    "description": "东莞产地，量大从优",
+    "category": "美妆个护",
+    "subcategory": "美发工具",
+    "price": {
+      "min": 62,
+      "max": 76,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 37,
+    "supplier": {
+      "name": "广州市服装制造厂",
+      "location": "东莞",
+      "rating": 3.9,
+      "yearsInBusiness": 5,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.5,
+    "reviewCount": 842,
+    "salesVolume": 6754,
+    "trend": "down",
+    "trendValue": 4.8,
+    "region": "东莞"
+  },
+  {
+    "id": "real-122",
+    "name": "热销美甲工具 定制",
+    "description": "义乌产地，量大从优",
+    "category": "美妆个护",
+    "subcategory": "美甲工具",
+    "price": {
+      "min": 19,
+      "max": 23,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 234,
+    "supplier": {
+      "name": "天津市自行车厂",
+      "location": "义乌",
+      "rating": 3.6,
+      "yearsInBusiness": 6,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.6,
+    "reviewCount": 452,
+    "salesVolume": 10222,
+    "trend": "up",
+    "trendValue": 21,
+    "region": "义乌"
+  },
+  {
+    "id": "real-123",
+    "name": "热销车载电子 定制",
+    "description": "深圳产地，品质保证",
+    "category": "汽车配件",
+    "subcategory": "车载电子",
+    "price": {
+      "min": 18,
+      "max": 23,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 219,
+    "supplier": {
+      "name": "青岛市化工有限公司",
+      "location": "深圳",
+      "rating": 4.7,
+      "yearsInBusiness": 14,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.4,
+    "reviewCount": 368,
+    "salesVolume": 44175,
+    "trend": "up",
+    "trendValue": 3.9,
+    "region": "深圳"
+  },
+  {
+    "id": "real-124",
+    "name": "热销安防设备 批发",
+    "description": "东莞产地，量大从优",
+    "category": "汽车配件",
+    "subcategory": "安防设备",
+    "price": {
+      "min": 167,
+      "max": 204,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 29,
+    "supplier": {
+      "name": "东莞市玩具礼品厂",
+      "location": "东莞",
+      "rating": 5,
+      "yearsInBusiness": 9,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.8,
+    "reviewCount": 1798,
+    "salesVolume": 11450,
+    "trend": "down",
+    "trendValue": 25.3,
+    "region": "东莞"
+  },
+  {
+    "id": "real-125",
+    "name": "热销内饰用品 代工",
+    "description": "台州产地，现货供应",
+    "category": "汽车配件",
+    "subcategory": "内饰用品",
+    "price": {
+      "min": 76,
+      "max": 93,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 43,
+    "supplier": {
+      "name": "佛山市家居用品厂",
+      "location": "台州",
+      "rating": 4.7,
+      "yearsInBusiness": 2,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.5,
+    "reviewCount": 1281,
+    "salesVolume": 25949,
+    "trend": "up",
+    "trendValue": 2.8,
+    "region": "台州"
+  },
+  {
+    "id": "real-126",
+    "name": "热销清洁用品 代工",
+    "description": "宁波产地，现货供应",
+    "category": "汽车配件",
+    "subcategory": "清洁用品",
+    "price": {
+      "min": 41,
+      "max": 50,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 50,
+    "supplier": {
+      "name": "广州市服装制造厂",
+      "location": "宁波",
+      "rating": 4.7,
+      "yearsInBusiness": 10,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.6,
+    "reviewCount": 1260,
+    "salesVolume": 45976,
+    "trend": "up",
+    "trendValue": 24.1,
+    "region": "宁波"
+  },
+  {
+    "id": "real-127",
+    "name": "热销工业设备 定制",
+    "description": "济南产地，现货供应",
+    "category": "机械设备",
+    "subcategory": "工业设备",
+    "price": {
+      "min": 2696,
+      "max": 3295,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 3,
+    "supplier": {
+      "name": "泉州市运动器材厂",
+      "location": "济南",
+      "rating": 4.2,
+      "yearsInBusiness": 13,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.6,
+    "reviewCount": 521,
+    "salesVolume": 11683,
+    "trend": "stable",
+    "trendValue": -3.6,
+    "region": "济南"
+  },
+  {
+    "id": "real-128",
+    "name": "热销打印设备 定制",
+    "description": "深圳产地，品质保证",
+    "category": "机械设备",
+    "subcategory": "打印设备",
+    "price": {
+      "min": 580,
+      "max": 709,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 14,
+    "supplier": {
+      "name": "中山市灯具厂",
+      "location": "深圳",
+      "rating": 4.8,
+      "yearsInBusiness": 13,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.6,
+    "reviewCount": 579,
+    "salesVolume": 22201,
+    "trend": "up",
+    "trendValue": 11.7,
+    "region": "深圳"
+  },
+  {
+    "id": "real-129",
+    "name": "热销工具 定制",
+    "description": "永康产地，一件代发",
+    "category": "机械设备",
+    "subcategory": "工具",
+    "price": {
+      "min": 34,
+      "max": 41,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 56,
+    "supplier": {
+      "name": "苏州市电子科技有限公司",
+      "location": "永康",
+      "rating": 3.9,
+      "yearsInBusiness": 14,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.8,
+    "reviewCount": 874,
+    "salesVolume": 4778,
+    "trend": "down",
+    "trendValue": 29.7,
+    "region": "永康"
+  },
+  {
+    "id": "real-130",
+    "name": "热销工程机械 贴牌",
+    "description": "济宁产地，一件代发",
+    "category": "机械设备",
+    "subcategory": "工程机械",
+    "price": {
+      "min": 8752,
+      "max": 10697,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 4,
+    "supplier": {
+      "name": "深圳市科技创新有限公司",
+      "location": "济宁",
+      "rating": 4.8,
+      "yearsInBusiness": 15,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.4,
+    "reviewCount": 1319,
+    "salesVolume": 29877,
+    "trend": "up",
+    "trendValue": 16.5,
+    "region": "济宁"
+  },
+  {
+    "id": "real-131",
+    "name": "热销检测仪器 批发",
+    "description": "深圳产地，一件代发",
+    "category": "医疗器械",
+    "subcategory": "检测仪器",
+    "price": {
+      "min": 52,
+      "max": 63,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 47,
+    "supplier": {
+      "name": "上海市医疗器械公司",
+      "location": "深圳",
+      "rating": 4.2,
+      "yearsInBusiness": 5,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.7,
+    "reviewCount": 1197,
+    "salesVolume": 14168,
+    "trend": "stable",
+    "trendValue": -2.4,
+    "region": "深圳"
+  },
+  {
+    "id": "real-132",
+    "name": "热销检测仪器 批发",
+    "description": "深圳产地，量大从优",
+    "category": "医疗器械",
+    "subcategory": "检测仪器",
+    "price": {
+      "min": 20,
+      "max": 25,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 142,
+    "supplier": {
+      "name": "宁波市五金工具厂",
+      "location": "深圳",
+      "rating": 4.7,
+      "yearsInBusiness": 1,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.1,
+    "reviewCount": 897,
+    "salesVolume": 34440,
+    "trend": "up",
+    "trendValue": -2.1,
+    "region": "深圳"
+  },
+  {
+    "id": "real-133",
+    "name": "热销检测仪器 批发",
+    "description": "东莞产地，量大从优",
+    "category": "医疗器械",
+    "subcategory": "检测仪器",
+    "price": {
+      "min": 16,
+      "max": 19,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 104,
+    "supplier": {
+      "name": "青岛市化工有限公司",
+      "location": "东莞",
+      "rating": 3.6,
+      "yearsInBusiness": 13,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.7,
+    "reviewCount": 125,
+    "salesVolume": 40905,
+    "trend": "up",
+    "trendValue": 2.7,
+    "region": "东莞"
+  },
+  {
+    "id": "real-134",
+    "name": "热销康复设备 贴牌",
+    "description": "宁德产地，一件代发",
+    "category": "医疗器械",
+    "subcategory": "康复设备",
+    "price": {
+      "min": 2367,
+      "max": 2893,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 4,
+    "supplier": {
+      "name": "厦门市户外用品公司",
+      "location": "宁德",
+      "rating": 4.9,
+      "yearsInBusiness": 7,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.1,
+    "reviewCount": 1339,
+    "salesVolume": 5617,
+    "trend": "up",
+    "trendValue": 27.4,
+    "region": "宁德"
+  },
+  {
+    "id": "real-135",
+    "name": "热销益智玩具 批发",
+    "description": "汕头产地，现货供应",
+    "category": "玩具礼品",
+    "subcategory": "益智玩具",
+    "price": {
+      "min": 30,
+      "max": 37,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 52,
+    "supplier": {
+      "name": "广州市服装制造厂",
+      "location": "汕头",
+      "rating": 4.4,
+      "yearsInBusiness": 13,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.8,
+    "reviewCount": 260,
+    "salesVolume": 43900,
+    "trend": "up",
+    "trendValue": 25.4,
+    "region": "汕头"
+  },
+  {
+    "id": "real-136",
+    "name": "热销遥控玩具 代工",
+    "description": "深圳产地，品质保证",
+    "category": "玩具礼品",
+    "subcategory": "遥控玩具",
+    "price": {
+      "min": 248,
+      "max": 303,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 26,
+    "supplier": {
+      "name": "深圳市科技创新有限公司",
+      "location": "深圳",
+      "rating": 5,
+      "yearsInBusiness": 6,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.7,
+    "reviewCount": 1372,
+    "salesVolume": 45106,
+    "trend": "up",
+    "trendValue": -0.8,
+    "region": "深圳"
+  },
+  {
+    "id": "real-137",
+    "name": "热销毛绒玩具 代工",
+    "description": "扬州产地，一件代发",
+    "category": "玩具礼品",
+    "subcategory": "毛绒玩具",
+    "price": {
+      "min": 26,
+      "max": 32,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 51,
+    "supplier": {
+      "name": "宁波市五金工具厂",
+      "location": "扬州",
+      "rating": 3.6,
+      "yearsInBusiness": 12,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 5,
+    "reviewCount": 139,
+    "salesVolume": 31942,
+    "trend": "up",
+    "trendValue": -3,
+    "region": "扬州"
+  },
+  {
+    "id": "real-138",
+    "name": "热销礼品 定制",
+    "description": "义乌产地，一件代发",
+    "category": "玩具礼品",
+    "subcategory": "礼品",
+    "price": {
+      "min": 13,
+      "max": 16,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 111,
+    "supplier": {
+      "name": "杭州市智能家居厂",
+      "location": "义乌",
+      "rating": 4,
+      "yearsInBusiness": 4,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4,
+    "reviewCount": 1506,
+    "salesVolume": 34602,
+    "trend": "stable",
+    "trendValue": 11.2,
+    "region": "义乌"
+  },
+  {
+    "id": "real-139",
+    "name": "热销太阳能 批发",
+    "description": "江苏产地，现货供应",
+    "category": "新能源",
+    "subcategory": "太阳能",
+    "price": {
+      "min": 243,
+      "max": 297,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 65,
+    "supplier": {
+      "name": "佛山市家居用品厂",
+      "location": "江苏",
+      "rating": 3.7,
+      "yearsInBusiness": 1,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.5,
+    "reviewCount": 1574,
+    "salesVolume": 21476,
+    "trend": "up",
+    "trendValue": 18.9,
+    "region": "江苏"
+  },
+  {
+    "id": "real-140",
+    "name": "热销储能电池 批发",
+    "description": "广东产地，一件代发",
+    "category": "新能源",
+    "subcategory": "储能电池",
+    "price": {
+      "min": 1287,
+      "max": 1573,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 24,
+    "supplier": {
+      "name": "泉州市运动器材厂",
+      "location": "广东",
+      "rating": 4,
+      "yearsInBusiness": 14,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.3,
+    "reviewCount": 1868,
+    "salesVolume": 39238,
+    "trend": "stable",
+    "trendValue": 5.4,
+    "region": "广东"
+  },
+  {
+    "id": "real-141",
+    "name": "热销储能设备 代工",
+    "description": "浙江产地，品质保证",
+    "category": "新能源",
+    "subcategory": "储能设备",
+    "price": {
+      "min": 583,
+      "max": 713,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 27,
+    "supplier": {
+      "name": "上海市医疗器械公司",
+      "location": "浙江",
+      "rating": 3.6,
+      "yearsInBusiness": 15,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.9,
+    "reviewCount": 812,
+    "salesVolume": 13566,
+    "trend": "stable",
+    "trendValue": 15.9,
+    "region": "浙江"
+  },
+  {
+    "id": "real-142",
+    "name": "热销充电设备 定制",
+    "description": "广东产地，一件代发",
+    "category": "新能源",
+    "subcategory": "充电设备",
+    "price": {
+      "min": 744,
+      "max": 909,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 14,
+    "supplier": {
+      "name": "佛山市家居用品厂",
+      "location": "广东",
+      "rating": 4.7,
+      "yearsInBusiness": 7,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4,
+    "reviewCount": 1924,
+    "salesVolume": 25833,
+    "trend": "up",
+    "trendValue": 29.9,
+    "region": "广东"
+  },
+  {
+    "id": "real-143",
+    "name": "热销耳机音响 定制",
+    "description": "广东产地，品质保证",
+    "category": "电子产品",
+    "subcategory": "耳机音响",
+    "price": {
+      "min": 42,
+      "max": 52,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 93,
+    "supplier": {
+      "name": "上海市医疗器械公司",
+      "location": "广东",
+      "rating": 4.7,
+      "yearsInBusiness": 10,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.5,
+    "reviewCount": 1468,
+    "salesVolume": 18435,
+    "trend": "up",
+    "trendValue": 9.2,
+    "region": "广东"
+  },
+  {
+    "id": "real-144",
+    "name": "热销智能穿戴 批发",
+    "description": "深圳产地，品质保证",
+    "category": "电子产品",
+    "subcategory": "智能穿戴",
+    "price": {
+      "min": 117,
+      "max": 143,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 40,
+    "supplier": {
+      "name": "温州市眼镜制造厂",
+      "location": "深圳",
+      "rating": 4.1,
+      "yearsInBusiness": 12,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.9,
+    "reviewCount": 1161,
+    "salesVolume": 33349,
+    "trend": "up",
+    "trendValue": 4.7,
+    "region": "深圳"
+  },
+  {
+    "id": "real-145",
+    "name": "热销充电设备 贴牌",
+    "description": "东莞产地，量大从优",
+    "category": "电子产品",
+    "subcategory": "充电设备",
+    "price": {
+      "min": 34,
+      "max": 42,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 226,
+    "supplier": {
+      "name": "青岛市化工有限公司",
+      "location": "东莞",
+      "rating": 4.8,
+      "yearsInBusiness": 13,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.6,
+    "reviewCount": 771,
+    "salesVolume": 3155,
+    "trend": "up",
+    "trendValue": -5.5,
+    "region": "东莞"
+  },
+  {
+    "id": "real-146",
+    "name": "热销手机配件 贴牌",
+    "description": "深圳产地，量大从优",
+    "category": "电子产品",
+    "subcategory": "手机配件",
+    "price": {
+      "min": 23,
+      "max": 28,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 209,
+    "supplier": {
+      "name": "青岛市化工有限公司",
+      "location": "深圳",
+      "rating": 4.3,
+      "yearsInBusiness": 14,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.6,
+    "reviewCount": 1444,
+    "salesVolume": 39814,
+    "trend": "up",
+    "trendValue": 11.4,
+    "region": "深圳"
+  },
+  {
+    "id": "real-147",
+    "name": "热销平板电脑 定制",
+    "description": "深圳产地，现货供应",
+    "category": "电子产品",
+    "subcategory": "平板电脑",
+    "price": {
+      "min": 466,
+      "max": 570,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 20,
+    "supplier": {
+      "name": "青岛市化工有限公司",
+      "location": "深圳",
+      "rating": 4.7,
+      "yearsInBusiness": 13,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.9,
+    "reviewCount": 727,
+    "salesVolume": 23402,
+    "trend": "stable",
+    "trendValue": 13.4,
+    "region": "深圳"
+  },
+  {
+    "id": "real-148",
+    "name": "热销智能家居 贴牌",
+    "description": "杭州产地，一件代发",
+    "category": "电子产品",
+    "subcategory": "智能家居",
+    "price": {
+      "min": 132,
+      "max": 161,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 42,
+    "supplier": {
+      "name": "青岛市化工有限公司",
+      "location": "杭州",
+      "rating": 4.2,
+      "yearsInBusiness": 8,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.6,
+    "reviewCount": 1814,
+    "salesVolume": 41430,
+    "trend": "up",
+    "trendValue": 21.9,
+    "region": "杭州"
+  },
+  {
+    "id": "real-149",
+    "name": "热销收纳用品 贴牌",
+    "description": "义乌产地，现货供应",
+    "category": "家居用品",
+    "subcategory": "收纳用品",
+    "price": {
+      "min": 13,
+      "max": 16,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 223,
+    "supplier": {
+      "name": "温州市眼镜制造厂",
+      "location": "义乌",
+      "rating": 4.2,
+      "yearsInBusiness": 4,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.9,
+    "reviewCount": 91,
+    "salesVolume": 13050,
+    "trend": "up",
+    "trendValue": -8.1,
+    "region": "义乌"
+  },
+  {
+    "id": "real-150",
+    "name": "热销灯具照明 代工",
+    "description": "中山产地，一件代发",
+    "category": "家居用品",
+    "subcategory": "灯具照明",
+    "price": {
+      "min": 62,
+      "max": 76,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 77,
+    "supplier": {
+      "name": "上海市医疗器械公司",
+      "location": "中山",
+      "rating": 3.7,
+      "yearsInBusiness": 8,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.9,
+    "reviewCount": 824,
+    "salesVolume": 37149,
+    "trend": "down",
+    "trendValue": -3,
+    "region": "中山"
+  },
+  {
+    "id": "real-151",
+    "name": "热销厨房用品 批发",
+    "description": "揭阳产地，现货供应",
+    "category": "家居用品",
+    "subcategory": "厨房用品",
+    "price": {
+      "min": 37,
+      "max": 45,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 137,
+    "supplier": {
+      "name": "深圳市科技创新有限公司",
+      "location": "揭阳",
+      "rating": 4.3,
+      "yearsInBusiness": 2,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.3,
+    "reviewCount": 551,
+    "salesVolume": 14916,
+    "trend": "stable",
+    "trendValue": -3,
+    "region": "揭阳"
+  },
+  {
+    "id": "real-152",
+    "name": "热销安防设备 贴牌",
+    "description": "深圳产地，量大从优",
+    "category": "家居用品",
+    "subcategory": "安防设备",
+    "price": {
+      "min": 338,
+      "max": 414,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 27,
+    "supplier": {
+      "name": "东莞市玩具礼品厂",
+      "location": "深圳",
+      "rating": 4.7,
+      "yearsInBusiness": 2,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 5,
+    "reviewCount": 475,
+    "salesVolume": 937,
+    "trend": "down",
+    "trendValue": -5.6,
+    "region": "深圳"
+  },
+  {
+    "id": "real-153",
+    "name": "热销清洁电器 批发",
+    "description": "苏州产地，品质保证",
+    "category": "家居用品",
+    "subcategory": "清洁电器",
+    "price": {
+      "min": 675,
+      "max": 825,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 7,
+    "supplier": {
+      "name": "深圳市科技创新有限公司",
+      "location": "苏州",
+      "rating": 3.7,
+      "yearsInBusiness": 12,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.6,
+    "reviewCount": 1872,
+    "salesVolume": 25971,
+    "trend": "stable",
+    "trendValue": 16.8,
+    "region": "苏州"
+  },
+  {
+    "id": "real-154",
+    "name": "热销床上用品 批发",
+    "description": "南通产地，品质保证",
+    "category": "家居用品",
+    "subcategory": "床上用品",
+    "price": {
+      "min": 65,
+      "max": 79,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 35,
+    "supplier": {
+      "name": "中山市灯具厂",
+      "location": "南通",
+      "rating": 4.5,
+      "yearsInBusiness": 8,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.2,
+    "reviewCount": 273,
+    "salesVolume": 42937,
+    "trend": "up",
+    "trendValue": 18.4,
+    "region": "南通"
+  },
+  {
+    "id": "real-155",
+    "name": "热销运动服装 批发",
+    "description": "泉州产地，一件代发",
+    "category": "纺织服装",
+    "subcategory": "运动服装",
+    "price": {
+      "min": 36,
+      "max": 44,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 147,
+    "supplier": {
+      "name": "中山市灯具厂",
+      "location": "泉州",
+      "rating": 4.9,
+      "yearsInBusiness": 10,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.4,
+    "reviewCount": 74,
+    "salesVolume": 28079,
+    "trend": "stable",
+    "trendValue": -2.3,
+    "region": "泉州"
+  },
+  {
+    "id": "real-156",
+    "name": "热销户外服装 代工",
+    "description": "石狮产地，一件代发",
+    "category": "纺织服装",
+    "subcategory": "户外服装",
+    "price": {
+      "min": 30,
+      "max": 37,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 149,
+    "supplier": {
+      "name": "宁波市五金工具厂",
+      "location": "石狮",
+      "rating": 4.5,
+      "yearsInBusiness": 12,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.6,
+    "reviewCount": 1746,
+    "salesVolume": 5426,
+    "trend": "stable",
+    "trendValue": 7.1,
+    "region": "石狮"
+  },
+  {
+    "id": "real-157",
+    "name": "热销T恤 贴牌",
+    "description": "广州产地，量大从优",
+    "category": "纺织服装",
+    "subcategory": "T恤",
+    "price": {
+      "min": 14,
+      "max": 18,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 148,
+    "supplier": {
+      "name": "义乌市小商品批发中心",
+      "location": "广州",
+      "rating": 3.6,
+      "yearsInBusiness": 6,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.6,
+    "reviewCount": 1038,
+    "salesVolume": 34898,
+    "trend": "stable",
+    "trendValue": 17.2,
+    "region": "广州"
+  },
+  {
+    "id": "real-158",
+    "name": "热销内衣 定制",
+    "description": "义乌产地，现货供应",
+    "category": "纺织服装",
+    "subcategory": "内衣",
+    "price": {
+      "min": 36,
+      "max": 44,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 109,
+    "supplier": {
+      "name": "厦门市户外用品公司",
+      "location": "义乌",
+      "rating": 4.3,
+      "yearsInBusiness": 13,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4,
+    "reviewCount": 495,
+    "salesVolume": 23148,
+    "trend": "down",
+    "trendValue": 10.2,
+    "region": "义乌"
+  },
+  {
+    "id": "real-159",
+    "name": "热销外套 定制",
+    "description": "泉州产地，量大从优",
+    "category": "纺织服装",
+    "subcategory": "外套",
+    "price": {
+      "min": 132,
+      "max": 161,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 32,
+    "supplier": {
+      "name": "义乌市小商品批发中心",
+      "location": "泉州",
+      "rating": 3.8,
+      "yearsInBusiness": 11,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.9,
+    "reviewCount": 1534,
+    "salesVolume": 39979,
+    "trend": "stable",
+    "trendValue": 17.8,
+    "region": "泉州"
+  },
+  {
+    "id": "real-160",
+    "name": "热销露营装备 代工",
+    "description": "厦门产地，品质保证",
+    "category": "运动户外",
+    "subcategory": "露营装备",
+    "price": {
+      "min": 152,
+      "max": 186,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 23,
+    "supplier": {
+      "name": "宁波市五金工具厂",
+      "location": "厦门",
+      "rating": 4.6,
+      "yearsInBusiness": 8,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.5,
+    "reviewCount": 705,
+    "salesVolume": 43977,
+    "trend": "up",
+    "trendValue": 20.3,
+    "region": "厦门"
+  },
+  {
+    "id": "real-161",
+    "name": "热销自行车 定制",
+    "description": "天津产地，量大从优",
+    "category": "运动户外",
+    "subcategory": "自行车",
+    "price": {
+      "min": 378,
+      "max": 462,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 9,
+    "supplier": {
+      "name": "东莞市玩具礼品厂",
+      "location": "天津",
+      "rating": 4.5,
+      "yearsInBusiness": 1,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.7,
+    "reviewCount": 538,
+    "salesVolume": 29834,
+    "trend": "up",
+    "trendValue": 8.4,
+    "region": "天津"
+  },
+  {
+    "id": "real-162",
+    "name": "热销户外背包 贴牌",
+    "description": "泉州产地，现货供应",
+    "category": "运动户外",
+    "subcategory": "户外背包",
+    "price": {
+      "min": 83,
+      "max": 102,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 49,
+    "supplier": {
+      "name": "温州市眼镜制造厂",
+      "location": "泉州",
+      "rating": 4.5,
+      "yearsInBusiness": 7,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4,
+    "reviewCount": 1400,
+    "salesVolume": 13470,
+    "trend": "stable",
+    "trendValue": 17.2,
+    "region": "泉州"
+  },
+  {
+    "id": "real-163",
+    "name": "热销瑜伽用品 贴牌",
+    "description": "东莞产地，量大从优",
+    "category": "运动户外",
+    "subcategory": "瑜伽用品",
+    "price": {
+      "min": 19,
+      "max": 23,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 97,
+    "supplier": {
+      "name": "深圳市科技创新有限公司",
+      "location": "东莞",
+      "rating": 4.4,
+      "yearsInBusiness": 11,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.5,
+    "reviewCount": 1047,
+    "salesVolume": 44457,
+    "trend": "stable",
+    "trendValue": -9.4,
+    "region": "东莞"
+  },
+  {
+    "id": "real-164",
+    "name": "热销健身器材 贴牌",
+    "description": "永康产地，现货供应",
+    "category": "运动户外",
+    "subcategory": "健身器材",
+    "price": {
+      "min": 86,
+      "max": 105,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 70,
+    "supplier": {
+      "name": "天津市自行车厂",
+      "location": "永康",
+      "rating": 4.9,
+      "yearsInBusiness": 3,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.5,
+    "reviewCount": 660,
+    "salesVolume": 31059,
+    "trend": "up",
+    "trendValue": 15.4,
+    "region": "永康"
+  },
+  {
+    "id": "real-165",
+    "name": "热销口腔护理 代工",
+    "description": "宁波产地，现货供应",
+    "category": "美妆个护",
+    "subcategory": "口腔护理",
+    "price": {
+      "min": 46,
+      "max": 56,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 113,
+    "supplier": {
+      "name": "苏州市电子科技有限公司",
+      "location": "宁波",
+      "rating": 3.9,
+      "yearsInBusiness": 15,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.8,
+    "reviewCount": 1630,
+    "salesVolume": 47554,
+    "trend": "stable",
+    "trendValue": 17.5,
+    "region": "宁波"
+  },
+  {
+    "id": "real-166",
+    "name": "热销面部护理 定制",
+    "description": "深圳产地，品质保证",
+    "category": "美妆个护",
+    "subcategory": "面部护理",
+    "price": {
+      "min": 42,
+      "max": 52,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 149,
+    "supplier": {
+      "name": "杭州市智能家居厂",
+      "location": "深圳",
+      "rating": 4.2,
+      "yearsInBusiness": 10,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.7,
+    "reviewCount": 1016,
+    "salesVolume": 24576,
+    "trend": "down",
+    "trendValue": 10.9,
+    "region": "深圳"
+  },
+  {
+    "id": "real-167",
+    "name": "热销美发工具 代工",
+    "description": "东莞产地，现货供应",
+    "category": "美妆个护",
+    "subcategory": "美发工具",
+    "price": {
+      "min": 76,
+      "max": 93,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 45,
+    "supplier": {
+      "name": "青岛市化工有限公司",
+      "location": "东莞",
+      "rating": 4.5,
+      "yearsInBusiness": 1,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.5,
+    "reviewCount": 1750,
+    "salesVolume": 31622,
+    "trend": "up",
+    "trendValue": 0.8,
+    "region": "东莞"
+  },
+  {
+    "id": "real-168",
+    "name": "热销美甲工具 贴牌",
+    "description": "义乌产地，品质保证",
+    "category": "美妆个护",
+    "subcategory": "美甲工具",
+    "price": {
+      "min": 15,
+      "max": 19,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 248,
+    "supplier": {
+      "name": "苏州市电子科技有限公司",
+      "location": "义乌",
+      "rating": 4.2,
+      "yearsInBusiness": 5,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.5,
+    "reviewCount": 15,
+    "salesVolume": 26073,
+    "trend": "up",
+    "trendValue": 5.7,
+    "region": "义乌"
+  },
+  {
+    "id": "real-169",
+    "name": "热销车载电子 代工",
+    "description": "深圳产地，量大从优",
+    "category": "汽车配件",
+    "subcategory": "车载电子",
+    "price": {
+      "min": 17,
+      "max": 21,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 151,
+    "supplier": {
+      "name": "温州市眼镜制造厂",
+      "location": "深圳",
+      "rating": 4,
+      "yearsInBusiness": 2,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.7,
+    "reviewCount": 1114,
+    "salesVolume": 10080,
+    "trend": "up",
+    "trendValue": 16.8,
+    "region": "深圳"
+  },
+  {
+    "id": "real-170",
+    "name": "热销安防设备 代工",
+    "description": "东莞产地，一件代发",
+    "category": "汽车配件",
+    "subcategory": "安防设备",
+    "price": {
+      "min": 132,
+      "max": 162,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 39,
+    "supplier": {
+      "name": "义乌市小商品批发中心",
+      "location": "东莞",
+      "rating": 3.7,
+      "yearsInBusiness": 6,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.3,
+    "reviewCount": 1535,
+    "salesVolume": 41603,
+    "trend": "stable",
+    "trendValue": -4.7,
+    "region": "东莞"
+  },
+  {
+    "id": "real-171",
+    "name": "热销内饰用品 代工",
+    "description": "台州产地，品质保证",
+    "category": "汽车配件",
+    "subcategory": "内饰用品",
+    "price": {
+      "min": 64,
+      "max": 79,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 55,
+    "supplier": {
+      "name": "天津市自行车厂",
+      "location": "台州",
+      "rating": 4.5,
+      "yearsInBusiness": 11,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.6,
+    "reviewCount": 1108,
+    "salesVolume": 29322,
+    "trend": "stable",
+    "trendValue": -7.2,
+    "region": "台州"
+  },
+  {
+    "id": "real-172",
+    "name": "热销清洁用品 定制",
+    "description": "宁波产地，量大从优",
+    "category": "汽车配件",
+    "subcategory": "清洁用品",
+    "price": {
+      "min": 36,
+      "max": 44,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 44,
+    "supplier": {
+      "name": "温州市眼镜制造厂",
+      "location": "宁波",
+      "rating": 4.8,
+      "yearsInBusiness": 12,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.5,
+    "reviewCount": 1042,
+    "salesVolume": 22138,
+    "trend": "up",
+    "trendValue": 5.4,
+    "region": "宁波"
+  },
+  {
+    "id": "real-173",
+    "name": "热销工业设备 代工",
+    "description": "济南产地，品质保证",
+    "category": "机械设备",
+    "subcategory": "工业设备",
+    "price": {
+      "min": 2319,
+      "max": 2834,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 4,
+    "supplier": {
+      "name": "苏州市电子科技有限公司",
+      "location": "济南",
+      "rating": 4.2,
+      "yearsInBusiness": 6,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.2,
+    "reviewCount": 927,
+    "salesVolume": 23664,
+    "trend": "up",
+    "trendValue": -3.9,
+    "region": "济南"
+  },
+  {
+    "id": "real-174",
+    "name": "热销打印设备 代工",
+    "description": "深圳产地，现货供应",
+    "category": "机械设备",
+    "subcategory": "打印设备",
+    "price": {
+      "min": 594,
+      "max": 726,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 9,
+    "supplier": {
+      "name": "青岛市化工有限公司",
+      "location": "深圳",
+      "rating": 5,
+      "yearsInBusiness": 6,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.2,
+    "reviewCount": 49,
+    "salesVolume": 46043,
+    "trend": "stable",
+    "trendValue": -9.4,
+    "region": "深圳"
+  },
+  {
+    "id": "real-175",
+    "name": "热销工具 定制",
+    "description": "永康产地，量大从优",
+    "category": "机械设备",
+    "subcategory": "工具",
+    "price": {
+      "min": 30,
+      "max": 36,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 129,
+    "supplier": {
+      "name": "杭州市智能家居厂",
+      "location": "永康",
+      "rating": 3.5,
+      "yearsInBusiness": 4,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.6,
+    "reviewCount": 585,
+    "salesVolume": 44021,
+    "trend": "up",
+    "trendValue": 28.9,
+    "region": "永康"
+  },
+  {
+    "id": "real-176",
+    "name": "热销工程机械 代工",
+    "description": "济宁产地，品质保证",
+    "category": "机械设备",
+    "subcategory": "工程机械",
+    "price": {
+      "min": 7439,
+      "max": 9093,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 4,
+    "supplier": {
+      "name": "中山市灯具厂",
+      "location": "济宁",
+      "rating": 4.6,
+      "yearsInBusiness": 13,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.1,
+    "reviewCount": 864,
+    "salesVolume": 24012,
+    "trend": "stable",
+    "trendValue": 17.7,
+    "region": "济宁"
+  },
+  {
+    "id": "real-177",
+    "name": "热销检测仪器 批发",
+    "description": "深圳产地，品质保证",
+    "category": "医疗器械",
+    "subcategory": "检测仪器",
+    "price": {
+      "min": 49,
+      "max": 60,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 72,
+    "supplier": {
+      "name": "深圳市科技创新有限公司",
+      "location": "深圳",
+      "rating": 4.1,
+      "yearsInBusiness": 13,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.9,
+    "reviewCount": 1781,
+    "salesVolume": 23129,
+    "trend": "up",
+    "trendValue": 4.3,
+    "region": "深圳"
+  },
+  {
+    "id": "real-178",
+    "name": "热销检测仪器 代工",
+    "description": "深圳产地，品质保证",
+    "category": "医疗器械",
+    "subcategory": "检测仪器",
+    "price": {
+      "min": 24,
+      "max": 30,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 73,
+    "supplier": {
+      "name": "厦门市户外用品公司",
+      "location": "深圳",
+      "rating": 4.3,
+      "yearsInBusiness": 1,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.6,
+    "reviewCount": 1800,
+    "salesVolume": 17821,
+    "trend": "stable",
+    "trendValue": 2.5,
+    "region": "深圳"
+  },
+  {
+    "id": "real-179",
+    "name": "热销检测仪器 贴牌",
+    "description": "东莞产地，一件代发",
+    "category": "医疗器械",
+    "subcategory": "检测仪器",
+    "price": {
+      "min": 14,
+      "max": 17,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 202,
+    "supplier": {
+      "name": "天津市自行车厂",
+      "location": "东莞",
+      "rating": 4.4,
+      "yearsInBusiness": 4,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.2,
+    "reviewCount": 425,
+    "salesVolume": 15127,
+    "trend": "down",
+    "trendValue": 28,
+    "region": "东莞"
+  },
+  {
+    "id": "real-180",
+    "name": "热销康复设备 定制",
+    "description": "宁德产地，一件代发",
+    "category": "医疗器械",
+    "subcategory": "康复设备",
+    "price": {
+      "min": 2947,
+      "max": 3602,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 3,
+    "supplier": {
+      "name": "中山市灯具厂",
+      "location": "宁德",
+      "rating": 4.4,
+      "yearsInBusiness": 6,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.6,
+    "reviewCount": 818,
+    "salesVolume": 22243,
+    "trend": "up",
+    "trendValue": 2.4,
+    "region": "宁德"
+  },
+  {
+    "id": "real-181",
+    "name": "热销益智玩具 贴牌",
+    "description": "汕头产地，现货供应",
+    "category": "玩具礼品",
+    "subcategory": "益智玩具",
+    "price": {
+      "min": 24,
+      "max": 29,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 63,
+    "supplier": {
+      "name": "义乌市小商品批发中心",
+      "location": "汕头",
+      "rating": 3.6,
+      "yearsInBusiness": 3,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.5,
+    "reviewCount": 1159,
+    "salesVolume": 22559,
+    "trend": "stable",
+    "trendValue": -6.2,
+    "region": "汕头"
+  },
+  {
+    "id": "real-182",
+    "name": "热销遥控玩具 定制",
+    "description": "深圳产地，现货供应",
+    "category": "玩具礼品",
+    "subcategory": "遥控玩具",
+    "price": {
+      "min": 253,
+      "max": 310,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 28,
+    "supplier": {
+      "name": "温州市眼镜制造厂",
+      "location": "深圳",
+      "rating": 3.5,
+      "yearsInBusiness": 11,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.5,
+    "reviewCount": 422,
+    "salesVolume": 10819,
+    "trend": "stable",
+    "trendValue": 23.5,
+    "region": "深圳"
+  },
+  {
+    "id": "real-183",
+    "name": "热销毛绒玩具 批发",
+    "description": "扬州产地，一件代发",
+    "category": "玩具礼品",
+    "subcategory": "毛绒玩具",
+    "price": {
+      "min": 27,
+      "max": 33,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 119,
+    "supplier": {
+      "name": "青岛市化工有限公司",
+      "location": "扬州",
+      "rating": 4.8,
+      "yearsInBusiness": 3,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.4,
+    "reviewCount": 1951,
+    "salesVolume": 41060,
+    "trend": "down",
+    "trendValue": 17.3,
+    "region": "扬州"
+  },
+  {
+    "id": "real-184",
+    "name": "热销礼品 定制",
+    "description": "义乌产地，量大从优",
+    "category": "玩具礼品",
+    "subcategory": "礼品",
+    "price": {
+      "min": 12,
+      "max": 15,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 250,
+    "supplier": {
+      "name": "温州市眼镜制造厂",
+      "location": "义乌",
+      "rating": 3.6,
+      "yearsInBusiness": 8,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.2,
+    "reviewCount": 396,
+    "salesVolume": 49887,
+    "trend": "up",
+    "trendValue": -3,
+    "region": "义乌"
+  },
+  {
+    "id": "real-185",
+    "name": "热销太阳能 批发",
+    "description": "江苏产地，现货供应",
+    "category": "新能源",
+    "subcategory": "太阳能",
+    "price": {
+      "min": 238,
+      "max": 291,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 59,
+    "supplier": {
+      "name": "佛山市家居用品厂",
+      "location": "江苏",
+      "rating": 4.6,
+      "yearsInBusiness": 13,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.1,
+    "reviewCount": 351,
+    "salesVolume": 44545,
+    "trend": "up",
+    "trendValue": 13,
+    "region": "江苏"
+  },
+  {
+    "id": "real-186",
+    "name": "热销储能电池 代工",
+    "description": "广东产地，现货供应",
+    "category": "新能源",
+    "subcategory": "储能电池",
+    "price": {
+      "min": 976,
+      "max": 1193,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 26,
+    "supplier": {
+      "name": "杭州市智能家居厂",
+      "location": "广东",
+      "rating": 4,
+      "yearsInBusiness": 10,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.7,
+    "reviewCount": 1512,
+    "salesVolume": 30732,
+    "trend": "up",
+    "trendValue": 19.5,
+    "region": "广东"
+  },
+  {
+    "id": "real-187",
+    "name": "热销储能设备 贴牌",
+    "description": "浙江产地，量大从优",
+    "category": "新能源",
+    "subcategory": "储能设备",
+    "price": {
+      "min": 623,
+      "max": 761,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 21,
+    "supplier": {
+      "name": "杭州市智能家居厂",
+      "location": "浙江",
+      "rating": 3.7,
+      "yearsInBusiness": 3,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4,
+    "reviewCount": 101,
+    "salesVolume": 37966,
+    "trend": "stable",
+    "trendValue": 10.6,
+    "region": "浙江"
+  },
+  {
+    "id": "real-188",
+    "name": "热销充电设备 批发",
+    "description": "广东产地，品质保证",
+    "category": "新能源",
+    "subcategory": "充电设备",
+    "price": {
+      "min": 944,
+      "max": 1153,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 10,
+    "supplier": {
+      "name": "宁波市五金工具厂",
+      "location": "广东",
+      "rating": 5,
+      "yearsInBusiness": 2,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.5,
+    "reviewCount": 294,
+    "salesVolume": 20529,
+    "trend": "up",
+    "trendValue": 15.6,
+    "region": "广东"
+  },
+  {
+    "id": "real-189",
+    "name": "热销耳机音响 定制",
+    "description": "广东产地，品质保证",
+    "category": "电子产品",
+    "subcategory": "耳机音响",
+    "price": {
+      "min": 41,
+      "max": 51,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 135,
+    "supplier": {
+      "name": "青岛市化工有限公司",
+      "location": "广东",
+      "rating": 4,
+      "yearsInBusiness": 5,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.8,
+    "reviewCount": 1577,
+    "salesVolume": 34740,
+    "trend": "stable",
+    "trendValue": 2.6,
+    "region": "广东"
+  },
+  {
+    "id": "real-190",
+    "name": "热销智能穿戴 代工",
+    "description": "深圳产地，量大从优",
+    "category": "电子产品",
+    "subcategory": "智能穿戴",
+    "price": {
+      "min": 118,
+      "max": 144,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 40,
+    "supplier": {
+      "name": "上海市医疗器械公司",
+      "location": "深圳",
+      "rating": 4.7,
+      "yearsInBusiness": 6,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.6,
+    "reviewCount": 1383,
+    "salesVolume": 40773,
+    "trend": "down",
+    "trendValue": 13.8,
+    "region": "深圳"
+  },
+  {
+    "id": "real-191",
+    "name": "热销充电设备 贴牌",
+    "description": "东莞产地，品质保证",
+    "category": "电子产品",
+    "subcategory": "充电设备",
+    "price": {
+      "min": 37,
+      "max": 45,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 154,
+    "supplier": {
+      "name": "青岛市化工有限公司",
+      "location": "东莞",
+      "rating": 3.8,
+      "yearsInBusiness": 13,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.3,
+    "reviewCount": 524,
+    "salesVolume": 36086,
+    "trend": "stable",
+    "trendValue": 8.7,
+    "region": "东莞"
+  },
+  {
+    "id": "real-192",
+    "name": "热销手机配件 定制",
+    "description": "深圳产地，现货供应",
+    "category": "电子产品",
+    "subcategory": "手机配件",
+    "price": {
+      "min": 21,
+      "max": 26,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 77,
+    "supplier": {
+      "name": "东莞市玩具礼品厂",
+      "location": "深圳",
+      "rating": 3.5,
+      "yearsInBusiness": 10,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.8,
+    "reviewCount": 1510,
+    "salesVolume": 17678,
+    "trend": "up",
+    "trendValue": -9.1,
+    "region": "深圳"
+  },
+  {
+    "id": "real-193",
+    "name": "热销平板电脑 贴牌",
+    "description": "深圳产地，量大从优",
+    "category": "电子产品",
+    "subcategory": "平板电脑",
+    "price": {
+      "min": 439,
+      "max": 537,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 25,
+    "supplier": {
+      "name": "杭州市智能家居厂",
+      "location": "深圳",
+      "rating": 4.5,
+      "yearsInBusiness": 13,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.6,
+    "reviewCount": 814,
+    "salesVolume": 41706,
+    "trend": "stable",
+    "trendValue": -9.1,
+    "region": "深圳"
+  },
+  {
+    "id": "real-194",
+    "name": "热销智能家居 批发",
+    "description": "杭州产地，品质保证",
+    "category": "电子产品",
+    "subcategory": "智能家居",
+    "price": {
+      "min": 158,
+      "max": 194,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 43,
+    "supplier": {
+      "name": "东莞市玩具礼品厂",
+      "location": "杭州",
+      "rating": 4.6,
+      "yearsInBusiness": 13,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.9,
+    "reviewCount": 123,
+    "salesVolume": 6811,
+    "trend": "up",
+    "trendValue": 23.9,
+    "region": "杭州"
+  },
+  {
+    "id": "real-195",
+    "name": "热销收纳用品 定制",
+    "description": "义乌产地，品质保证",
+    "category": "家居用品",
+    "subcategory": "收纳用品",
+    "price": {
+      "min": 15,
+      "max": 19,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 294,
+    "supplier": {
+      "name": "天津市自行车厂",
+      "location": "义乌",
+      "rating": 4.1,
+      "yearsInBusiness": 12,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.9,
+    "reviewCount": 1153,
+    "salesVolume": 48910,
+    "trend": "stable",
+    "trendValue": 27.8,
+    "region": "义乌"
+  },
+  {
+    "id": "real-196",
+    "name": "热销灯具照明 贴牌",
+    "description": "中山产地，现货供应",
+    "category": "家居用品",
+    "subcategory": "灯具照明",
+    "price": {
+      "min": 66,
+      "max": 80,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 103,
+    "supplier": {
+      "name": "天津市自行车厂",
+      "location": "中山",
+      "rating": 4.8,
+      "yearsInBusiness": 3,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.6,
+    "reviewCount": 1105,
+    "salesVolume": 21032,
+    "trend": "up",
+    "trendValue": -4.3,
+    "region": "中山"
+  },
+  {
+    "id": "real-197",
+    "name": "热销厨房用品 批发",
+    "description": "揭阳产地，现货供应",
+    "category": "家居用品",
+    "subcategory": "厨房用品",
+    "price": {
+      "min": 33,
+      "max": 41,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 53,
+    "supplier": {
+      "name": "苏州市电子科技有限公司",
+      "location": "揭阳",
+      "rating": 4.6,
+      "yearsInBusiness": 14,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 5,
+    "reviewCount": 1131,
+    "salesVolume": 6917,
+    "trend": "up",
+    "trendValue": 14.9,
+    "region": "揭阳"
+  },
+  {
+    "id": "real-198",
+    "name": "热销安防设备 定制",
+    "description": "深圳产地，量大从优",
+    "category": "家居用品",
+    "subcategory": "安防设备",
+    "price": {
+      "min": 238,
+      "max": 292,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 24,
+    "supplier": {
+      "name": "深圳市科技创新有限公司",
+      "location": "深圳",
+      "rating": 4.9,
+      "yearsInBusiness": 8,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.2,
+    "reviewCount": 1906,
+    "salesVolume": 17641,
+    "trend": "up",
+    "trendValue": 22.3,
+    "region": "深圳"
+  },
+  {
+    "id": "real-199",
+    "name": "热销清洁电器 批发",
+    "description": "苏州产地，一件代发",
+    "category": "家居用品",
+    "subcategory": "清洁电器",
+    "price": {
+      "min": 582,
+      "max": 712,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 13,
+    "supplier": {
+      "name": "厦门市户外用品公司",
+      "location": "苏州",
+      "rating": 4.1,
+      "yearsInBusiness": 1,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 5,
+    "reviewCount": 465,
+    "salesVolume": 31657,
+    "trend": "stable",
+    "trendValue": -3.6,
+    "region": "苏州"
+  },
+  {
+    "id": "real-200",
+    "name": "热销床上用品 代工",
+    "description": "南通产地，现货供应",
+    "category": "家居用品",
+    "subcategory": "床上用品",
+    "price": {
+      "min": 62,
+      "max": 76,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 83,
+    "supplier": {
+      "name": "青岛市化工有限公司",
+      "location": "南通",
+      "rating": 4.8,
+      "yearsInBusiness": 6,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.2,
+    "reviewCount": 746,
+    "salesVolume": 37508,
+    "trend": "stable",
+    "trendValue": 2.6,
+    "region": "南通"
+  },
+  {
+    "id": "real-201",
+    "name": "热销运动服装 批发",
+    "description": "泉州产地，一件代发",
+    "category": "纺织服装",
+    "subcategory": "运动服装",
+    "price": {
+      "min": 34,
+      "max": 41,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 143,
+    "supplier": {
+      "name": "佛山市家居用品厂",
+      "location": "泉州",
+      "rating": 3.6,
+      "yearsInBusiness": 6,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.8,
+    "reviewCount": 1724,
+    "salesVolume": 3723,
+    "trend": "up",
+    "trendValue": 9.8,
+    "region": "泉州"
+  },
+  {
+    "id": "real-202",
+    "name": "热销户外服装 贴牌",
+    "description": "石狮产地，现货供应",
+    "category": "纺织服装",
+    "subcategory": "户外服装",
+    "price": {
+      "min": 33,
+      "max": 41,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 167,
+    "supplier": {
+      "name": "深圳市科技创新有限公司",
+      "location": "石狮",
+      "rating": 4.9,
+      "yearsInBusiness": 5,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.7,
+    "reviewCount": 791,
+    "salesVolume": 36195,
+    "trend": "up",
+    "trendValue": -6.2,
+    "region": "石狮"
+  },
+  {
+    "id": "real-203",
+    "name": "热销T恤 代工",
+    "description": "广州产地，量大从优",
+    "category": "纺织服装",
+    "subcategory": "T恤",
+    "price": {
+      "min": 16,
+      "max": 20,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 296,
+    "supplier": {
+      "name": "义乌市小商品批发中心",
+      "location": "广州",
+      "rating": 4.9,
+      "yearsInBusiness": 3,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.8,
+    "reviewCount": 327,
+    "salesVolume": 17694,
+    "trend": "stable",
+    "trendValue": 24.8,
+    "region": "广州"
+  },
+  {
+    "id": "real-204",
+    "name": "热销内衣 批发",
+    "description": "义乌产地，品质保证",
+    "category": "纺织服装",
+    "subcategory": "内衣",
+    "price": {
+      "min": 33,
+      "max": 41,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 64,
+    "supplier": {
+      "name": "泉州市运动器材厂",
+      "location": "义乌",
+      "rating": 4.3,
+      "yearsInBusiness": 4,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.9,
+    "reviewCount": 820,
+    "salesVolume": 37938,
+    "trend": "down",
+    "trendValue": 23.1,
+    "region": "义乌"
+  },
+  {
+    "id": "real-205",
+    "name": "热销外套 批发",
+    "description": "泉州产地，现货供应",
+    "category": "纺织服装",
+    "subcategory": "外套",
+    "price": {
+      "min": 119,
+      "max": 146,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 66,
+    "supplier": {
+      "name": "厦门市户外用品公司",
+      "location": "泉州",
+      "rating": 4,
+      "yearsInBusiness": 3,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.9,
+    "reviewCount": 639,
+    "salesVolume": 49109,
+    "trend": "stable",
+    "trendValue": 0.6,
+    "region": "泉州"
+  },
+  {
+    "id": "real-206",
+    "name": "热销露营装备 贴牌",
+    "description": "厦门产地，现货供应",
+    "category": "运动户外",
+    "subcategory": "露营装备",
+    "price": {
+      "min": 148,
+      "max": 181,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 33,
+    "supplier": {
+      "name": "宁波市五金工具厂",
+      "location": "厦门",
+      "rating": 4.6,
+      "yearsInBusiness": 4,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 5,
+    "reviewCount": 1695,
+    "salesVolume": 6087,
+    "trend": "up",
+    "trendValue": 3.7,
+    "region": "厦门"
+  },
+  {
+    "id": "real-207",
+    "name": "热销自行车 批发",
+    "description": "天津产地，现货供应",
+    "category": "运动户外",
+    "subcategory": "自行车",
+    "price": {
+      "min": 369,
+      "max": 452,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 12,
+    "supplier": {
+      "name": "中山市灯具厂",
+      "location": "天津",
+      "rating": 4.6,
+      "yearsInBusiness": 12,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.8,
+    "reviewCount": 1646,
+    "salesVolume": 9220,
+    "trend": "stable",
+    "trendValue": 11.6,
+    "region": "天津"
+  },
+  {
+    "id": "real-208",
+    "name": "热销户外背包 定制",
+    "description": "泉州产地，品质保证",
+    "category": "运动户外",
+    "subcategory": "户外背包",
+    "price": {
+      "min": 84,
+      "max": 103,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 49,
+    "supplier": {
+      "name": "青岛市化工有限公司",
+      "location": "泉州",
+      "rating": 3.7,
+      "yearsInBusiness": 8,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.9,
+    "reviewCount": 947,
+    "salesVolume": 25073,
+    "trend": "stable",
+    "trendValue": 14.4,
+    "region": "泉州"
+  },
+  {
+    "id": "real-209",
+    "name": "热销瑜伽用品 贴牌",
+    "description": "东莞产地，现货供应",
+    "category": "运动户外",
+    "subcategory": "瑜伽用品",
+    "price": {
+      "min": 22,
+      "max": 27,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 173,
+    "supplier": {
+      "name": "东莞市玩具礼品厂",
+      "location": "东莞",
+      "rating": 3.5,
+      "yearsInBusiness": 1,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.7,
+    "reviewCount": 305,
+    "salesVolume": 662,
+    "trend": "up",
+    "trendValue": -0.5,
+    "region": "东莞"
+  },
+  {
+    "id": "real-210",
+    "name": "热销健身器材 贴牌",
+    "description": "永康产地，一件代发",
+    "category": "运动户外",
+    "subcategory": "健身器材",
+    "price": {
+      "min": 83,
+      "max": 101,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 64,
+    "supplier": {
+      "name": "厦门市户外用品公司",
+      "location": "永康",
+      "rating": 3.9,
+      "yearsInBusiness": 5,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.1,
+    "reviewCount": 1178,
+    "salesVolume": 22597,
+    "trend": "stable",
+    "trendValue": 7.5,
+    "region": "永康"
+  },
+  {
+    "id": "real-211",
+    "name": "热销口腔护理 贴牌",
+    "description": "宁波产地，现货供应",
+    "category": "美妆个护",
+    "subcategory": "口腔护理",
+    "price": {
+      "min": 43,
+      "max": 53,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 100,
+    "supplier": {
+      "name": "苏州市电子科技有限公司",
+      "location": "宁波",
+      "rating": 4.1,
+      "yearsInBusiness": 3,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 5,
+    "reviewCount": 1606,
+    "salesVolume": 48337,
+    "trend": "up",
+    "trendValue": -0.9,
+    "region": "宁波"
+  },
+  {
+    "id": "real-212",
+    "name": "热销面部护理 贴牌",
+    "description": "深圳产地，量大从优",
+    "category": "美妆个护",
+    "subcategory": "面部护理",
+    "price": {
+      "min": 34,
+      "max": 42,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 93,
+    "supplier": {
+      "name": "苏州市电子科技有限公司",
+      "location": "深圳",
+      "rating": 3.7,
+      "yearsInBusiness": 2,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.6,
+    "reviewCount": 539,
+    "salesVolume": 48539,
+    "trend": "up",
+    "trendValue": 25.1,
+    "region": "深圳"
+  },
+  {
+    "id": "real-213",
+    "name": "热销美发工具 贴牌",
+    "description": "东莞产地，量大从优",
+    "category": "美妆个护",
+    "subcategory": "美发工具",
+    "price": {
+      "min": 83,
+      "max": 102,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 68,
+    "supplier": {
+      "name": "东莞市玩具礼品厂",
+      "location": "东莞",
+      "rating": 3.5,
+      "yearsInBusiness": 9,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.6,
+    "reviewCount": 361,
+    "salesVolume": 15148,
+    "trend": "stable",
+    "trendValue": -8.4,
+    "region": "东莞"
+  },
+  {
+    "id": "real-214",
+    "name": "热销美甲工具 批发",
+    "description": "义乌产地，一件代发",
+    "category": "美妆个护",
+    "subcategory": "美甲工具",
+    "price": {
+      "min": 15,
+      "max": 19,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 179,
+    "supplier": {
+      "name": "义乌市小商品批发中心",
+      "location": "义乌",
+      "rating": 4.2,
+      "yearsInBusiness": 14,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.6,
+    "reviewCount": 1452,
+    "salesVolume": 20296,
+    "trend": "up",
+    "trendValue": 22.5,
+    "region": "义乌"
+  },
+  {
+    "id": "real-215",
+    "name": "热销车载电子 贴牌",
+    "description": "深圳产地，品质保证",
+    "category": "汽车配件",
+    "subcategory": "车载电子",
+    "price": {
+      "min": 18,
+      "max": 22,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 114,
+    "supplier": {
+      "name": "苏州市电子科技有限公司",
+      "location": "深圳",
+      "rating": 4.5,
+      "yearsInBusiness": 11,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.3,
+    "reviewCount": 1253,
+    "salesVolume": 19578,
+    "trend": "down",
+    "trendValue": -6.3,
+    "region": "深圳"
+  },
+  {
+    "id": "real-216",
+    "name": "热销安防设备 定制",
+    "description": "东莞产地，现货供应",
+    "category": "汽车配件",
+    "subcategory": "安防设备",
+    "price": {
+      "min": 180,
+      "max": 220,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 35,
+    "supplier": {
+      "name": "杭州市智能家居厂",
+      "location": "东莞",
+      "rating": 4.6,
+      "yearsInBusiness": 6,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.6,
+    "reviewCount": 960,
+    "salesVolume": 37202,
+    "trend": "up",
+    "trendValue": 22.6,
+    "region": "东莞"
+  },
+  {
+    "id": "real-217",
+    "name": "热销内饰用品 代工",
+    "description": "台州产地，现货供应",
+    "category": "汽车配件",
+    "subcategory": "内饰用品",
+    "price": {
+      "min": 79,
+      "max": 96,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 46,
+    "supplier": {
+      "name": "义乌市小商品批发中心",
+      "location": "台州",
+      "rating": 3.7,
+      "yearsInBusiness": 1,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.9,
+    "reviewCount": 1930,
+    "salesVolume": 13002,
+    "trend": "up",
+    "trendValue": -7.2,
+    "region": "台州"
+  },
+  {
+    "id": "real-218",
+    "name": "热销清洁用品 定制",
+    "description": "宁波产地，品质保证",
+    "category": "汽车配件",
+    "subcategory": "清洁用品",
+    "price": {
+      "min": 40,
+      "max": 48,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 109,
+    "supplier": {
+      "name": "杭州市智能家居厂",
+      "location": "宁波",
+      "rating": 4.1,
+      "yearsInBusiness": 7,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.8,
+    "reviewCount": 1632,
+    "salesVolume": 49029,
+    "trend": "stable",
+    "trendValue": -0.4,
+    "region": "宁波"
+  },
+  {
+    "id": "real-219",
+    "name": "热销工业设备 定制",
+    "description": "济南产地，品质保证",
+    "category": "机械设备",
+    "subcategory": "工业设备",
+    "price": {
+      "min": 2374,
+      "max": 2901,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 6,
+    "supplier": {
+      "name": "杭州市智能家居厂",
+      "location": "济南",
+      "rating": 4.3,
+      "yearsInBusiness": 2,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.6,
+    "reviewCount": 465,
+    "salesVolume": 30910,
+    "trend": "down",
+    "trendValue": 16.9,
+    "region": "济南"
+  },
+  {
+    "id": "real-220",
+    "name": "热销打印设备 贴牌",
+    "description": "深圳产地，量大从优",
+    "category": "机械设备",
+    "subcategory": "打印设备",
+    "price": {
+      "min": 694,
+      "max": 848,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 13,
+    "supplier": {
+      "name": "广州市服装制造厂",
+      "location": "深圳",
+      "rating": 4.4,
+      "yearsInBusiness": 14,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.9,
+    "reviewCount": 734,
+    "salesVolume": 40480,
+    "trend": "down",
+    "trendValue": 3.9,
+    "region": "深圳"
+  },
+  {
+    "id": "real-221",
+    "name": "热销工具 贴牌",
+    "description": "永康产地，现货供应",
+    "category": "机械设备",
+    "subcategory": "工具",
+    "price": {
+      "min": 34,
+      "max": 41,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 104,
+    "supplier": {
+      "name": "东莞市玩具礼品厂",
+      "location": "永康",
+      "rating": 3.9,
+      "yearsInBusiness": 1,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.1,
+    "reviewCount": 1653,
+    "salesVolume": 32214,
+    "trend": "stable",
+    "trendValue": 22.6,
+    "region": "永康"
+  },
+  {
+    "id": "real-222",
+    "name": "热销工程机械 定制",
+    "description": "济宁产地，品质保证",
+    "category": "机械设备",
+    "subcategory": "工程机械",
+    "price": {
+      "min": 8313,
+      "max": 10160,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 3,
+    "supplier": {
+      "name": "上海市医疗器械公司",
+      "location": "济宁",
+      "rating": 4.2,
+      "yearsInBusiness": 12,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.7,
+    "reviewCount": 640,
+    "salesVolume": 7888,
+    "trend": "stable",
+    "trendValue": -3.8,
+    "region": "济宁"
+  },
+  {
+    "id": "real-223",
+    "name": "热销检测仪器 代工",
+    "description": "深圳产地，一件代发",
+    "category": "医疗器械",
+    "subcategory": "检测仪器",
+    "price": {
+      "min": 51,
+      "max": 63,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 47,
+    "supplier": {
+      "name": "深圳市科技创新有限公司",
+      "location": "深圳",
+      "rating": 4.3,
+      "yearsInBusiness": 7,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.5,
+    "reviewCount": 544,
+    "salesVolume": 5807,
+    "trend": "down",
+    "trendValue": 27.8,
+    "region": "深圳"
+  },
+  {
+    "id": "real-224",
+    "name": "热销检测仪器 批发",
+    "description": "深圳产地，量大从优",
+    "category": "医疗器械",
+    "subcategory": "检测仪器",
+    "price": {
+      "min": 25,
+      "max": 30,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 134,
+    "supplier": {
+      "name": "杭州市智能家居厂",
+      "location": "深圳",
+      "rating": 4.2,
+      "yearsInBusiness": 8,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.8,
+    "reviewCount": 832,
+    "salesVolume": 37824,
+    "trend": "up",
+    "trendValue": 27.1,
+    "region": "深圳"
+  },
+  {
+    "id": "real-225",
+    "name": "热销检测仪器 贴牌",
+    "description": "东莞产地，一件代发",
+    "category": "医疗器械",
+    "subcategory": "检测仪器",
+    "price": {
+      "min": 14,
+      "max": 17,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 130,
+    "supplier": {
+      "name": "杭州市智能家居厂",
+      "location": "东莞",
+      "rating": 4,
+      "yearsInBusiness": 7,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.1,
+    "reviewCount": 1982,
+    "salesVolume": 32772,
+    "trend": "down",
+    "trendValue": 23,
+    "region": "东莞"
+  },
+  {
+    "id": "real-226",
+    "name": "热销康复设备 批发",
+    "description": "宁德产地，现货供应",
+    "category": "医疗器械",
+    "subcategory": "康复设备",
+    "price": {
+      "min": 2741,
+      "max": 3350,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 7,
+    "supplier": {
+      "name": "东莞市玩具礼品厂",
+      "location": "宁德",
+      "rating": 4.6,
+      "yearsInBusiness": 11,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.9,
+    "reviewCount": 1309,
+    "salesVolume": 20944,
+    "trend": "up",
+    "trendValue": -1.8,
+    "region": "宁德"
+  },
+  {
+    "id": "real-227",
+    "name": "热销益智玩具 批发",
+    "description": "汕头产地，一件代发",
+    "category": "玩具礼品",
+    "subcategory": "益智玩具",
+    "price": {
+      "min": 34,
+      "max": 41,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 42,
+    "supplier": {
+      "name": "温州市眼镜制造厂",
+      "location": "汕头",
+      "rating": 4.5,
+      "yearsInBusiness": 8,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.9,
+    "reviewCount": 697,
+    "salesVolume": 37558,
+    "trend": "down",
+    "trendValue": 0.7,
+    "region": "汕头"
+  },
+  {
+    "id": "real-228",
+    "name": "热销遥控玩具 批发",
+    "description": "深圳产地，品质保证",
+    "category": "玩具礼品",
+    "subcategory": "遥控玩具",
+    "price": {
+      "min": 259,
+      "max": 316,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 19,
+    "supplier": {
+      "name": "温州市眼镜制造厂",
+      "location": "深圳",
+      "rating": 3.6,
+      "yearsInBusiness": 15,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.8,
+    "reviewCount": 28,
+    "salesVolume": 10958,
+    "trend": "down",
+    "trendValue": 23.4,
+    "region": "深圳"
+  },
+  {
+    "id": "real-229",
+    "name": "热销毛绒玩具 代工",
+    "description": "扬州产地，现货供应",
+    "category": "玩具礼品",
+    "subcategory": "毛绒玩具",
+    "price": {
+      "min": 23,
+      "max": 28,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 109,
+    "supplier": {
+      "name": "佛山市家居用品厂",
+      "location": "扬州",
+      "rating": 4.9,
+      "yearsInBusiness": 10,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.6,
+    "reviewCount": 1054,
+    "salesVolume": 28677,
+    "trend": "stable",
+    "trendValue": -1.4,
+    "region": "扬州"
+  },
+  {
+    "id": "real-230",
+    "name": "热销礼品 批发",
+    "description": "义乌产地，现货供应",
+    "category": "玩具礼品",
+    "subcategory": "礼品",
+    "price": {
+      "min": 14,
+      "max": 17,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 179,
+    "supplier": {
+      "name": "广州市服装制造厂",
+      "location": "义乌",
+      "rating": 4,
+      "yearsInBusiness": 14,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.5,
+    "reviewCount": 1996,
+    "salesVolume": 8599,
+    "trend": "up",
+    "trendValue": 26.9,
+    "region": "义乌"
+  },
+  {
+    "id": "real-231",
+    "name": "热销太阳能 定制",
+    "description": "江苏产地，量大从优",
+    "category": "新能源",
+    "subcategory": "太阳能",
+    "price": {
+      "min": 227,
+      "max": 278,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 34,
+    "supplier": {
+      "name": "义乌市小商品批发中心",
+      "location": "江苏",
+      "rating": 4.6,
+      "yearsInBusiness": 15,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.9,
+    "reviewCount": 1767,
+    "salesVolume": 38315,
+    "trend": "up",
+    "trendValue": -8.7,
+    "region": "江苏"
+  },
+  {
+    "id": "real-232",
+    "name": "热销储能电池 代工",
+    "description": "广东产地，量大从优",
+    "category": "新能源",
+    "subcategory": "储能电池",
+    "price": {
+      "min": 1206,
+      "max": 1474,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 13,
+    "supplier": {
+      "name": "温州市眼镜制造厂",
+      "location": "广东",
+      "rating": 4.8,
+      "yearsInBusiness": 2,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.1,
+    "reviewCount": 1803,
+    "salesVolume": 16532,
+    "trend": "up",
+    "trendValue": 10.2,
+    "region": "广东"
+  },
+  {
+    "id": "real-233",
+    "name": "热销储能设备 代工",
+    "description": "浙江产地，现货供应",
+    "category": "新能源",
+    "subcategory": "储能设备",
+    "price": {
+      "min": 517,
+      "max": 633,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 15,
+    "supplier": {
+      "name": "温州市眼镜制造厂",
+      "location": "浙江",
+      "rating": 4.3,
+      "yearsInBusiness": 2,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 3.7,
+    "reviewCount": 1136,
+    "salesVolume": 10633,
+    "trend": "up",
+    "trendValue": 29.7,
+    "region": "浙江"
+  },
+  {
+    "id": "real-234",
+    "name": "热销充电设备 批发",
+    "description": "广东产地，品质保证",
+    "category": "新能源",
+    "subcategory": "充电设备",
+    "price": {
+      "min": 871,
+      "max": 1064,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 14,
+    "supplier": {
+      "name": "苏州市电子科技有限公司",
+      "location": "广东",
+      "rating": 4.8,
+      "yearsInBusiness": 6,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.1,
+    "reviewCount": 1180,
+    "salesVolume": 15123,
+    "trend": "down",
+    "trendValue": -3.6,
+    "region": "广东"
+  },
+  {
+    "id": "real-235",
+    "name": "热销耳机音响 批发",
+    "description": "广东产地，量大从优",
+    "category": "电子产品",
+    "subcategory": "耳机音响",
+    "price": {
+      "min": 36,
+      "max": 44,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 100,
+    "supplier": {
+      "name": "天津市自行车厂",
+      "location": "广东",
+      "rating": 4.1,
+      "yearsInBusiness": 13,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.5,
+    "reviewCount": 1864,
+    "salesVolume": 24026,
+    "trend": "up",
+    "trendValue": 19.6,
+    "region": "广东"
+  },
+  {
+    "id": "real-236",
+    "name": "热销智能穿戴 定制",
+    "description": "深圳产地，品质保证",
+    "category": "电子产品",
+    "subcategory": "智能穿戴",
+    "price": {
+      "min": 106,
+      "max": 130,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 40,
+    "supplier": {
+      "name": "苏州市电子科技有限公司",
+      "location": "深圳",
+      "rating": 4.7,
+      "yearsInBusiness": 6,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.2,
+    "reviewCount": 1096,
+    "salesVolume": 35457,
+    "trend": "up",
+    "trendValue": 15.7,
+    "region": "深圳"
+  },
+  {
+    "id": "real-237",
+    "name": "热销充电设备 定制",
+    "description": "东莞产地，量大从优",
+    "category": "电子产品",
+    "subcategory": "充电设备",
+    "price": {
+      "min": 35,
+      "max": 42,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 187,
+    "supplier": {
+      "name": "宁波市五金工具厂",
+      "location": "东莞",
+      "rating": 4.9,
+      "yearsInBusiness": 15,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.6,
+    "reviewCount": 1899,
+    "salesVolume": 34130,
+    "trend": "down",
+    "trendValue": 29.7,
+    "region": "东莞"
+  },
+  {
+    "id": "real-238",
+    "name": "热销手机配件 贴牌",
+    "description": "深圳产地，量大从优",
+    "category": "电子产品",
+    "subcategory": "手机配件",
+    "price": {
+      "min": 29,
+      "max": 36,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 224,
+    "supplier": {
+      "name": "天津市自行车厂",
+      "location": "深圳",
+      "rating": 4.5,
+      "yearsInBusiness": 10,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 5,
+    "reviewCount": 1930,
+    "salesVolume": 25231,
+    "trend": "up",
+    "trendValue": 18.2,
+    "region": "深圳"
+  },
+  {
+    "id": "real-239",
+    "name": "热销平板电脑 批发",
+    "description": "深圳产地，品质保证",
+    "category": "电子产品",
+    "subcategory": "平板电脑",
+    "price": {
+      "min": 469,
+      "max": 573,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 41,
+    "supplier": {
+      "name": "厦门市户外用品公司",
+      "location": "深圳",
+      "rating": 4.4,
+      "yearsInBusiness": 14,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.1,
+    "reviewCount": 1362,
+    "salesVolume": 13075,
+    "trend": "up",
+    "trendValue": -3.3,
+    "region": "深圳"
+  },
+  {
+    "id": "real-240",
+    "name": "热销智能家居 定制",
+    "description": "杭州产地，量大从优",
+    "category": "电子产品",
+    "subcategory": "智能家居",
+    "price": {
+      "min": 162,
+      "max": 198,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 50,
+    "supplier": {
+      "name": "杭州市智能家居厂",
+      "location": "杭州",
+      "rating": 4,
+      "yearsInBusiness": 8,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.3,
+    "reviewCount": 191,
+    "salesVolume": 37639,
+    "trend": "stable",
+    "trendValue": 13.3,
+    "region": "杭州"
+  },
+  {
+    "id": "real-241",
+    "name": "热销收纳用品 定制",
+    "description": "义乌产地，量大从优",
+    "category": "家居用品",
+    "subcategory": "收纳用品",
+    "price": {
+      "min": 13,
+      "max": 16,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 202,
+    "supplier": {
+      "name": "广州市服装制造厂",
+      "location": "义乌",
+      "rating": 5,
+      "yearsInBusiness": 14,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.4,
+    "reviewCount": 700,
+    "salesVolume": 41712,
+    "trend": "down",
+    "trendValue": 29.3,
+    "region": "义乌"
+  },
+  {
+    "id": "real-242",
+    "name": "热销灯具照明 批发",
+    "description": "中山产地，一件代发",
+    "category": "家居用品",
+    "subcategory": "灯具照明",
+    "price": {
+      "min": 70,
+      "max": 86,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 104,
+    "supplier": {
+      "name": "温州市眼镜制造厂",
+      "location": "中山",
+      "rating": 4.2,
+      "yearsInBusiness": 6,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 5,
+    "reviewCount": 1655,
+    "salesVolume": 26765,
+    "trend": "down",
+    "trendValue": 18,
+    "region": "中山"
+  },
+  {
+    "id": "real-243",
+    "name": "热销厨房用品 贴牌",
+    "description": "揭阳产地，量大从优",
+    "category": "家居用品",
+    "subcategory": "厨房用品",
+    "price": {
+      "min": 36,
+      "max": 44,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 109,
+    "supplier": {
+      "name": "义乌市小商品批发中心",
+      "location": "揭阳",
+      "rating": 4.9,
+      "yearsInBusiness": 2,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.3,
+    "reviewCount": 906,
+    "salesVolume": 21806,
+    "trend": "stable",
+    "trendValue": 7.9,
+    "region": "揭阳"
+  },
+  {
+    "id": "real-244",
+    "name": "热销安防设备 定制",
+    "description": "深圳产地，品质保证",
+    "category": "家居用品",
+    "subcategory": "安防设备",
+    "price": {
+      "min": 237,
+      "max": 290,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 22,
+    "supplier": {
+      "name": "深圳市科技创新有限公司",
+      "location": "深圳",
+      "rating": 5,
+      "yearsInBusiness": 9,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.4,
+    "reviewCount": 1123,
+    "salesVolume": 10967,
+    "trend": "up",
+    "trendValue": 25.4,
+    "region": "深圳"
+  },
+  {
+    "id": "real-245",
+    "name": "热销清洁电器 批发",
+    "description": "苏州产地，一件代发",
+    "category": "家居用品",
+    "subcategory": "清洁电器",
+    "price": {
+      "min": 577,
+      "max": 706,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 11,
+    "supplier": {
+      "name": "上海市医疗器械公司",
+      "location": "苏州",
+      "rating": 3.8,
+      "yearsInBusiness": 14,
+      "verified": true
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.2,
+    "reviewCount": 1430,
+    "salesVolume": 40422,
+    "trend": "stable",
+    "trendValue": 7,
+    "region": "苏州"
+  },
+  {
+    "id": "real-246",
+    "name": "热销床上用品 贴牌",
+    "description": "南通产地，量大从优",
+    "category": "家居用品",
+    "subcategory": "床上用品",
+    "price": {
+      "min": 79,
+      "max": 97,
+      "currency": "CNY",
+      "unit": "件"
+    },
+    "moq": 31,
+    "supplier": {
+      "name": "温州市眼镜制造厂",
+      "location": "南通",
+      "rating": 4.3,
+      "yearsInBusiness": 11,
+      "verified": false
+    },
+    "images": [],
+    "specifications": {},
+    "rating": 4.7,
+    "reviewCount": 1149,
+    "salesVolume": 25444,
+    "trend": "up",
+    "trendValue": 17.2,
+    "region": "南通"
+  }
+]

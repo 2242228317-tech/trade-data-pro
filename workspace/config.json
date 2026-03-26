@@ -1,0 +1,28 @@
+{
+  "replicate": {
+    "api_token": "${REPLICATE_API_TOKEN}",
+    "default_model": "wavespeedai/wan-2.1-t2v-720p",
+    "image_model": "stability-ai/stable-diffusion"
+  },
+  "output": {
+    "directory": "output",
+    "format": "mp4",
+    "quality": "high"
+  },
+  "defaults": {
+    "fps": 24,
+    "resolution": "720p",
+    "guidance_scale": 5.0
+  },
+  "tasks": [
+    {
+      "title": "示例视频-赛博朋克",
+      "scenes": [
+        {
+          "desc": "A futuristic cyberpunk city at night, neon lights, flying cars, rain",
+          "duration": 5
+        }
+      ]
+    }
+  ]
+}

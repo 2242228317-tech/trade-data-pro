@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>律师工具箱 - Legal Tools Pro</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-icon">⚖️</span>
+                <h1>律师工具箱</h1>
+                <span class="subtitle">Legal Tools Pro</span>
+            </div>
+            <nav class="nav">
+                <a href="#tools" class="nav-link">工具</a>
+                <a href="#templates" class="nav-link">模板</a>
+                <a href="#about" class="nav-link">关于</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <!-- 英雄区域 -->
+        <section class="hero">
+            <div class="container">
+                <h2>为法律专业人士打造的智能工具集</h2>
+                <p>提高效率，减少重复工作，专注于核心法律事务</p>
+            </div>
+        </section>
+
+        <!-- 工具列表 -->
+        <section id="tools" class="tools-section">
+            <div class="container">
+                <h3 class="section-title">🛠️ 实用工具</h3>
+                <div class="tools-grid">
+                    <!-- 诉讼费计算器 -->
+                    <div class="tool-card" onclick="openTool('litigation-cost')">
+                        <div class="tool-icon">💰</div>
+                        <h4>诉讼费计算器</h4>
+                        <p>根据诉讼标的额快速计算案件受理费</p>
+                    </div>
+
+                    <!-- 利息计算器 -->
+                    <div class="tool-card" onclick="openTool('interest')">
+                        <div class="tool-icon">📈</div>
+                        <h4>利息计算器</h4>
+                        <p>计算借款利息、逾期利息、LPR 利息</p>
+                    </div>
+
+                    <!-- 工作日计算器 -->
+                    <div class="tool-card" onclick="openTool('workday')">
+                        <div class="tool-icon">📅</div>
+                        <h4>工作日计算器</h4>
+                        <p>计算期间、期限，排除节假日</p>
+                    </div>
+
+                    <!-- 赔偿金计算器 -->
+                    <div class="tool-card" onclick="openTool('compensation')">
+                        <div class="tool-icon">💵</div>
+                        <h4>赔偿金计算器</h4>
+                        <p>工伤、交通事故、劳动补偿金计算</p>
+                    </div>
+
+                    <!-- 法律文书生成 -->
+                    <div class="tool-card" onclick="openTool('document')">
+                        <div class="tool-icon">📄</div>
+                        <h4>法律文书生成</h4>
+                        <p>常用法律文书模板快速生成</p>
+                    </div>
+
+                    <!-- 案件管理 -->
+                    <div class="tool-card" onclick="openTool('case')">
+                        <div class="tool-icon">📁</div>
+                        <h4>案件管理</h4>
+                        <p>跟踪案件进度、重要日期提醒</p>
+                    </div>
+
+                    <!-- 时间追踪 -->
+                    <div class="tool-card" onclick="openTool('timetrack')">
+                        <div class="tool-icon">⏱️</div>
+                        <h4>时间追踪</h4>
+                        <p>记录工作时长，生成计费报表</p>
+                    </div>
+
+                    <!-- 法条检索 -->
+                    <div class="tool-card" onclick="openTool('lawsearch')">
+                        <div class="tool-icon">🔍</div>
+                        <h4>法条检索</h4>
+                        <p>快速查找相关法律法规</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 工具模态框 -->
+        <div id="toolModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <div id="toolContainer"></div>
+            </div>
+        </div>
+
+        <!-- 模板区域 -->
+        <section id="templates" class="templates-section">
+            <div class="container">
+                <h3 class="section-title">📋 法律文书模板</h3>
+                <div class="templates-grid">
+                    <div class="template-card">
+                        <h5>民事起诉状</h5>
+                        <p>标准民事案件起诉格式</p>
+                        <button class="btn-template" onclick="loadTemplate('civil-complaint')">使用模板</button>
+                    </div>
+                    <div class="template-card">
+                        <h5>答辩状</h5>
+                        <p>被告答辩标准格式</p>
+                        <button class="btn-template" onclick="loadTemplate('defense')">使用模板</button>
+                    </div>
+                    <div class="template-card">
+                        <h5>代理词</h5>
+                        <p>律师代理意见模板</p>
+                        <button class="btn-template" onclick="loadTemplate('agency-opinion')">使用模板</button>
+                    </div>
+                    <div class="template-card">
+                        <h5>律师函</h5>
+                        <p>正式律师函格式</p>
+                        <button class="btn-template" onclick="loadTemplate('lawyer-letter')">使用模板</button>
+                    </div>
+                    <div class="template-card">
+                        <h5>合同模板</h5>
+                        <p>常用合同范本</p>
+                        <button class="btn-template" onclick="loadTemplate('contract')">使用模板</button>
+                    </div>
+                    <div class="template-card">
+                        <h5>授权委托书</h5>
+                        <p>诉讼代理授权格式</p>
+                        <button class="btn-template" onclick="loadTemplate('power-attorney')">使用模板</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 关于区域 -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h3 class="section-title">ℹ️ 关于本站</h3>
+                <div class="about-content">
+                    <p><strong>律师工具箱</strong> 是专为法律专业人士设计的在线工具集合，旨在提高律师和法律工作者的工作效率。</p>
+                    <h4>主要功能：</h4>
+                    <ul>
+                        <li>✅ 诉讼费、利息、赔偿金等常用计算</li>
+                        <li>✅ 工作日和期限计算</li>
+                        <li>✅ 法律文书模板快速生成</li>
+                        <li>✅ 案件管理和时间追踪</li>
+                        <li>✅ 本地存储，数据安全</li>
+                    </ul>
+                    <h4>使用说明：</h4>
+                    <ul>
+                        <li>所有数据仅存储在您的本地浏览器中</li>
+                        <li>支持数据导出和备份</li>
+                        <li>完全免费，无广告</li>
+                    </ul>
+                    <p class="disclaimer">⚠️ 免责声明：本工具提供的计算结果仅供参考，具体金额以法院核定为准。法律文书模板需要根据具体案情修改使用。</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 律师工具箱 Legal Tools Pro | 为法律专业人士服务</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/calculators.js"></script>
+    <script src="js/templates.js"></script>
+</body>
+</html>

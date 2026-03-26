@@ -1,0 +1,1802 @@
+[
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "39.37.7",
+    "exportValue": 17307,
+    "exportQuantity": 348694,
+    "destination": "美国",
+    "yoyGrowth": 15,
+    "momGrowth": -0.5
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "39.24.14",
+    "exportValue": 25779,
+    "exportQuantity": 762810,
+    "destination": "德国",
+    "yoyGrowth": -11.9,
+    "momGrowth": 11.6
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "39.31.55",
+    "exportValue": 41265,
+    "exportQuantity": 441493,
+    "destination": "日本",
+    "yoyGrowth": 24.4,
+    "momGrowth": 0.4
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "62.91.73",
+    "exportValue": 11178,
+    "exportQuantity": 311931,
+    "destination": "韩国",
+    "yoyGrowth": 30.6,
+    "momGrowth": -4.4
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "62.39.3",
+    "exportValue": 34520,
+    "exportQuantity": 416322,
+    "destination": "越南",
+    "yoyGrowth": -11.4,
+    "momGrowth": 9.3
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "95.83.21",
+    "exportValue": 34059,
+    "exportQuantity": 684403,
+    "destination": "英国",
+    "yoyGrowth": 33.2,
+    "momGrowth": 7.5
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "94.83.59",
+    "exportValue": 44703,
+    "exportQuantity": 1279500,
+    "destination": "荷兰",
+    "yoyGrowth": -5.3,
+    "momGrowth": 14.3
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "84.34.94",
+    "exportValue": 10803,
+    "exportQuantity": 312850,
+    "destination": "澳大利亚",
+    "yoyGrowth": 29,
+    "momGrowth": 4.2
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "84.59.22",
+    "exportValue": 39126,
+    "exportQuantity": 746766,
+    "destination": "俄罗斯",
+    "yoyGrowth": 32.7,
+    "momGrowth": 11.9
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "85.72.60",
+    "exportValue": 35716,
+    "exportQuantity": 821242,
+    "destination": "印度",
+    "yoyGrowth": 24,
+    "momGrowth": 12.3
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "90.76.89",
+    "exportValue": 19113,
+    "exportQuantity": 367532,
+    "destination": "巴西",
+    "yoyGrowth": 26.8,
+    "momGrowth": -2.9
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "95.91.83",
+    "exportValue": 39462,
+    "exportQuantity": 866869,
+    "destination": "阿联酋",
+    "yoyGrowth": 26.4,
+    "momGrowth": -2.3
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "85.0.83",
+    "exportValue": 9983,
+    "exportQuantity": 289828,
+    "destination": "美国",
+    "yoyGrowth": 15.7,
+    "momGrowth": 14.6
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "39.12.60",
+    "exportValue": 26271,
+    "exportQuantity": 534966,
+    "destination": "德国",
+    "yoyGrowth": 1.4,
+    "momGrowth": 1.5
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "62.64.38",
+    "exportValue": 22418,
+    "exportQuantity": 335509,
+    "destination": "日本",
+    "yoyGrowth": 4.5,
+    "momGrowth": 5.4
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "90.76.92",
+    "exportValue": 31733,
+    "exportQuantity": 950913,
+    "destination": "韩国",
+    "yoyGrowth": 29.7,
+    "momGrowth": -0.2
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "87.92.78",
+    "exportValue": 18187,
+    "exportQuantity": 254180,
+    "destination": "越南",
+    "yoyGrowth": 19.3,
+    "momGrowth": -0.4
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "84.37.35",
+    "exportValue": 5512,
+    "exportQuantity": 99512,
+    "destination": "英国",
+    "yoyGrowth": 14.3,
+    "momGrowth": 14.1
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "61.77.63",
+    "exportValue": 32799,
+    "exportQuantity": 537317,
+    "destination": "荷兰",
+    "yoyGrowth": -9.5,
+    "momGrowth": 0.7
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "61.81.4",
+    "exportValue": 16744,
+    "exportQuantity": 445268,
+    "destination": "澳大利亚",
+    "yoyGrowth": 29.8,
+    "momGrowth": 11.7
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "95.94.40",
+    "exportValue": 10452,
+    "exportQuantity": 186295,
+    "destination": "俄罗斯",
+    "yoyGrowth": 17.8,
+    "momGrowth": 0.8
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "95.37.32",
+    "exportValue": 9233,
+    "exportQuantity": 136881,
+    "destination": "印度",
+    "yoyGrowth": 31.7,
+    "momGrowth": -0.3
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "94.68.38",
+    "exportValue": 6990,
+    "exportQuantity": 171795,
+    "destination": "巴西",
+    "yoyGrowth": 11.5,
+    "momGrowth": -4.1
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "39.86.83",
+    "exportValue": 7960,
+    "exportQuantity": 167810,
+    "destination": "阿联酋",
+    "yoyGrowth": 19.4,
+    "momGrowth": 2.5
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "73.5.98",
+    "exportValue": 14653,
+    "exportQuantity": 262547,
+    "destination": "美国",
+    "yoyGrowth": 2.7,
+    "momGrowth": 12.4
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "84.68.88",
+    "exportValue": 15844,
+    "exportQuantity": 345413,
+    "destination": "德国",
+    "yoyGrowth": 22.1,
+    "momGrowth": 7.1
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "39.17.32",
+    "exportValue": 31022,
+    "exportQuantity": 859208,
+    "destination": "日本",
+    "yoyGrowth": 1,
+    "momGrowth": 12.5
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "95.66.0",
+    "exportValue": 13484,
+    "exportQuantity": 256788,
+    "destination": "韩国",
+    "yoyGrowth": 15.3,
+    "momGrowth": 5.6
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "94.19.39",
+    "exportValue": 32173,
+    "exportQuantity": 952081,
+    "destination": "越南",
+    "yoyGrowth": 6.2,
+    "momGrowth": 6.7
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "61.16.78",
+    "exportValue": 28565,
+    "exportQuantity": 559449,
+    "destination": "英国",
+    "yoyGrowth": -14.3,
+    "momGrowth": 2.1
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "90.86.13",
+    "exportValue": 28340,
+    "exportQuantity": 487612,
+    "destination": "荷兰",
+    "yoyGrowth": 18.9,
+    "momGrowth": 14.5
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "73.81.31",
+    "exportValue": 35618,
+    "exportQuantity": 919433,
+    "destination": "澳大利亚",
+    "yoyGrowth": 6.1,
+    "momGrowth": 4.2
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "62.81.59",
+    "exportValue": 17089,
+    "exportQuantity": 381885,
+    "destination": "俄罗斯",
+    "yoyGrowth": -3.2,
+    "momGrowth": -2
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "95.57.16",
+    "exportValue": 17888,
+    "exportQuantity": 307683,
+    "destination": "印度",
+    "yoyGrowth": 6.5,
+    "momGrowth": 7.6
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "39.11.6",
+    "exportValue": 16903,
+    "exportQuantity": 410883,
+    "destination": "巴西",
+    "yoyGrowth": 16.9,
+    "momGrowth": 9.6
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "62.95.64",
+    "exportValue": 33490,
+    "exportQuantity": 908418,
+    "destination": "阿联酋",
+    "yoyGrowth": 10.5,
+    "momGrowth": 9.3
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "39.59.40",
+    "exportValue": 37184,
+    "exportQuantity": 816535,
+    "destination": "美国",
+    "yoyGrowth": 3.6,
+    "momGrowth": 9.3
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "84.81.24",
+    "exportValue": 10806,
+    "exportQuantity": 202455,
+    "destination": "德国",
+    "yoyGrowth": -12,
+    "momGrowth": 2.4
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "95.35.29",
+    "exportValue": 26117,
+    "exportQuantity": 428327,
+    "destination": "日本",
+    "yoyGrowth": 13.6,
+    "momGrowth": -2.2
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "62.64.53",
+    "exportValue": 42509,
+    "exportQuantity": 980616,
+    "destination": "韩国",
+    "yoyGrowth": 23.9,
+    "momGrowth": 7.7
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "61.6.42",
+    "exportValue": 34766,
+    "exportQuantity": 436756,
+    "destination": "越南",
+    "yoyGrowth": 13.2,
+    "momGrowth": -1.5
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "61.27.64",
+    "exportValue": 42073,
+    "exportQuantity": 1140629,
+    "destination": "英国",
+    "yoyGrowth": 14.1,
+    "momGrowth": -0.1
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "62.76.91",
+    "exportValue": 40995,
+    "exportQuantity": 577166,
+    "destination": "荷兰",
+    "yoyGrowth": 9.8,
+    "momGrowth": 13.9
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "94.93.31",
+    "exportValue": 12042,
+    "exportQuantity": 152774,
+    "destination": "澳大利亚",
+    "yoyGrowth": 25.9,
+    "momGrowth": -1.9
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "95.90.37",
+    "exportValue": 44372,
+    "exportQuantity": 935671,
+    "destination": "俄罗斯",
+    "yoyGrowth": 4.1,
+    "momGrowth": 8.8
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "61.36.8",
+    "exportValue": 43102,
+    "exportQuantity": 673993,
+    "destination": "印度",
+    "yoyGrowth": -5.9,
+    "momGrowth": -3.5
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "61.81.30",
+    "exportValue": 40219,
+    "exportQuantity": 480611,
+    "destination": "巴西",
+    "yoyGrowth": 5.7,
+    "momGrowth": 4.4
+  },
+  {
+    "date": "2024-02",
+    "productName": "新能源",
+    "hsCode": "87.58.20",
+    "exportValue": 11479,
+    "exportQuantity": 132638,
+    "destination": "阿联酋",
+    "yoyGrowth": 21.8,
+    "momGrowth": 13.2
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "87.0.81",
+    "exportValue": 39688,
+    "exportQuantity": 828502,
+    "destination": "美国",
+    "yoyGrowth": 27.9,
+    "momGrowth": 7.5
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "84.11.3",
+    "exportValue": 12863,
+    "exportQuantity": 197444,
+    "destination": "德国",
+    "yoyGrowth": 16,
+    "momGrowth": 13.5
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "62.29.4",
+    "exportValue": 23756,
+    "exportQuantity": 569994,
+    "destination": "日本",
+    "yoyGrowth": 14.5,
+    "momGrowth": 10.5
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "90.77.30",
+    "exportValue": 36937,
+    "exportQuantity": 674749,
+    "destination": "韩国",
+    "yoyGrowth": 15.4,
+    "momGrowth": 7
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "84.48.31",
+    "exportValue": 7875,
+    "exportQuantity": 174640,
+    "destination": "越南",
+    "yoyGrowth": 32.1,
+    "momGrowth": 1.8
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "90.41.82",
+    "exportValue": 21320,
+    "exportQuantity": 482874,
+    "destination": "英国",
+    "yoyGrowth": 15.3,
+    "momGrowth": 6.4
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "95.60.12",
+    "exportValue": 19545,
+    "exportQuantity": 373994,
+    "destination": "荷兰",
+    "yoyGrowth": -9.9,
+    "momGrowth": 9.1
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "61.68.88",
+    "exportValue": 40684,
+    "exportQuantity": 1216523,
+    "destination": "澳大利亚",
+    "yoyGrowth": -8.7,
+    "momGrowth": -0.3
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "94.73.76",
+    "exportValue": 7548,
+    "exportQuantity": 110471,
+    "destination": "俄罗斯",
+    "yoyGrowth": -11.9,
+    "momGrowth": -3.3
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "87.77.32",
+    "exportValue": 16049,
+    "exportQuantity": 364314,
+    "destination": "印度",
+    "yoyGrowth": 13.7,
+    "momGrowth": -4.3
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "95.18.62",
+    "exportValue": 13550,
+    "exportQuantity": 250103,
+    "destination": "巴西",
+    "yoyGrowth": 13.4,
+    "momGrowth": -1.4
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "95.31.72",
+    "exportValue": 9896,
+    "exportQuantity": 214650,
+    "destination": "阿联酋",
+    "yoyGrowth": 28.3,
+    "momGrowth": 9.1
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "73.70.87",
+    "exportValue": 10122,
+    "exportQuantity": 233272,
+    "destination": "美国",
+    "yoyGrowth": -6.1,
+    "momGrowth": 13.2
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "95.92.43",
+    "exportValue": 17634,
+    "exportQuantity": 192073,
+    "destination": "德国",
+    "yoyGrowth": 24.8,
+    "momGrowth": 12.6
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "61.69.47",
+    "exportValue": 34573,
+    "exportQuantity": 865916,
+    "destination": "日本",
+    "yoyGrowth": -3,
+    "momGrowth": 15
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "39.21.4",
+    "exportValue": 32814,
+    "exportQuantity": 913931,
+    "destination": "韩国",
+    "yoyGrowth": 10.3,
+    "momGrowth": 0.1
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "87.32.56",
+    "exportValue": 32041,
+    "exportQuantity": 617277,
+    "destination": "越南",
+    "yoyGrowth": 33.5,
+    "momGrowth": 7.6
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "84.87.94",
+    "exportValue": 26424,
+    "exportQuantity": 421988,
+    "destination": "英国",
+    "yoyGrowth": 7.8,
+    "momGrowth": 4.9
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "62.54.18",
+    "exportValue": 24227,
+    "exportQuantity": 299641,
+    "destination": "荷兰",
+    "yoyGrowth": -11.6,
+    "momGrowth": -4.7
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "87.91.88",
+    "exportValue": 10550,
+    "exportQuantity": 154208,
+    "destination": "澳大利亚",
+    "yoyGrowth": -1.9,
+    "momGrowth": 13.1
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "39.39.27",
+    "exportValue": 32859,
+    "exportQuantity": 654170,
+    "destination": "俄罗斯",
+    "yoyGrowth": 28.3,
+    "momGrowth": 7.7
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "95.2.80",
+    "exportValue": 30431,
+    "exportQuantity": 389700,
+    "destination": "印度",
+    "yoyGrowth": 16.6,
+    "momGrowth": 2.2
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "87.77.24",
+    "exportValue": 13965,
+    "exportQuantity": 325443,
+    "destination": "巴西",
+    "yoyGrowth": 17.5,
+    "momGrowth": 5.2
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "84.57.4",
+    "exportValue": 21495,
+    "exportQuantity": 396939,
+    "destination": "阿联酋",
+    "yoyGrowth": 33.7,
+    "momGrowth": -3.7
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "84.9.19",
+    "exportValue": 36017,
+    "exportQuantity": 992965,
+    "destination": "美国",
+    "yoyGrowth": -6,
+    "momGrowth": 11.9
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "95.90.35",
+    "exportValue": 16261,
+    "exportQuantity": 237458,
+    "destination": "德国",
+    "yoyGrowth": -14.9,
+    "momGrowth": 9.7
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "61.93.87",
+    "exportValue": 27319,
+    "exportQuantity": 686313,
+    "destination": "日本",
+    "yoyGrowth": 33,
+    "momGrowth": 10.3
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "84.56.23",
+    "exportValue": 17592,
+    "exportQuantity": 248287,
+    "destination": "韩国",
+    "yoyGrowth": -13.7,
+    "momGrowth": 8.2
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "90.4.46",
+    "exportValue": 39323,
+    "exportQuantity": 1166110,
+    "destination": "越南",
+    "yoyGrowth": 32.3,
+    "momGrowth": 13.3
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "61.35.27",
+    "exportValue": 23024,
+    "exportQuantity": 391484,
+    "destination": "英国",
+    "yoyGrowth": -7.4,
+    "momGrowth": 10.6
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "95.67.4",
+    "exportValue": 27826,
+    "exportQuantity": 602252,
+    "destination": "荷兰",
+    "yoyGrowth": 9.7,
+    "momGrowth": 11.3
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "73.16.8",
+    "exportValue": 18819,
+    "exportQuantity": 383605,
+    "destination": "澳大利亚",
+    "yoyGrowth": 1.4,
+    "momGrowth": 5.9
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "39.90.55",
+    "exportValue": 44396,
+    "exportQuantity": 1170688,
+    "destination": "俄罗斯",
+    "yoyGrowth": 1.6,
+    "momGrowth": 13.6
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "87.36.45",
+    "exportValue": 33735,
+    "exportQuantity": 859527,
+    "destination": "印度",
+    "yoyGrowth": 13.6,
+    "momGrowth": -3.6
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "84.40.22",
+    "exportValue": 5783,
+    "exportQuantity": 163109,
+    "destination": "巴西",
+    "yoyGrowth": -8.8,
+    "momGrowth": 8.1
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "87.18.91",
+    "exportValue": 32326,
+    "exportQuantity": 509168,
+    "destination": "阿联酋",
+    "yoyGrowth": 28.3,
+    "momGrowth": 13.6
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "73.7.90",
+    "exportValue": 37972,
+    "exportQuantity": 677988,
+    "destination": "美国",
+    "yoyGrowth": 29.9,
+    "momGrowth": 2
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "84.97.10",
+    "exportValue": 43937,
+    "exportQuantity": 638835,
+    "destination": "德国",
+    "yoyGrowth": 19.3,
+    "momGrowth": -0.7
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "84.25.47",
+    "exportValue": 31868,
+    "exportQuantity": 581175,
+    "destination": "日本",
+    "yoyGrowth": 9.8,
+    "momGrowth": 8
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "87.45.84",
+    "exportValue": 13346,
+    "exportQuantity": 247910,
+    "destination": "韩国",
+    "yoyGrowth": -12.2,
+    "momGrowth": 5
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "94.83.87",
+    "exportValue": 31477,
+    "exportQuantity": 494746,
+    "destination": "越南",
+    "yoyGrowth": 20.6,
+    "momGrowth": -3.1
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "62.89.82",
+    "exportValue": 40955,
+    "exportQuantity": 960049,
+    "destination": "英国",
+    "yoyGrowth": 4.5,
+    "momGrowth": 12.2
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "73.41.16",
+    "exportValue": 16416,
+    "exportQuantity": 428412,
+    "destination": "荷兰",
+    "yoyGrowth": 13.1,
+    "momGrowth": 10.3
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "85.59.7",
+    "exportValue": 23888,
+    "exportQuantity": 467735,
+    "destination": "澳大利亚",
+    "yoyGrowth": 25.2,
+    "momGrowth": 0
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "94.39.76",
+    "exportValue": 17349,
+    "exportQuantity": 319939,
+    "destination": "俄罗斯",
+    "yoyGrowth": -14,
+    "momGrowth": 4.9
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "39.93.60",
+    "exportValue": 23925,
+    "exportQuantity": 415827,
+    "destination": "印度",
+    "yoyGrowth": 13.2,
+    "momGrowth": 11.1
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "85.21.14",
+    "exportValue": 13865,
+    "exportQuantity": 198276,
+    "destination": "巴西",
+    "yoyGrowth": -12.6,
+    "momGrowth": 3.8
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "62.14.11",
+    "exportValue": 28737,
+    "exportQuantity": 451055,
+    "destination": "阿联酋",
+    "yoyGrowth": 2.2,
+    "momGrowth": 2.6
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "61.52.67",
+    "exportValue": 39557,
+    "exportQuantity": 759362,
+    "destination": "美国",
+    "yoyGrowth": 26.5,
+    "momGrowth": 4.6
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "73.57.90",
+    "exportValue": 36150,
+    "exportQuantity": 768793,
+    "destination": "德国",
+    "yoyGrowth": 19.7,
+    "momGrowth": -1.9
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "85.45.60",
+    "exportValue": 33804,
+    "exportQuantity": 565360,
+    "destination": "日本",
+    "yoyGrowth": -0.7,
+    "momGrowth": 4.7
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "39.53.95",
+    "exportValue": 7863,
+    "exportQuantity": 161166,
+    "destination": "韩国",
+    "yoyGrowth": 15.7,
+    "momGrowth": 14.8
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "61.86.77",
+    "exportValue": 14329,
+    "exportQuantity": 260023,
+    "destination": "越南",
+    "yoyGrowth": 29.3,
+    "momGrowth": -2.1
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "39.23.93",
+    "exportValue": 26530,
+    "exportQuantity": 347995,
+    "destination": "英国",
+    "yoyGrowth": 33.8,
+    "momGrowth": 1.8
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "61.91.49",
+    "exportValue": 15007,
+    "exportQuantity": 256784,
+    "destination": "荷兰",
+    "yoyGrowth": 13.9,
+    "momGrowth": 11
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "62.44.60",
+    "exportValue": 38914,
+    "exportQuantity": 409381,
+    "destination": "澳大利亚",
+    "yoyGrowth": 24,
+    "momGrowth": 9.7
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "39.89.54",
+    "exportValue": 23181,
+    "exportQuantity": 295291,
+    "destination": "俄罗斯",
+    "yoyGrowth": -9.4,
+    "momGrowth": 12.8
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "95.88.51",
+    "exportValue": 8000,
+    "exportQuantity": 181484,
+    "destination": "印度",
+    "yoyGrowth": -4.7,
+    "momGrowth": -4.5
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "94.79.55",
+    "exportValue": 39117,
+    "exportQuantity": 859628,
+    "destination": "巴西",
+    "yoyGrowth": -0.7,
+    "momGrowth": 1.3
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "62.44.63",
+    "exportValue": 42461,
+    "exportQuantity": 756470,
+    "destination": "阿联酋",
+    "yoyGrowth": -12.7,
+    "momGrowth": 13.1
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "61.29.98",
+    "exportValue": 44303,
+    "exportQuantity": 941428,
+    "destination": "美国",
+    "yoyGrowth": 7.5,
+    "momGrowth": 0.7
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "95.27.41",
+    "exportValue": 14335,
+    "exportQuantity": 285389,
+    "destination": "德国",
+    "yoyGrowth": 8.8,
+    "momGrowth": 9.5
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "90.16.17",
+    "exportValue": 17420,
+    "exportQuantity": 482602,
+    "destination": "日本",
+    "yoyGrowth": 33.3,
+    "momGrowth": 5.6
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "39.14.70",
+    "exportValue": 22404,
+    "exportQuantity": 470712,
+    "destination": "韩国",
+    "yoyGrowth": -11,
+    "momGrowth": 10.7
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "90.41.18",
+    "exportValue": 34196,
+    "exportQuantity": 990008,
+    "destination": "越南",
+    "yoyGrowth": 26.1,
+    "momGrowth": 10.8
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "95.15.1",
+    "exportValue": 28735,
+    "exportQuantity": 410682,
+    "destination": "英国",
+    "yoyGrowth": 16.6,
+    "momGrowth": -4.7
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "73.32.71",
+    "exportValue": 32815,
+    "exportQuantity": 564677,
+    "destination": "荷兰",
+    "yoyGrowth": 28.2,
+    "momGrowth": 2.4
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "62.3.43",
+    "exportValue": 10545,
+    "exportQuantity": 156553,
+    "destination": "澳大利亚",
+    "yoyGrowth": -4.5,
+    "momGrowth": 5.5
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "87.33.7",
+    "exportValue": 42194,
+    "exportQuantity": 424756,
+    "destination": "俄罗斯",
+    "yoyGrowth": -7.3,
+    "momGrowth": -3
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "61.77.38",
+    "exportValue": 27844,
+    "exportQuantity": 581173,
+    "destination": "印度",
+    "yoyGrowth": 21.5,
+    "momGrowth": 3
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "87.44.60",
+    "exportValue": 10679,
+    "exportQuantity": 237488,
+    "destination": "巴西",
+    "yoyGrowth": 13.4,
+    "momGrowth": 3.9
+  },
+  {
+    "date": "2024-02",
+    "productName": "电子产品",
+    "hsCode": "85.83.23",
+    "exportValue": 9318,
+    "exportQuantity": 266489,
+    "destination": "阿联酋",
+    "yoyGrowth": -12,
+    "momGrowth": -1.5
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "94.40.24",
+    "exportValue": 9604,
+    "exportQuantity": 186096,
+    "destination": "美国",
+    "yoyGrowth": 9.8,
+    "momGrowth": 1.5
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "87.3.53",
+    "exportValue": 7276,
+    "exportQuantity": 76723,
+    "destination": "德国",
+    "yoyGrowth": 28.7,
+    "momGrowth": 10.3
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "73.48.57",
+    "exportValue": 26334,
+    "exportQuantity": 777336,
+    "destination": "日本",
+    "yoyGrowth": 25.9,
+    "momGrowth": -0.4
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "73.18.78",
+    "exportValue": 12567,
+    "exportQuantity": 228760,
+    "destination": "韩国",
+    "yoyGrowth": -1.8,
+    "momGrowth": 11.4
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "87.17.68",
+    "exportValue": 23336,
+    "exportQuantity": 480375,
+    "destination": "越南",
+    "yoyGrowth": 15.2,
+    "momGrowth": 12.2
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "95.10.54",
+    "exportValue": 41485,
+    "exportQuantity": 721072,
+    "destination": "英国",
+    "yoyGrowth": 29.2,
+    "momGrowth": 1.7
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "61.4.57",
+    "exportValue": 39770,
+    "exportQuantity": 490719,
+    "destination": "荷兰",
+    "yoyGrowth": -9.6,
+    "momGrowth": 4.5
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "62.79.97",
+    "exportValue": 18992,
+    "exportQuantity": 330579,
+    "destination": "澳大利亚",
+    "yoyGrowth": 5.3,
+    "momGrowth": -0.2
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "90.52.87",
+    "exportValue": 32052,
+    "exportQuantity": 327528,
+    "destination": "俄罗斯",
+    "yoyGrowth": 14,
+    "momGrowth": -0.6
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "90.83.47",
+    "exportValue": 25133,
+    "exportQuantity": 501656,
+    "destination": "印度",
+    "yoyGrowth": 4.6,
+    "momGrowth": -2.4
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "85.54.51",
+    "exportValue": 33625,
+    "exportQuantity": 695489,
+    "destination": "巴西",
+    "yoyGrowth": 16.1,
+    "momGrowth": -3.5
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "73.65.58",
+    "exportValue": 29132,
+    "exportQuantity": 741532,
+    "destination": "阿联酋",
+    "yoyGrowth": 13.4,
+    "momGrowth": 0.6
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "94.54.69",
+    "exportValue": 29665,
+    "exportQuantity": 594838,
+    "destination": "美国",
+    "yoyGrowth": -2.7,
+    "momGrowth": 0.5
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "84.55.50",
+    "exportValue": 19407,
+    "exportQuantity": 386311,
+    "destination": "德国",
+    "yoyGrowth": 6.1,
+    "momGrowth": 11.2
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "87.10.30",
+    "exportValue": 11065,
+    "exportQuantity": 142081,
+    "destination": "日本",
+    "yoyGrowth": -14.5,
+    "momGrowth": 14
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "85.34.17",
+    "exportValue": 32148,
+    "exportQuantity": 474255,
+    "destination": "韩国",
+    "yoyGrowth": 20,
+    "momGrowth": 0.7
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "95.71.13",
+    "exportValue": 44992,
+    "exportQuantity": 1206940,
+    "destination": "越南",
+    "yoyGrowth": -2.9,
+    "momGrowth": 3.2
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "90.4.96",
+    "exportValue": 32473,
+    "exportQuantity": 749962,
+    "destination": "英国",
+    "yoyGrowth": 25.8,
+    "momGrowth": 2.7
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "90.20.32",
+    "exportValue": 32205,
+    "exportQuantity": 956847,
+    "destination": "荷兰",
+    "yoyGrowth": 5.8,
+    "momGrowth": 14.2
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "62.2.55",
+    "exportValue": 5058,
+    "exportQuantity": 51286,
+    "destination": "澳大利亚",
+    "yoyGrowth": 33.3,
+    "momGrowth": 6.2
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "95.98.3",
+    "exportValue": 14784,
+    "exportQuantity": 170707,
+    "destination": "俄罗斯",
+    "yoyGrowth": 18.1,
+    "momGrowth": 13.7
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "87.85.18",
+    "exportValue": 34690,
+    "exportQuantity": 389249,
+    "destination": "印度",
+    "yoyGrowth": -10.3,
+    "momGrowth": 2.6
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "94.73.31",
+    "exportValue": 18884,
+    "exportQuantity": 207466,
+    "destination": "巴西",
+    "yoyGrowth": -14,
+    "momGrowth": 3.6
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "85.20.29",
+    "exportValue": 33182,
+    "exportQuantity": 833311,
+    "destination": "阿联酋",
+    "yoyGrowth": 24.8,
+    "momGrowth": 2
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "94.7.22",
+    "exportValue": 12619,
+    "exportQuantity": 179572,
+    "destination": "美国",
+    "yoyGrowth": 11.6,
+    "momGrowth": -1.7
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "39.24.78",
+    "exportValue": 24920,
+    "exportQuantity": 390455,
+    "destination": "德国",
+    "yoyGrowth": 13.3,
+    "momGrowth": 2.4
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "84.44.95",
+    "exportValue": 15346,
+    "exportQuantity": 307515,
+    "destination": "日本",
+    "yoyGrowth": 12.9,
+    "momGrowth": 2.7
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "94.51.85",
+    "exportValue": 37424,
+    "exportQuantity": 959148,
+    "destination": "韩国",
+    "yoyGrowth": -6.1,
+    "momGrowth": 12.3
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "90.73.61",
+    "exportValue": 20211,
+    "exportQuantity": 401658,
+    "destination": "越南",
+    "yoyGrowth": 18.2,
+    "momGrowth": 2.8
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "87.63.21",
+    "exportValue": 34882,
+    "exportQuantity": 812640,
+    "destination": "英国",
+    "yoyGrowth": 27.3,
+    "momGrowth": -2.1
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "62.45.62",
+    "exportValue": 43691,
+    "exportQuantity": 896644,
+    "destination": "荷兰",
+    "yoyGrowth": 33.5,
+    "momGrowth": 12.9
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "84.57.33",
+    "exportValue": 31509,
+    "exportQuantity": 398939,
+    "destination": "澳大利亚",
+    "yoyGrowth": 4,
+    "momGrowth": 11.6
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "94.70.36",
+    "exportValue": 37635,
+    "exportQuantity": 484306,
+    "destination": "俄罗斯",
+    "yoyGrowth": 3.3,
+    "momGrowth": 7
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "90.55.4",
+    "exportValue": 26455,
+    "exportQuantity": 449286,
+    "destination": "印度",
+    "yoyGrowth": 10.4,
+    "momGrowth": 8.3
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "95.3.6",
+    "exportValue": 37752,
+    "exportQuantity": 1124678,
+    "destination": "巴西",
+    "yoyGrowth": 29.2,
+    "momGrowth": -1.2
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "85.7.11",
+    "exportValue": 39105,
+    "exportQuantity": 972755,
+    "destination": "阿联酋",
+    "yoyGrowth": 19.5,
+    "momGrowth": -3.8
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "87.87.97",
+    "exportValue": 42193,
+    "exportQuantity": 1056908,
+    "destination": "美国",
+    "yoyGrowth": -14.8,
+    "momGrowth": 8.5
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "87.28.13",
+    "exportValue": 39524,
+    "exportQuantity": 630605,
+    "destination": "德国",
+    "yoyGrowth": 28.9,
+    "momGrowth": -4.1
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "39.75.68",
+    "exportValue": 10117,
+    "exportQuantity": 105565,
+    "destination": "日本",
+    "yoyGrowth": 2.4,
+    "momGrowth": 6.4
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "84.61.14",
+    "exportValue": 34312,
+    "exportQuantity": 522846,
+    "destination": "韩国",
+    "yoyGrowth": 13.5,
+    "momGrowth": 2.8
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "90.2.67",
+    "exportValue": 43441,
+    "exportQuantity": 1208465,
+    "destination": "越南",
+    "yoyGrowth": -13.4,
+    "momGrowth": 14.6
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "95.65.76",
+    "exportValue": 31008,
+    "exportQuantity": 564443,
+    "destination": "英国",
+    "yoyGrowth": 10.6,
+    "momGrowth": 2.9
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "39.32.1",
+    "exportValue": 35133,
+    "exportQuantity": 804222,
+    "destination": "荷兰",
+    "yoyGrowth": 30.7,
+    "momGrowth": 6.8
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "62.7.71",
+    "exportValue": 18486,
+    "exportQuantity": 431635,
+    "destination": "澳大利亚",
+    "yoyGrowth": 0.1,
+    "momGrowth": 2.1
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "94.49.77",
+    "exportValue": 19440,
+    "exportQuantity": 324005,
+    "destination": "俄罗斯",
+    "yoyGrowth": 33.3,
+    "momGrowth": -2.4
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "85.68.88",
+    "exportValue": 13375,
+    "exportQuantity": 226946,
+    "destination": "印度",
+    "yoyGrowth": 0.8,
+    "momGrowth": 3.1
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "73.13.89",
+    "exportValue": 17241,
+    "exportQuantity": 325725,
+    "destination": "巴西",
+    "yoyGrowth": 32.9,
+    "momGrowth": -0.5
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "61.60.73",
+    "exportValue": 28760,
+    "exportQuantity": 301131,
+    "destination": "阿联酋",
+    "yoyGrowth": 4.6,
+    "momGrowth": 14.2
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "62.3.55",
+    "exportValue": 9272,
+    "exportQuantity": 159047,
+    "destination": "美国",
+    "yoyGrowth": 1.1,
+    "momGrowth": 8.3
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "62.49.84",
+    "exportValue": 7640,
+    "exportQuantity": 81222,
+    "destination": "德国",
+    "yoyGrowth": -4.7,
+    "momGrowth": 6.9
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "85.83.96",
+    "exportValue": 15371,
+    "exportQuantity": 421641,
+    "destination": "日本",
+    "yoyGrowth": -9.5,
+    "momGrowth": 7.2
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "85.19.83",
+    "exportValue": 31406,
+    "exportQuantity": 490385,
+    "destination": "韩国",
+    "yoyGrowth": 33.2,
+    "momGrowth": 8.6
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "90.69.53",
+    "exportValue": 31107,
+    "exportQuantity": 930646,
+    "destination": "越南",
+    "yoyGrowth": 2.2,
+    "momGrowth": 6.5
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "84.43.7",
+    "exportValue": 17299,
+    "exportQuantity": 253776,
+    "destination": "英国",
+    "yoyGrowth": -14.3,
+    "momGrowth": 4.4
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "90.67.11",
+    "exportValue": 15555,
+    "exportQuantity": 335871,
+    "destination": "荷兰",
+    "yoyGrowth": -1.5,
+    "momGrowth": 2.5
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "90.96.8",
+    "exportValue": 8129,
+    "exportQuantity": 193171,
+    "destination": "澳大利亚",
+    "yoyGrowth": -0.5,
+    "momGrowth": 11.1
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "95.51.3",
+    "exportValue": 22387,
+    "exportQuantity": 424846,
+    "destination": "俄罗斯",
+    "yoyGrowth": -11.2,
+    "momGrowth": 11.9
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "73.32.64",
+    "exportValue": 39854,
+    "exportQuantity": 492355,
+    "destination": "印度",
+    "yoyGrowth": -9.8,
+    "momGrowth": 3.6
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "95.65.83",
+    "exportValue": 32980,
+    "exportQuantity": 923534,
+    "destination": "巴西",
+    "yoyGrowth": 26.1,
+    "momGrowth": 2.1
+  },
+  {
+    "date": "2024-02",
+    "productName": "家居用品",
+    "hsCode": "90.50.42",
+    "exportValue": 43880,
+    "exportQuantity": 1130978,
+    "destination": "阿联酋",
+    "yoyGrowth": 27.1,
+    "momGrowth": -2.5
+  }
+]

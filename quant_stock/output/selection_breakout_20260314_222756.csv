@@ -1,0 +1,6 @@
+﻿code,name,price,change,score,signals,advice
+000082,Stock_000082,115.01,6.45,11,Change:6.45% | VolRatio:1.51 | Break20High | BullishMA | MACD_Golden,Support:103.50 | Resist:116.69 | Stop:109.26
+000034,Stock_000034,40.79,3.53,7,Change:3.53% | Break20High | BullishMA,Support:33.91 | Resist:41.25 | Stop:38.75
+000031,Stock_000031,29.33,2.85,7,Break20High | BullishMA | MACD_Golden,Support:26.97 | Resist:29.37 | Stop:27.86
+000057,Stock_000057,102.03,3.7,7,Change:3.70% | Break20High | BullishMA,Support:93.12 | Resist:102.03 | Stop:96.92
+000027,Stock_000027,95.54,1.9,7,VolRatio:3.20 | Break20High | BullishMA,Support:82.80 | Resist:95.68 | Stop:90.77

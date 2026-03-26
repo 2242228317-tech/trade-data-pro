@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TradeData Pro - 中国出口商品数据分析平台</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .gradient-text { background: linear-gradient(135deg, #3b82f6, #6366f1); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .card-hover { transition: all 0.3s ease; }
+    .card-hover:hover { transform: translateY(-4px); box-shadow: 0 20px 40px -8px rgba(0,0,0,0.15); }
+    @keyframes pulse-dot { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .pulse-dot { animation: pulse-dot 2s infinite; }
+    .progress-bar { animation: progress 1s ease-out forwards; }
+    @keyframes progress { from { width: 0; } }
+  </style>
+</head>
+<body class="bg-gray-50 min-h-screen">
+  <!-- 导航栏 -->
+  <nav class="bg-white border-b border-gray-200 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-14">
+        <a href="/" class="flex items-center gap-2">
+          <div class="w-8 h-8 bg-gradient-to-br from-blue-600 to-indigo-700 rounded-lg flex items-center justify-center">
+            <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
+          </div>
+          <span class="text-lg font-bold gradient-text">TradeData Pro</span>
+        </a>
+        <div class="flex items-center gap-1">
+          <a href="#" class="px-3 py-1.5 rounded-lg text-sm font-medium bg-blue-50 text-blue-600">首页</a>
+          <a href="#" class="px-3 py-1.5 rounded-lg text-sm font-medium text-gray-600 hover:bg-gray-50">商品数据</a>
+          <a href="#" class="px-3 py-1.5 rounded-lg text-sm font-medium text-gray-600 hover:bg-gray-50">海关统计</a>
+          <a href="#" class="px-3 py-1.5 rounded-lg text-sm font-medium text-gray-600 hover:bg-gray-50">数据分析</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 主内容 -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+    <!-- 标题 -->
+    <div class="mb-6">
+      <div class="flex items-center gap-2">
+        <span class="text-xl">⚡</span>
+        <h1 class="text-2xl font-bold text-gray-900">中国出口商品数据概览</h1>
+      </div>
+      <p class="mt-1 text-sm text-gray-500">实时追踪阿里巴巴1688和海关总署出口数据</p>
+    </div>
+
+    <!-- 统计卡片 -->
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
+      <div class="bg-white rounded-xl p-4 shadow-sm border border-gray-100 card-hover">
+        <div class="flex items-start justify-between">
+          <div class="p-2 bg-blue-50 rounded-lg">
+            <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path></svg>
+          </div>
+          <span class="flex items-center gap-0.5 text-xs font-medium px-2 py-1 rounded-full bg-green-50 text-green-600">
+            <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17l9.2-9.2M17 17V7H7"></path></svg>
+            +12.5%
+          </span>
+        </div>
+        <div class="mt-3">
+          <p class="text-gray-500 text-xs">商品总数</p>
+          <p class="text-xl font-bold text-gray-900 mt-0.5">2,847,392</p>
+          <p class="text-gray-400 text-xs mt-1">来自1688和海关</p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-xl p-4 shadow-sm border border-gray-100 card-hover">
+        <div class="flex items-start justify-between">
+          <div class="p-2 bg-emerald-50 rounded-lg">
+            <svg class="w-5 h-5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
+          </div>
+          <span class="flex items-center gap-0.5 text-xs font-medium px-2 py-1 rounded-full bg-green-50 text-green-600">
+            <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17l9.2-9.2M17 17V7H7"></path></svg>
+            +8.2%
+          </span>
+        </div>
+        <div class="mt-3">
+          <p class="text-gray-500 text-xs">今日新增</p>
+          <p class="text-xl font-bold text-gray-900 mt-0.5">3,847</p>
+          <p class="text-gray-400 text-xs mt-1">较昨日增长</p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-xl p-4 shadow-sm border border-gray-100 card-hover">
+        <div class="flex items-start justify-between">
+          <div class="p-2 bg-violet-50 rounded-lg">
+            <svg class="w-5 h-5 text-violet-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+          </div>
+          <span class="flex items-center gap-0.5 text-xs font-medium px-2 py-1 rounded-full bg-green-50 text-green-600">
+            <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17l9.2-9.2M17 17V7H7"></path></svg>
+            +4.6%
+          </span>
+        </div>
+        <div class="mt-3">
+          <p class="text-gray-500 text-xs">出口总额</p>
+          <p class="text-xl font-bold text-gray-900 mt-0.5">$3,380B</p>
+          <p class="text-gray-400 text-xs mt-1">同比增长</p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-xl p-4 shadow-sm border border-gray-100 card-hover">
+        <div class="flex items-start justify-between">
+          <div class="p-2 bg-orange-50 rounded-lg">
+            <svg class="w-5 h-5 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+          </div>
+          <span class="flex items-center gap-0.5 text-xs font-medium px-2 py-1 rounded-full bg-green-50 text-green-600">
+            <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17l9.2-9.2M17 17V7H7"></path></svg>
+            +2.1%
+          </span>
+        </div>
+        <div class="mt-3">
+          <p class="text-gray-500 text-xs">覆盖国家</p>
+          <p class="text-xl font-bold text-gray-900 mt-0.5">200+</p>
+          <p class="text-gray-400 text-xs mt-1">全球贸易伙伴</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 图表区域 -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 mb-6">
+      <!-- 全球热力图 -->
+      <div class="lg:col-span-2 bg-white rounded-xl shadow-sm border border-gray-100 p-4">
+        <div class="flex items-center justify-between mb-3">
+          <div class="flex items-center gap-2">
+            <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <h3 class="text-sm font-bold text-gray-900">全球出口热力图</h3>
+          </div>
+          <span class="text-xs text-gray-400">单位：亿美元</span>
+        </div>
+        <div id="worldMap" class="h-80 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg flex items-center justify-center">
+          <div class="text-center">
+            <svg class="w-20 h-20 mx-auto mb-4 text-blue-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <p class="text-sm text-gray-500 mb-4">世界地图可视化</p>
+            <div class="space-y-2 text-left px-8">
+              <div class="flex items-center justify-between text-sm"><span class="text-gray-600">🇺🇸 United States</span><span class="font-semibold text-blue-600">$120.5B</span></div>
+              <div class="flex items-center justify-between text-sm"><span class="text-gray-600">🇩🇪 Germany</span><span class="font-semibold text-blue-600">$45.2B</span></div>
+              <div class="flex items-center justify-between text-sm"><span class="text-gray-600">🇯🇵 Japan</span><span class="font-semibold text-blue-600">$38.7B</span></div>
+              <div class="flex items-center justify-between text-sm"><span class="text-gray-600">🇻🇳 Vietnam</span><span class="font-semibold text-blue-600">$35.8B</span></div>
+              <div class="flex items-center justify-between text-sm"><span class="text-gray-600">🇰🇷 South Korea</span><span class="font-semibold text-blue-600">$32.1B</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 右侧列 -->
+      <div class="space-y-4">
+        <!-- 趋势图 -->
+        <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-4">
+          <div class="flex items-center justify-between mb-3">
+            <div class="flex items-center gap-2">
+              <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
+              <h3 class="text-sm font-bold text-gray-900">2024年出口趋势</h3>
+            </div>
+            <select class="text-xs border border-gray-200 rounded-lg px-2 py-1"><option>2024年</option><option>2023年</option></select>
+          </div>
+          <div id="trendChart" class="h-48"></div>
+        </div>
+
+        <!-- 品类分布 -->
+        <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-4">
+          <div class="flex items-center gap-2 mb-2">
+            <svg class="w-4 h-4 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"></path></svg>
+            <h3 class="text-sm font-bold text-gray-900">品类分布</h3>
+          </div>
+          <div id="categoryChart" class="h-40"></div>
+        </div>
+
+        <!-- 快捷操作 -->
+        <div class="bg-gradient-to-br from-slate-800 to-slate-900 rounded-xl p-4 text-white">
+          <h3 class="font-bold mb-3 flex items-center gap-2">
+            <svg class="w-4 h-4 text-yellow-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+            快捷操作
+          </h3>
+          <div class="grid grid-cols-2 gap-2">
+            <button class="flex items-center gap-2 p-2.5 bg-white/10 hover:bg-white/20 rounded-lg text-sm transition-colors">
+              <div class="p-1 rounded bg-blue-500"><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></div>
+              商品搜索
+            </button>
+            <button class="flex items-center gap-2 p-2.5 bg-white/10 hover:bg-white/20 rounded-lg text-sm transition-colors">
+              <div class="p-1 rounded bg-emerald-500"><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z"></path></svg></div>
+              高级筛选
+            </button>
+            <button class="flex items-center gap-2 p-2.5 bg-white/10 hover:bg-white/20 rounded-lg text-sm transition-colors">
+              <div class="p-1 rounded bg-violet-500"><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg></div>
+              导出报表
+            </button>
+            <button class="flex items-center gap-2 p-2.5 bg-white/10 hover:bg-white/20 rounded-lg text-sm transition-colors">
+              <div class="p-1 rounded bg-orange-500"><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg></div>
+              更新数据
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 底部两列 -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+      <!-- 热门商品 -->
+      <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-4">
+        <div class="flex items-center justify-between mb-3">
+          <div class="flex items-center gap-2">
+            <svg class="w-4 h-4 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path></svg>
+            <h3 class="text-sm font-bold text-gray-900">热门出口商品</h3>
+          </div>
+          <a href="#" class="text-xs text-blue-600 hover:underline">查看全部</a>
+        </div>
+        <div class="space-y-2">
+          <div class="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-50 cursor-pointer transition-colors">
+            <div class="w-5 h-5 rounded flex items-center justify-center text-xs font-bold bg-blue-100 text-blue-700">1</div>
+            <div class="flex-1"><p class="text-sm font-medium text-gray-900">智能手机</p></div>
+            <div class="text-right"><p class="text-sm font-bold text-gray-900">$45.2B</p><p class="text-xs text-green-600">+12.5%</p></div>
+          </div>
+          <div class="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-50 cursor-pointer transition-colors">
+            <div class="w-5 h-5 rounded flex items-center justify-center text-xs font-bold bg-blue-100 text-blue-700">2</div>
+            <div class="flex-1"><p class="text-sm font-medium text-gray-900">笔记本电脑</p></div>
+            <div class="text-right"><p class="text-sm font-bold text-gray-900">$38.7B</p><p class="text-xs text-green-600">+8.3%</p></div>
+          </div>
+          <div class="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-50 cursor-pointer transition-colors">
+            <div class="w-5 h-5 rounded flex items-center justify-center text-xs font-bold bg-blue-100 text-blue-700">3</div>
+            <div class="flex-1"><p class="text-sm font-medium text-gray-900">集成电路</p></div>
+            <div class="text-right"><p class="text-sm font-bold text-gray-900">$32.1B</p><p class="text-xs text-green-600">+15.2%</p></div>
+          </div>
+          <div class="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-50 cursor-pointer transition-colors">
+            <div class="w-5 h-5 rounded flex items-center justify-center text-xs font-bold bg-gray-100 text-gray-600">4</div>
+            <div class="flex-1"><p class="text-sm font-medium text-gray-900">太阳能电池</p></div>
+            <div class="text-right"><p class="text-sm font-bold text-gray-900">$28.9B</p><p class="text-xs text-green-600">+45.6%</p></div>
+          </div>
+          <div class="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-50 cursor-pointer transition-colors">
+            <div class="w-5 h-5 rounded flex items-center justify-center text-xs font-bold bg-gray-100 text-gray-600">5</div>
+            <div class="flex-1"><p class="text-sm font-medium text-gray-900">锂电池</p></div>
+            <div class="text-right"><p class="text-sm font-bold text-gray-900">$24.5B</p><p class="text-xs text-green-600">+22.1%</p></div>
+          </div>
+          <div class="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-50 cursor-pointer transition-colors">
+            <div class="w-5 h-5 rounded flex items-center justify-center text-xs font-bold bg-gray-100 text-gray-600">6</div>
+            <div class="flex-1"><p class="text-sm font-medium text-gray-900">家用电器</p></div>
+            <div class="text-right"><p class="text-sm font-bold text-gray-900">$22.3B</p><p class="text-xs text-green-600">+6.8%</p></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 实时交易 -->
+      <div class="lg:col-span-2 bg-white rounded-xl shadow-sm border border-gray-100 p-4">
+        <div class="flex items-center justify-between mb-3">
+          <div class="flex items-center gap-2">
+            <svg class="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+            <h3 class="text-sm font-bold text-gray-900">实时交易</h3>
+          </div>
+          <div class="flex items-center gap-1.5">
+            <div class="w-1.5 h-1.5 bg-green-500 rounded-full pulse-dot"></div>
+            <span class="text-xs text-green-600">实时</span>
+          </div>
+        </div>
+        
+        <!-- 筛选标签 -->
+        <div class="flex gap-1 mb-3">
+          <button class="px-3 py-1 rounded-full text-xs font-medium bg-blue-600 text-white">全部</button>
+          <button class="px-3 py-1 rounded-full text-xs font-medium bg-gray-100 text-gray-600 hover:bg-gray-200">电子产品</button>
+          <button class="px-3 py-1 rounded-full text-xs font-medium bg-gray-100 text-gray-600 hover:bg-gray-200">家用电器</button>
+          <button class="px-3 py-1 rounded-full text-xs font-medium bg-gray-100 text-gray-600 hover:bg-gray-200">待发货</button>
+        </div>
+
+        <div class="overflow-x-auto">
+          <table class="w-full">
+            <thead>
+              <tr class="text-xs text-gray-400 border-b border-gray-100">
+                <th class="text-left py-2 font-normal">时间</th>
+                <th class="text-left py-2 font-normal">商品</th>
+                <th class="text-left py-2 font-normal">单价</th>
+                <th class="text-left py-2 font-normal">目的地</th>
+                <th class="text-left py-2 font-normal">状态</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="text-sm border-b border-gray-50 hover:bg-gray-50/50">
+                <td class="py-2.5 text-gray-400 text-xs">10:23</td>
+                <td class="py-2.5"><div><p class="font-medium text-gray-900">华为Mate60</p><p class="text-xs text-gray-400">电子产品</p></div></td>
+                <td class="py-2.5 text-gray-600">¥5,999</td>
+                <td class="py-2.5"><span class="px-2 py-0.5 bg-blue-50 text-blue-600 rounded text-xs">欧洲</span></td>
+                <td class="py-2.5"><span class="px-2 py-0.5 bg-green-50 text-green-600 rounded text-xs">已发货</span></td>
+              </tr>
+              <tr class="text-sm border-b border-gray-50 hover:bg-gray-50/50">
+                <td class="py-2.5 text-gray-400 text-xs">10:18</td>
+                <td class="py-2.5"><div><p class="font-medium text-gray-900">小米14 Pro</p><p class="text-xs text-gray-400">电子产品</p></div></td>
+                <td class="py-2.5 text-gray-600">¥4,299</td>
+                <td class="py-2.5"><span class="px-2 py-0.5 bg-blue-50 text-blue-600 rounded text-xs">东南亚</span></td>
+                <td class="py-2.5"><span class="px-2 py-0.5 bg-yellow-50 text-yellow-600 rounded text-xs">处理中</span></td>
+              </tr>
+              <tr class="text-sm border-b border-gray-50 hover:bg-gray-50/50">
+                <td class="py-2.5 text-gray-400 text-xs">10:15</td>
+                <td class="py-2.5"><div><p class="font-medium text-gray-900">联想ThinkPad</p><p class="text-xs text-gray-400">电脑办公</p></div></td>
+                <td class="py-2.5 text-gray-600">¥7,999</td>
+                <td class="py-2.5"><span class="px-2 py-0.5 bg-blue-50 text-blue-600 rounded text-xs">北美</span></td>
+                <td class="py-2.5"><span class="px-2 py-0.5 bg-green-50 text-green-600 rounded text-xs">已发货</span></td>
+              </tr>
+              <tr class="text-sm border-b border-gray-50 hover:bg-gray-50/50">
+                <td class="py-2.5 text-gray-400 text-xs">10:12</td>
+                <td class="py-2.5"><div><p class="font-medium text-gray-900">大疆无人机</p><p class="text-xs text-gray-400">数码配件</p></div></td>
+                <td class="py-2.5 text-gray-600">¥3,299</td>
+                <td class="py-2.5"><span class="px-2 py-0.5 bg-blue-50 text-blue-600 rounded text-xs">中东</span></td>
+                <td class="py-2.5"><span class="px-2 py-0.5 bg-gray-50 text-gray-600 rounded text-xs">待发货</span></td>
+              </tr>
+              <tr class="text-sm hover:bg-gray-50/50">
+                <td class="py-2.5 text-gray-400 text-xs">10:08</td>
+                <td class="py-2.5"><div><p class="font-medium text-gray-900">海尔冰箱</p><p class="text-xs text-gray-400">家用电器</p></div></td>
+                <td class="py-2.5 text-gray-600">¥2,899</td>
+                <td class="py-2.5"><span class="px-2 py-0.5 bg-blue-50 text-blue-600 rounded text-xs">非洲</span></td>
+                <td class="py-2.5"><span class="px-2 py-0.5 bg-green-50 text-green-600 rounded text-xs">已发货</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- 页脚 -->
+  <footer class="bg-white border-t border-gray-200 mt-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-2 text-sm text-gray-500">
+        <p>© 2024 TradeData Pro. 专业出口数据分析平台</p>
+        <p>数据来源：阿里巴巴1688 | 海关总署</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // 趋势图
+    const trendChart = echarts.init(document.getElementById('trendChart'));
+    trendChart.setOption({
+      tooltip: { trigger: 'axis', backgroundColor: 'rgba(255,255,255,0.98)', borderColor: '#e5e7eb', textStyle: { fontSize: 12 } },
+      grid: { left: 10, right: 10, bottom: 5, top: 10, containLabel: true },
+      xAxis: { type: 'category', boundaryGap: false, data: ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'], axisLine: { show: false }, axisLabel: { fontSize: 11, color: '#9ca3af' }, axisTick: { show: false } },
+      yAxis: { type: 'value', axisLine: { show: false }, axisTick: { show: false }, axisLabel: { fontSize: 11, color: '#9ca3af' }, splitLine: { lineStyle: { color: '#f3f4f6' } } },
+      series: [{
+        type: 'line',
+        smooth: true,
+        symbol: 'circle',
+        symbolSize: 6,
+        lineStyle: { width: 2.5, color: '#3b82f6' },
+        itemStyle: { color: '#3b82f6', borderWidth: 2, borderColor: '#fff' },
+        areaStyle: { color: { type: 'linear', x: 0, y: 0, x2: 0, y2: 1, colorStops: [{ offset: 0, color: 'rgba(59, 130, 246, 0.3)' }, { offset: 1, color: 'rgba(59, 130, 246, 0.02)' }] } },
+        data: [295, 278, 315, 328, 318, 335, 352, 361, 348, 365, 382, 395]
+      }]
+    });
+
+    // 品类饼图
+    const categoryChart = echarts.init(document.getElementById('categoryChart'));
+    categoryChart.setOption({
+      tooltip: { trigger: 'item', formatter: '{b}: {c}%', backgroundColor: 'rgba(255,255,255,0.98)', borderColor: '#e5e7eb' },
+      legend: { orient: 'vertical', right: 5, top: 'center', itemWidth: 10, itemHeight: 10, textStyle: { fontSize: 11, color: '#6b7280' } },
+      series: [{
+        type: 'pie',
+        radius: ['40%', '65%'],
+        center: ['30%', '50%'],
+        itemStyle: { borderRadius: 5, borderColor: '#fff', borderWidth: 2 },
+        label: { show: false },
+        data: [
+          { value: 35, name: '电子产品', itemStyle: { color: '#3b82f6' } },
+          { value: 25, name: '机械设备', itemStyle: { color: '#10b981' } },
+          { value: 15, name: '纺织服装', itemStyle: { color: '#f59e0b' } },
+          { value: 12, name: '化工产品', itemStyle: { color: '#8b5cf6' } },
+          { value: 8, name: '农产品', itemStyle: { color: '#ef4444' } },
+          { value: 5, name: '其他', itemStyle: { color: '#6b7280' } }
+        ]
+      }]
+    });
+
+    // ===== 按钮交互功能 =====
+    
+    // 1. 筛选标签切换功能
+    const filterButtons = document.querySelectorAll('button');
+    filterButtons.forEach(btn => {
+      if (btn.textContent.trim() === '全部' || btn.textContent.trim() === '电子产品' || btn.textContent.trim() === '家用电器' || btn.textContent.trim() === '待发货') {
+        btn.addEventListener('click', function() {
+          // 重置所有按钮样式
+          this.parentElement.querySelectorAll('button').forEach(b => {
+            b.className = 'px-3 py-1 rounded-full text-xs font-medium bg-gray-100 text-gray-600 hover:bg-gray-200';
+          });
+          // 高亮当前按钮
+          this.className = 'px-3 py-1 rounded-full text-xs font-medium bg-blue-600 text-white';
+          
+          // 显示筛选提示
+          showToast(`已筛选: ${this.textContent}`);
+        });
+      }
+    });
+    
+    // 2. 快捷操作按钮功能
+    const actionButtons = {
+      '商品搜索': () => {
+        const keyword = prompt('请输入搜索关键词:');
+        if (keyword) showToast(`正在搜索: ${keyword}...`);
+      },
+      '高级筛选': () => {
+        showToast('打开高级筛选面板');
+      },
+      '导出报表': () => {
+        showToast('正在生成报表，请稍候...');
+        setTimeout(() => showToast('✅ 报表导出成功！'), 1500);
+      },
+      '更新数据': () => {
+        showToast('🔄 正在更新数据...');
+        setTimeout(() => showToast('✅ 数据已更新至最新'), 2000);
+      }
+    };
+    
+    filterButtons.forEach(btn => {
+      const text = btn.textContent.trim();
+      if (actionButtons[text]) {
+        btn.addEventListener('click', actionButtons[text]);
+      }
+    });
+    
+    // 3. 导航链接提示
+    document.querySelectorAll('a[href="#"]').forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const text = link.textContent.trim();
+        if (text === '查看全部') {
+          showToast('正在加载更多数据...');
+        } else if (text === '阿里巴巴1688' || text === '海关总署') {
+          showToast(`即将跳转到: ${text}`);
+        } else {
+          showToast(`"${text}" 功能开发中，敬请期待！`);
+        }
+      });
+    });
+    
+    // 4. 热门商品点击
+    document.querySelectorAll('.cursor-pointer').forEach(item => {
+      item.addEventListener('click', function() {
+        const productName = this.querySelector('p')?.textContent;
+        if (productName) {
+          showToast(`查看详情: ${productName}`);
+        }
+      });
+    });
+    
+    // 5. 下拉选择框
+    document.querySelectorAll('select').forEach(select => {
+      select.addEventListener('change', function() {
+        showToast(`已切换至: ${this.value}`);
+        // 重新渲染图表（模拟数据切换）
+        if (this.value === '2023年') {
+          trendChart.setOption({ series: [{ data: [280, 265, 298, 312, 305, 320, 335, 342, 338, 355, 368, 380] }] });
+        } else {
+          trendChart.setOption({ series: [{ data: [295, 278, 315, 328, 318, 335, 352, 361, 348, 365, 382, 395] }] });
+        }
+      });
+    });
+    
+    // Toast 提示函数
+    function showToast(message) {
+      // 移除旧的toast
+      const oldToast = document.querySelector('.toast-notification');
+      if (oldToast) oldToast.remove();
+      
+      // 创建新toast
+      const toast = document.createElement('div');
+      toast.className = 'toast-notification fixed top-20 left-1/2 transform -translate-x-1/2 bg-gray-800 text-white px-6 py-3 rounded-full text-sm font-medium z-50 shadow-lg';
+      toast.style.animation = 'fadeInOut 2.5s ease';
+      toast.textContent = message;
+      
+      // 添加动画样式
+      if (!document.querySelector('#toast-style')) {
+        const style = document.createElement('style');
+        style.id = 'toast-style';
+        style.textContent = `
+          @keyframes fadeInOut {
+            0% { opacity: 0; transform: translate(-50%, -20px); }
+            15% { opacity: 1; transform: translate(-50%, 0); }
+            85% { opacity: 1; transform: translate(-50%, 0); }
+            100% { opacity: 0; transform: translate(-50%, -20px); }
+          }
+        `;
+        document.head.appendChild(style);
+      }
+      
+      document.body.appendChild(toast);
+      
+      // 2.5秒后移除
+      setTimeout(() => toast.remove(), 2500);
+    }
+    
+    // 6. 统计卡片数字动画
+    const statCards = document.querySelectorAll('.card-hover');
+    statCards.forEach(card => {
+      card.addEventListener('mouseenter', function() {
+        this.style.transform = 'translateY(-4px)';
+      });
+      card.addEventListener('mouseleave', function() {
+        this.style.transform = 'translateY(0)';
+      });
+    });
+
+    window.addEventListener('resize', () => {
+      trendChart.resize();
+      categoryChart.resize();
+    });
+  </script>
+</body>
+</html>

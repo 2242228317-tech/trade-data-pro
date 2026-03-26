@@ -1,0 +1,108 @@
+version: '3.8'
+
+services:
+  # PostgreSQL 数据库
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: trade_data
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # Redis 缓存
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+
+  # 后端 API
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    environment:
+      DATABASE_URL: postgresql://postgres:postgres@db:5432/trade_data
+      REDIS_URL: redis://redis:6379/0
+      DEBUG: "false"
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_started
+    volumes:
+      - ./backend:/app
+      - /app/.venv
+
+  # Celery Worker
+  worker:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    command: celery -A app.tasks worker --loglevel=info
+    environment:
+      DATABASE_URL: postgresql://postgres:postgres@db:5432/trade_data
+      REDIS_URL: redis://redis:6379/0
+    depends_on:
+      - db
+      - redis
+    volumes:
+      - ./backend:/app
+      - /app/.venv
+
+  # Celery Beat (定时任务)
+  beat:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    command: celery -A app.tasks beat --loglevel=info
+    environment:
+      DATABASE_URL: postgresql://postgres:postgres@db:5432/trade_data
+      REDIS_URL: redis://redis:6379/0
+    depends_on:
+      - db
+      - redis
+    volumes:
+      - ./backend:/app
+      - /app/.venv
+
+  # Flower (Celery 监控)
+  flower:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    command: celery -A app.tasks flower --port=5555
+    ports:
+      - "5555:5555"
+    environment:
+      REDIS_URL: redis://redis:6379/0
+    depends_on:
+      - redis
+
+  # 前端
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      NEXT_PUBLIC_API_URL: http://localhost:8000
+    depends_on:
+      - backend
+
+volumes:
+  postgres_data:
+  redis_data:

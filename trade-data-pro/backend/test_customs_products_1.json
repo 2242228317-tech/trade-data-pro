@@ -1,0 +1,112 @@
+[
+  {
+    "hs_code": "8517",
+    "product_name": "电话机",
+    "unit": "万台",
+    "quantity": 10213.59,
+    "value_usd": 856242.18,
+    "yoy_quantity": 10.2,
+    "yoy_value": 6.7,
+    "month": 3,
+    "year": 2024
+  },
+  {
+    "hs_code": "8471",
+    "product_name": "计算机及部件",
+    "unit": "万台",
+    "quantity": 5093.37,
+    "value_usd": 707870.72,
+    "yoy_quantity": 2.8,
+    "yoy_value": 0.5,
+    "month": 3,
+    "year": 2024
+  },
+  {
+    "hs_code": "8528",
+    "product_name": "电视及显示器",
+    "unit": "万台",
+    "quantity": 8592.97,
+    "value_usd": 613654.94,
+    "yoy_quantity": 5.3,
+    "yoy_value": 6.6,
+    "month": 3,
+    "year": 2024
+  },
+  {
+    "hs_code": "8541",
+    "product_name": "集成电路",
+    "unit": "万个",
+    "quantity": 4587.79,
+    "value_usd": 607724.85,
+    "yoy_quantity": -10.3,
+    "yoy_value": -6.8,
+    "month": 3,
+    "year": 2024
+  },
+  {
+    "hs_code": "9403",
+    "product_name": "家具及零件",
+    "unit": "万吨",
+    "quantity": 4980.0,
+    "value_usd": 510259.52,
+    "yoy_quantity": -12.5,
+    "yoy_value": -9.8,
+    "month": 3,
+    "year": 2024
+  },
+  {
+    "hs_code": "6203",
+    "product_name": "男式服装",
+    "unit": "万件",
+    "quantity": 3611.7,
+    "value_usd": 492878.49,
+    "yoy_quantity": 11.3,
+    "yoy_value": 7.8,
+    "month": 3,
+    "year": 2024
+  },
+  {
+    "hs_code": "9503",
+    "product_name": "玩具",
+    "unit": "万吨",
+    "quantity": 2468.21,
+    "value_usd": 281486.51,
+    "yoy_quantity": 9.7,
+    "yoy_value": 10.3,
+    "month": 3,
+    "year": 2024
+  },
+  {
+    "hs_code": "4202",
+    "product_name": "箱包",
+    "unit": "万个",
+    "quantity": 1662.09,
+    "value_usd": 204151.07,
+    "yoy_quantity": 17.3,
+    "yoy_value": 18.0,
+    "month": 3,
+    "year": 2024
+  },
+  {
+    "hs_code": "6403",
+    "product_name": "鞋靴",
+    "unit": "万双",
+    "quantity": 2198.02,
+    "value_usd": 198308.96,
+    "yoy_quantity": 6.8,
+    "yoy_value": 10.4,
+    "month": 3,
+    "year": 2024
+  },
+  {
+    "hs_code": "7308",
+    "product_name": "钢铁制品",
+    "unit": "万吨",
+    "quantity": 1518.67,
+    "value_usd": 159720.26,
+    "yoy_quantity": 5.5,
+    "yoy_value": 4.0,
+    "month": 3,
+    "year": 2024
+  }
+]

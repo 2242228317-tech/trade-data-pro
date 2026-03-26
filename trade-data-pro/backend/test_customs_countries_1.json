@@ -1,0 +1,72 @@
+[
+  {
+    "country": "美国",
+    "export_value": 524.4,
+    "import_value": 164.2,
+    "total": 688.6,
+    "yoy": 2.1
+  },
+  {
+    "country": "东盟",
+    "export_value": 587.4,
+    "import_value": 394.6,
+    "total": 982.0,
+    "yoy": 8.2
+  },
+  {
+    "country": "欧盟",
+    "export_value": 501.2,
+    "import_value": 271.8,
+    "total": 773.0,
+    "yoy": -1.5
+  },
+  {
+    "country": "日本",
+    "export_value": 157.4,
+    "import_value": 142.6,
+    "total": 300.0,
+    "yoy": -5.2
+  },
+  {
+    "country": "韩国",
+    "export_value": 148.9,
+    "import_value": 132.8,
+    "total": 281.7,
+    "yoy": 3.1
+  },
+  {
+    "country": "越南",
+    "export_value": 137.2,
+    "import_value": 89.4,
+    "total": 226.6,
+    "yoy": 15.2
+  },
+  {
+    "country": "德国",
+    "export_value": 100.1,
+    "import_value": 121.7,
+    "total": 221.8,
+    "yoy": -2.3
+  },
+  {
+    "country": "马来西亚",
+    "export_value": 87.3,
+    "import_value": 112.5,
+    "total": 199.8,
+    "yoy": 6.8
+  },
+  {
+    "country": "澳大利亚",
+    "export_value": 78.9,
+    "import_value": 145.2,
+    "total": 224.1,
+    "yoy": -3.1
+  },
+  {
+    "country": "俄罗斯",
+    "export_value": 112.4,
+    "import_value": 98.7,
+    "total": 211.1,
+    "yoy": 22.5
+  }
+]
