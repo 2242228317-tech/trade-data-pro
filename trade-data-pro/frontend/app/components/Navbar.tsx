@@ -65,15 +65,15 @@ export function Navbar() {
             {isAuthenticated ? (
               <>
                 {/* 会员标识 */}
-                {user?.membership !== 'free' && (
+                {user?.role && user.role !== 'free' && (
                   <div className={cn(
                     "flex items-center gap-1 px-2 py-1 rounded-lg text-xs font-medium",
-                    user?.membership === 'enterprise' 
+                    user.role === 'enterprise' 
                       ? "bg-purple-50 text-purple-600" 
                       : "bg-amber-50 text-amber-600"
                   )}>
                     <Crown className="w-3 h-3" />
-                    {user?.membership === 'enterprise' ? '企业版' : '专业版'}
+                    {user.role === 'enterprise' ? '企业版' : user.role === 'pro' ? '专业版' : '基础版'}
                   </div>
                 )}
                 

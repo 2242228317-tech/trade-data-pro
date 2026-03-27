@@ -1,15 +1,12 @@
 'use client';
 
 import { useState } from 'react';
+import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import { 
   ArrowLeft, Copy, CheckCircle, Clock, AlertCircle,
   MessageCircle, RefreshCw
 } from 'lucide-react';
-
-interface PaymentPageProps {
-  searchParams: { order?: string };
-}
 
 // 模拟数据 - 实际应该从API获取
 const MOCK_ORDER = {
@@ -25,7 +22,9 @@ const MOCK_ORDER = {
   expires_at: new Date(Date.now() + 24 * 60 * 60 * 1000).toISOString()
 };
 
-export default function PaymentPage({ searchParams }: PaymentPageProps) {
+export default function PaymentPage() {
+  const searchParams = useSearchParams();
+  const orderId = searchParams.get('order');
   const [copied, setCopied] = useState(false);
   const [checking, setChecking] = useState(false);
   const [status, setStatus] = useState(MOCK_ORDER.status);

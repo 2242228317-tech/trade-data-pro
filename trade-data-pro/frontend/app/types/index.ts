@@ -188,7 +188,9 @@ export interface ExportOptions {
 
 // Watchlist
 export interface WatchlistItem {
+  id?: string;
   productId: string;
+  product?: Product;
   addedAt: string;
   notes?: string;
   targetPrice?: number;

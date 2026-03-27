@@ -8,9 +8,30 @@ import {
   Download, Filter, Search, Lightbulb, AlertCircle
 } from 'lucide-react';
 import { Navbar } from '@/app/components/Navbar';
-import { StatCard } from '@/app/components/StatCard';
 import { api } from '@/app/lib/api';
 import { Product, ProfitAnalysis, CompetitionAnalysis } from '@/app/types';
+
+// 本地简化版统计卡片（接受字符串值）
+function AnalyticsStatCard({ title, value, change, changeType, icon: Icon }: {
+  title: string; value: string; change: string; changeType: 'up' | 'down'; icon: any;
+}) {
+  return (
+    <div className="bg-white rounded-xl p-4 shadow-sm border border-gray-100 hover:shadow-md transition-all">
+      <div className="flex items-start justify-between">
+        <div className="p-2 bg-blue-50 rounded-lg">
+          <Icon className="w-5 h-5 text-blue-600" />
+        </div>
+        <span className={`text-xs font-medium px-2 py-1 rounded-full ${
+          changeType === 'up' ? 'bg-green-50 text-green-600' : 'bg-red-50 text-red-600'
+        }`}>{change}</span>
+      </div>
+      <div className="mt-3">
+        <p className="text-gray-500 text-xs">{title}</p>
+        <p className="text-xl font-bold text-gray-900 mt-0.5">{value}</p>
+      </div>
+    </div>
+  );
+}
 
 // ===== 利润率计算器 =====
 function ProfitCalculator() {
@@ -277,28 +298,28 @@ export default function AnalyticsPage() {
         
         {/* 统计卡片 */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
-          <StatCard 
+          <AnalyticsStatCard 
             title="平均利润率" 
             value={`${stats.avgProfitMargin}%`} 
             change="+2.3%" 
             changeType="up" 
             icon={DollarSign} 
           />
-          <StatCard 
+          <AnalyticsStatCard 
             title="热门品类" 
             value={stats.topCategory} 
             change="稳定" 
             changeType="up" 
             icon={PieChart} 
           />
-          <StatCard 
+          <AnalyticsStatCard 
             title="增长冠军" 
             value={stats.growthLeader} 
             change="+45.6%" 
             changeType="up" 
             icon={TrendingUp} 
           />
-          <StatCard 
+          <AnalyticsStatCard 
             title="平均客单价" 
             value={`¥${stats.avgOrderValue}`} 
             change="+8.2%" 

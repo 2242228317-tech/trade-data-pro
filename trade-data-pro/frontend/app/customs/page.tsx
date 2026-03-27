@@ -76,13 +76,13 @@ function ProductTable({ data }: { data: CustomsData[] }) {
           <button 
             onClick={() => {
               // 导出数据为CSV
-              const headers = ['HS编码', '商品名称', '计量单位', '数量', '金额(美元)', '同比数量', '同比金额'];
-              const rows = tableData.map(item => [
+              const headers = ['HS编码', '商品名称', '计量单位', '数量', '金额(万美元)', '同比数量', '同比金额'];
+              const rows = data.map((item: CustomsData) => [
                 item.hs_code,
                 item.product_name,
                 item.unit,
-                item.quantity,
-                item.value_usd,
+                (item.quantity / 10000).toFixed(2),
+                (item.value_usd / 10000).toFixed(2),
                 item.yoy_quantity + '%',
                 item.yoy_value + '%'
               ]);

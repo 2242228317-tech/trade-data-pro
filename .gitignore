@@ -43,8 +43,23 @@ yarn-error.log*
 *.dll
 *.bin
 
-# 敏感信息（如果有）
+# 敏感信息
 .env
 .env.local
 *.key
 *.pem
+
+# OpenClaw 个人文件（不上传到 GitHub）
+MEMORY.md
+SOUL.md
+USER.md
+IDENTITY.md
+TOOLS.md
+AGENTS.md
+BOOTSTRAP.md
+HEARTBEAT.md
+memory/
+
+# Next.js 构建产物
+.next/
+out/
